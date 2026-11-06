@@ -1,0 +1,21 @@
+{
+  "site_id": "adak",
+  "sources": [
+    {
+      "id": "adak-main",
+      "title": "Gruvor i Adakfältet",
+      "publisher": "SGU",
+      "document_type": "myndighetsinformation",
+      "access_status": "public",
+      "url": "https://www.sgu.se/samhallsplanering/fororenade-omraden/gruvor/gruvor-i-adakfaltet/",
+      "source_perspective": "myndighet",
+      "verification_status": "source_identified_content_reviewed",
+      "relevance": "SGU ansvarar för efterbehandling och miljökontroll av Adak, Lindsköldsgruvan och Brännmyran. SGU beskriver kvarstående metallpåverkan i vatten och behov av kompletterande åtgärder.",
+      "coordinate_note": "OpenStreetMap via Mapcarta, lokaliteten Adakgruvan. Markören är orienterande för Adakfältet.",
+      "limitations": [
+        "Källan är en översikt; underliggande rapporter och mätserier behöver registreras separat.",
+        "Kartmarkören är orienterande, inte en risk- eller föroreningsavgränsning."
+      ]
+    }
+  ]
+}
