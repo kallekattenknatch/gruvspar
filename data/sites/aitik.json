@@ -73,10 +73,33 @@
       "source_ids": [
         "sgu-bergverksstatistik-2025"
       ]
+    },
+    {
+      "id": "aitik-metal-production-2025",
+      "record_type": "production_statistic",
+      "title": "Metallproduktion i koncentrat 2025",
+      "description": "Bolidens årsredovisning redovisar 51 077 ton koppar, 1 424 kg guld och 19 336 kg silver i koncentrat från Aitik under 2025. Detta är producerade metallmängder, inte försäljningsintäkter eller livstidssumma.",
+      "sample": {
+        "material": "other",
+        "sampling_location": "Aitikgruvan, Gällivare kommun"
+      },
+      "analyte": "Koppar, guld och silver i koncentrat",
+      "result": 51077,
+      "unit": "ton koppar/år; guld och silver i kg/år enligt beskrivningen",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser endast 2025 och får inte presenteras som ackumulerat malmvärde.",
+        "Koncentratproduktion är inte samma sak som mängd malm som brutits eller slutlig metallförsäljning.",
+        "Historiska årsserier behöver samlas in innan livstidstotal kan beräknas."
+      ],
+      "source_ids": [
+        "boliden-annual-report-2025"
+      ]
     }
   ],
   "source_ids": [
-    "sgu-bergverksstatistik-2025"
+    "sgu-bergverksstatistik-2025",
+    "boliden-annual-report-2025"
   ],
   "accumulated_ore_value": {
     "status": "in_progress",
