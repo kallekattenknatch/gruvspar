@@ -212,7 +212,8 @@
   ],
   "source_ids": [
     "sgu-bergverksstatistik-2025",
-    "sgu-ores-concentrators-open-data"
+    "sgu-ores-concentrators-open-data",
+    "boliden-annual-report-2025"
   ],
   "accumulated_ore_value": {
     "status": "in_progress",
@@ -224,35 +225,26 @@
     "note": "Gruvspår sammanställer historisk malmproduktion, metallinnehåll och relevanta metallpriser för gruvans hela drifttid. Något säkert livstidstotal kan ännu inte anges. Årsomsättning eller rörelseresultat får inte användas som ersättning för ackumulerat malmvärde."
   },
   "reported_profit": {
-    "status": "not_separately_reported",
+    "status": "partial_period",
     "metric": "operating_profit",
     "currency": "SEK",
-    "amount": null,
+    "amount": 358000000,
+    "total_amount": 358000000,
+    "display_amount": "358 miljoner kronor",
+    "period_start": 2025,
+    "period_end": 2025,
     "companies": [
       {
-        "name": "Rio Tinto",
-        "period": "Före 2 juni 2004",
-        "amount": null,
-        "coverage": "Gruvspecifikt resultat ej verifierat"
-      },
-      {
-        "name": "Lundin Mining",
-        "period": "2 juni 2004–15 april 2025",
-        "amount": null,
-        "coverage": "Gruvspecifik totalsumma behöver byggas från årsredovisningar"
-      },
-      {
         "name": "Boliden AB / Boliden Mineral AB",
-        "period": "16 april–31 december 2025",
         "amount": 358000000,
-        "coverage": "358 miljoner kronor i rapporterat rörelseresultat för Zinkgruvan efter konsolidering; avser inte helår"
+        "period": "16 april–31 december 2025",
+        "coverage": "Boliden konsoliderade Zinkgruvan från 16 april 2025"
       }
     ],
-    "total_amount": null,
-    "note": "Boliden redovisar 358 miljoner kronor i rörelseresultat för Zinkgruvan för den del av 2025 då gruvan konsoliderades från 16 april. Rio Tintos och Lundin Minings historiska gruvresultat är ännu inte summerade. Därför visas ingen totalsumma för hela gruvans livstid.",
+    "note": "Boliden redovisar 358 MSEK i rörelseresultat för Zinkgruvan 2025. Zinkgruvan konsoliderades i Boliden från 16 april 2025, så beloppet avser endast Bolidens redovisningsperiod efter förvärvet. Detta är inte gruvans helårsresultat eller livstidssumma; tidigare ägares resultat behöver undersökas separat.",
+    "coverage": "16 april–31 december 2025; tidigare ägare saknas",
     "source_ids": [
-      "zinkgruvan-sec-technical-report-2005",
-      "sgu-bergverksstatistik-2025"
+      "boliden-annual-report-2025"
     ]
   },
   "data_gaps": [
