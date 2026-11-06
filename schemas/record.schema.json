@@ -1,0 +1,218 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kallekattenknatch.github.io/gruvspar/schemas/record.schema.json",
+  "title": "Gruvspår registerpost",
+  "type": "object",
+  "required": [
+    "id",
+    "site_id",
+    "record_type",
+    "title",
+    "evidence_status",
+    "source_ids"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "site_id": {
+      "type": "string"
+    },
+    "record_type": {
+      "enum": [
+        "sample_result",
+        "biological_observation",
+        "risk_assessment",
+        "authority_statement",
+        "decision",
+        "planned_action",
+        "completed_action",
+        "monitoring_result",
+        "document"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "sample": {
+      "type": "object",
+      "properties": {
+        "material": {
+          "enum": [
+            "soil",
+            "tailings",
+            "waste_rock",
+            "surface_water",
+            "groundwater",
+            "sediment",
+            "air",
+            "mushroom",
+            "plant",
+            "fish",
+            "animal_tissue",
+            "other"
+          ]
+        },
+        "species": {
+          "type": "string"
+        },
+        "sample_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "sampling_location": {
+          "type": "string"
+        },
+        "sampling_method": {
+          "type": "string"
+        },
+        "washed": {
+          "type": "boolean"
+        },
+        "fresh_or_dry": {
+          "enum": [
+            "fresh",
+            "dry",
+            "unknown"
+          ]
+        },
+        "lab_name": {
+          "type": "string"
+        },
+        "lab_report_id": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "analyte": {
+      "type": "string"
+    },
+    "result": {
+      "type": "number"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "comparison": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "number"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "jurisdiction": {
+          "type": "string"
+        },
+        "population_or_use": {
+          "type": "string"
+        },
+        "source_id": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "exposure_context": {
+      "type": "object",
+      "properties": {
+        "route": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "ingestion",
+              "inhalation",
+              "dermal",
+              "ecological",
+              "unknown"
+            ]
+          }
+        },
+        "duration": {
+          "type": "string"
+        },
+        "age_group": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "action": {
+      "type": "object",
+      "properties": {
+        "responsible_party": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "proposed",
+            "planned",
+            "decided",
+            "started",
+            "completed",
+            "verified",
+            "cancelled",
+            "unknown"
+          ]
+        },
+        "decision_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "start_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "completion_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "verification": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "evidence_status": {
+      "enum": [
+        "primary_source_verified",
+        "secondary_source",
+        "user_provided_unverified",
+        "editorial_assessment",
+        "unknown"
+      ]
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "last_reviewed": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "additionalProperties": false
+}
