@@ -87,6 +87,30 @@
       "source_ids": [
         "sgu-ores-concentrators-open-data"
       ]
+    },
+    {
+      "id": "stollberg-tailings-metals-2023",
+      "record_type": "sample_result",
+      "title": "Metallhalter i anrikningssand vid Stollberg, SGU 2023",
+      "description": "SGU:s medelvärde för 64 prov av anrikningssand från Stollberg redovisas i Bilaga 1C. Uppmätta medelhalter: kobolt 3 ppm, koppar 159 ppm, bly 3 062 ppm, zink 4 858 ppm, nickel 5 ppm och järn 10,7 %. Silver redovisas till 8,87 ppm och guld till 0,019 ppm.",
+      "sample": {
+        "material": "tailings",
+        "sampling_location": "Anrikningssand, Stollberg",
+        "sampling_method": "SGU:s sammanställning av kemiska analyser; medelvärde av n prov"
+      },
+      "analyte": "Kobolt, koppar, bly, zink, nickel, järn, silver och guld",
+      "result": null,
+      "unit": "ppm (järn i viktprocent)",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser anrikningssand, inte jord, vatten, sediment eller biologiskt material.",
+        "Medelvärdet beskriver provmaterialet i rapportens urval och är inte automatiskt representativt för hela området.",
+        "Resultaten är inte i sig en hälsoriskbedömning; exponering, biotillgänglighet och relevant jämförelsegrund behöver bedömas separat."
+      ],
+      "source_ids": [
+        "sgu-rr-2023-01"
+      ],
+      "sample_count": 64
     }
   ],
   "source_ids": [
