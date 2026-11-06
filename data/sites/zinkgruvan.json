@@ -1,0 +1,78 @@
+{
+  "site_id": "zinkgruvan",
+  "display_name": "Zinkgruvan",
+  "scope": "Offentligt redovisade utsläpp till vatten från anläggningen enligt Naturvårdsverkets utsläppsregister.",
+  "editorial_notes": [
+    "Utsläppsmängder i kg/år är inte koncentrationer i recipientvatten.",
+    "Metod C i utsläppsregistret betyder beräknad mängd; det är inte direkt kontinuerlig mätning.",
+    "Utsläppsregister redovisar ämnen som passerar rapporteringströsklar; frånvaro av ett ämne i tabellen betyder inte nollutsläpp."
+  ],
+  "records": [
+    {
+      "id": "zinkgruvan-prtr-water-2025",
+      "record_type": "emission_result",
+      "title": "Rapporterade utsläpp till vatten 2025",
+      "description": "Naturvårdsverkets utsläppsregister redovisar för Zinkgruvan Mining AB: arsenik 16,3 kg, kadmium 1,0 kg, nickel 22,1 kg, bly 59 kg, zink 1 070,5 kg och totalkväve 30 709 kg till vatten. Metod C anges för dessa mängder, vilket innebär beräknad rapporterad mängd.",
+      "sample": {
+        "material": "surface_water",
+        "sampling_location": "Anläggningens rapporterade utsläpp till vatten, Zinkgruvan Mining AB"
+      },
+      "analyte": "As, Cd, Ni, Pb, Zn, totalkväve",
+      "result": 1070.5,
+      "unit": "kg/år för zink; övriga ämnen och totalkväve redovisas i beskrivningen",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Årsutsläpp, inte koncentrationer i vatten.",
+        "Metod C är beräkningsmetod enligt utsläppsregistret.",
+        "Värdena avser rapporterade utsläpp från anläggningen och visar inte ensamma miljöeffekt i recipienten."
+      ],
+      "source_ids": [
+        "zinkgruvan-prtr"
+      ]
+    },
+    {
+      "id": "zinkgruvan-prtr-water-2024",
+      "record_type": "emission_result",
+      "title": "Rapporterade utsläpp till vatten 2024",
+      "description": "Naturvårdsverkets utsläppsregister redovisar för Zinkgruvan Mining AB: arsenik 38,7 kg, kadmium 2,0 kg, nickel 25,6 kg, bly 104,5 kg, zink 1 270 kg och totalkväve 24 373 kg till vatten. Metod C anges för dessa mängder.",
+      "sample": {
+        "material": "surface_water",
+        "sampling_location": "Anläggningens rapporterade utsläpp till vatten, Zinkgruvan Mining AB"
+      },
+      "analyte": "As, Cd, Ni, Pb, Zn, totalkväve",
+      "result": 1270,
+      "unit": "kg/år för zink; övriga ämnen och totalkväve redovisas i beskrivningen",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Årsutsläpp, inte koncentrationer i vatten.",
+        "Metod C är beräkningsmetod enligt utsläppsregistret.",
+        "Värdena avser rapporterade utsläpp från anläggningen och visar inte ensamma miljöeffekt i recipienten."
+      ],
+      "source_ids": [
+        "zinkgruvan-prtr"
+      ]
+    },
+    {
+      "id": "zinkgruvan-prtr-water-2023",
+      "record_type": "emission_result",
+      "title": "Rapporterade utsläpp till vatten 2023",
+      "description": "Naturvårdsverkets utsläppsregister redovisar för Zinkgruvan Mining AB: arsenik 32 kg, kadmium 1,9 kg, nickel 32 kg, bly 94 kg, zink 1 199 kg och totalkväve 28 680 kg till vatten. Metod C anges för dessa mängder.",
+      "sample": {
+        "material": "surface_water",
+        "sampling_location": "Anläggningens rapporterade utsläpp till vatten, Zinkgruvan Mining AB"
+      },
+      "analyte": "As, Cd, Ni, Pb, Zn, totalkväve",
+      "result": 1199,
+      "unit": "kg/år för zink; övriga ämnen och totalkväve redovisas i beskrivningen",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Årsutsläpp, inte koncentrationer i vatten.",
+        "Metod C är beräkningsmetod enligt utsläppsregistret.",
+        "Värdena avser rapporterade utsläpp från anläggningen och visar inte ensamma miljöeffekt i recipienten."
+      ],
+      "source_ids": [
+        "zinkgruvan-prtr"
+      ]
+    }
+  ]
+}
