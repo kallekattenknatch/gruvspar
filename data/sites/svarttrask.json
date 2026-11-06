@@ -1,0 +1,87 @@
+{
+  "site_id": "svarttrask",
+  "display_name": "Svärtträskgruvan",
+  "case_study_status": "published_measurements_added",
+  "scope": "Publicerade vattenkemiska och biologiska undersökningar, miljöpåverkan, efterbehandling och uppföljning.",
+  "source_ids": [
+    "svarttrask-sweco-2016",
+    "svarttrask-sgu-page"
+  ],
+  "editorial_notes": [
+    "Mätvärdena nedan avser specifika provpunkter och provtagningstillfällen 2016; de är inte aktuella halter.",
+    "YV3, YV6 och YV7 är provpunkter i direkt anslutning till gruvområdet enligt rapporten.",
+    "Vattenhalter ska inte jämföras med halter i sediment, jord eller avfall."
+  ],
+  "records": [
+    {
+      "id": "svarttrask-yv7-metals-oct2016",
+      "record_type": "sample_result",
+      "title": "Metaller i ytvatten vid provpunkt YV7, oktober 2016",
+      "description": "Sweco rapporterar i tabell 3 för oktoberprovet vid YV7: kadmium 276 µg/l, kobolt 737 µg/l, nickel 5 030 µg/l, bly 398 µg/l, zink 275 000 µg/l, mangan 7 800 µg/l och aluminium 26 600 µg/l. Samtidigt redovisas pH 3,3 och sulfat/svavel (S) 660 mg/l. YV7 ligger enligt rapporten i direkt anslutning till gruvområdet.",
+      "sample": {
+        "material": "surface_water",
+        "sampling_location": "YV7, dike/bäck i direkt anslutning till Svärtträskgruvan",
+        "sampling_method": "Vattenprov enligt Swecos kontrollprogram; tabell 3 anger filtrering i fält",
+        "sample_date": "2016-10-01"
+      },
+      "analyte": "Kadmium (Cd), kobolt (Co), nickel (Ni), bly (Pb), zink (Zn), mangan (Mn), aluminium (Al), svavel (S)",
+      "unit": "µg/l för metaller; mg/l för svavel",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Historiskt enskilt prov från oktober 2016, inte aktuell halt.",
+        "Provpunkten ligger nära gruvområdet och är inte representativ för hela recipienten.",
+        "Rapporten anger att prover filtrerades i fält; provberedningen ska beaktas vid jämförelse.",
+        "Halter i µg/l har inte omräknats till mg/l i källdata."
+      ],
+      "source_ids": [
+        "svarttrask-sweco-2016"
+      ]
+    },
+    {
+      "id": "svarttrask-yv6-metals-oct2016",
+      "record_type": "sample_result",
+      "title": "Metaller i ytvatten vid provpunkt YV6, oktober 2016",
+      "description": "Sweco rapporterar i tabell 3 för oktoberprovet vid YV6: kadmium 116 µg/l, kobolt 243 µg/l, nickel 1 530 µg/l, bly 86,7 µg/l, zink 96 100 µg/l, mangan 3 000 µg/l och aluminium 15 400 µg/l. Samtidigt redovisas pH 3,9 och svavel (S) 181 mg/l.",
+      "sample": {
+        "material": "surface_water",
+        "sampling_location": "YV6, dike/bäck i anslutning till Svärtträskgruvan",
+        "sampling_method": "Vattenprov enligt Swecos kontrollprogram; tabell 3 anger filtrering i fält",
+        "sample_date": "2016-10-01"
+      },
+      "analyte": "Kadmium (Cd), kobolt (Co), nickel (Ni), bly (Pb), zink (Zn), mangan (Mn), aluminium (Al), svavel (S)",
+      "unit": "µg/l för metaller; mg/l för svavel",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Historiskt enskilt prov från oktober 2016, inte aktuell halt.",
+        "Provpunkten ligger nära gruvområdet.",
+        "Rapporten anger att prover filtrerades i fält; provberedningen ska beaktas vid jämförelse."
+      ],
+      "source_ids": [
+        "svarttrask-sweco-2016"
+      ]
+    },
+    {
+      "id": "svarttrask-yv3-metals-oct2016",
+      "record_type": "sample_result",
+      "title": "Metaller i ytvatten vid provpunkt YV3, oktober 2016",
+      "description": "Sweco rapporterar i tabell 3 för oktoberprovet vid YV3: kadmium 110 µg/l, kobolt 200 µg/l, nickel 1 230 µg/l, bly 3,45 µg/l, zink 86 600 µg/l, mangan 2 730 µg/l och aluminium 16 100 µg/l. Samtidigt redovisas pH 3,9 och svavel (S) 126 mg/l.",
+      "sample": {
+        "material": "surface_water",
+        "sampling_location": "YV3, dike/bäck i anslutning till Svärtträskgruvan",
+        "sampling_method": "Vattenprov enligt Swecos kontrollprogram; tabell 3 anger filtrering i fält",
+        "sample_date": "2016-10-01"
+      },
+      "analyte": "Kadmium (Cd), kobolt (Co), nickel (Ni), bly (Pb), zink (Zn), mangan (Mn), aluminium (Al), svavel (S)",
+      "unit": "µg/l för metaller; mg/l för svavel",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Historiskt enskilt prov från oktober 2016, inte aktuell halt.",
+        "Provpunkten ligger nära gruvområdet.",
+        "Rapporten anger att prover filtrerades i fält; provberedningen ska beaktas vid jämförelse."
+      ],
+      "source_ids": [
+        "svarttrask-sweco-2016"
+      ]
+    }
+  ]
+}
