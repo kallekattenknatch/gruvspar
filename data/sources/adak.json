@@ -32,6 +32,23 @@
         "Äldre utvärdering; procentuell minskning är inte en uppgift om dagens vattenhalter.",
         "Belastningen mot Rudjebacken beskrivs som minskad men mindre tydligt."
       ]
+    },
+    {
+      "id": "sgu-rr-2023-01",
+      "title": "Hållbar utvinning och återvinning av metaller och mineral från sekundära resurser, SGU RR 2023:01",
+      "publisher": "Sveriges geologiska undersökning och Naturvårdsverket",
+      "publication_year": 2023,
+      "document_type": "myndighetsrapport",
+      "access_status": "public",
+      "url": "https://resource.sgu.se/dokument/publikation/rr/rr202301rapport/RR2301.pdf",
+      "source_perspective": "myndighet",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Bilaga 1C redovisar medel-, maximum- och minimumkoncentrationer av kritiska metaller, järn, basmetaller och ädelmetaller i prover från anrikningssand. Här används endast medelvärden från tydligt namngivna objekt och provmaterial.",
+      "limitations": [
+        "Rapporten undersöker gruvavfall i ett uppdrag om sekundära resurser; resultaten är kemisk karakterisering, inte i sig en hälsoriskbedömning.",
+        "Halter i anrikningssand får inte jämföras direkt med vattenhalter eller generella jordriktvärden.",
+        "Endast rader som uttryckligen anges som medelvärde används; max- och minvärden hålls utanför denna post."
+      ]
     }
   ]
 }
