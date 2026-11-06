@@ -168,6 +168,69 @@
         "Rapporten innehåller även resurs- och reservuppgifter som Gruvspår inte publicerar.",
         "Malm från Lovisagruvan behandlades i Garpenberg 2005–2014."
       ]
+    },
+    {
+      "id": "riksdag-prop-1994-95-125",
+      "title": "Proposition 1994/95:125 – Förslag om ytterligare anslag på tilläggsbudget",
+      "publisher": "Regeringen / Sveriges riksdag",
+      "publication_year": 1995,
+      "document_type": "regeringsproposition",
+      "access_status": "public",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/proposition/forslag-om-ytterligare-anslag-pa-tillaggsbudget_gi03125/",
+      "relevance": "Redovisar att gruvavfallsprojektet identifierat saneringsbehov i Garpenberg och att förhandlingar pågick mellan Boliden Mineral AB och Naturvårdsverket. Regeringen uppgav att medel för åtgärder i Garpenberg inte avsattes då.",
+      "source_perspective": "regering",
+      "verification_status": "primary_source_reviewed",
+      "limitations": [
+        "Uppgiften gäller förhandlingsläget och budgetbeslutet 1994/95, inte en fullständig historisk kostnadsredovisning för Garpenberg."
+      ]
+    },
+    {
+      "id": "riksdag-protocol-1994-95-31",
+      "title": "Riksdagens snabbprotokoll 1994/95:31, 29 november 1994",
+      "publisher": "Sveriges riksdag",
+      "publication_year": 1994,
+      "document_type": "riksdagsprotokoll",
+      "access_status": "public",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/riksdagens-snabbprotokoll-19949531-tisdagen-den_gi0931/html/",
+      "relevance": "Miljöminister redogör för att något avtal inte kommit till stånd med Boliden om gruvavfallet i Garpenberg och att Naturvårdsverket förberedde prövning av ansvarsfrågan.",
+      "source_perspective": "riksdag",
+      "verification_status": "primary_source_reviewed",
+      "limitations": [
+        "Återger läget vid debatten 29 november 1994."
+      ]
+    },
+    {
+      "id": "riksdag-protocol-1995-96-104",
+      "title": "Riksdagens snabbprotokoll 1995/96:104, 3 juni 1996, interpellation om sanering av gruvavfall i Garpenberg",
+      "publisher": "Sveriges riksdag",
+      "publication_year": 1996,
+      "document_type": "riksdagsprotokoll",
+      "access_status": "public",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/riksdagens-snabbprotokoll-199596104-mandagen-den_gj09104/html/",
+      "relevance": "Miljöministern uppger att cirka 50 mkr av Dalälvsdelegationens ursprungliga 100 mkr användes för Faluns avfallssanering och att resterande cirka 50 mkr drogs in 1995 eftersom avtal med Boliden inte nåtts. Naturvårdsverket hade planerat sanering av Herrgårdsområdet på Hedemora kommuns initiativ, med uppskattad kostnad 7 mkr. Protokollet beskriver också konflikter mellan kulturmiljövård och miljöhänsyn vid viss planerad slaggsanering.",
+      "source_perspective": "riksdag",
+      "verification_status": "primary_source_reviewed",
+      "limitations": [
+        "De 50 mkr som drogs in får inte redovisas som pengar som betalats till Garpenberg.",
+        "7 mkr var en kostnadsuppskattning för planerad sanering, inte verifierad utbetalning eller slutkostnad.",
+        "Protokollet visar planering och förhandlingar, inte att hela åtgärden genomfördes."
+      ]
+    },
+    {
+      "id": "riksdag-sou-2018-59",
+      "title": "SOU 2018:59 – Statens gruvliga risker",
+      "publisher": "Gruvavfallsfinansieringsutredningen / Sveriges riksdag",
+      "publication_year": 2018,
+      "document_type": "statens_offentliga_utredningar",
+      "access_status": "public",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/statens-offentliga-utredningar/statens-gruvliga-risker_h6b359/html/",
+      "relevance": "Beskriver riskerna med otillräckliga ekonomiska säkerheter för efterbehandling. Sammanfattningen anger att rättsliga processer om säkerheterna för Aitik och Garpenberg kunde innebära att säkerheterna behövde femdubblas. Detta gäller framtida kostnader, inte historiska saneringsutgifter.",
+      "source_perspective": "statlig_utredning",
+      "verification_status": "primary_source_reviewed",
+      "limitations": [
+        "Sammanfattningen anger inte separat belopp för Garpenberg.",
+        "Ekonomiska säkerheter och avsättningar är inte samma sak som faktiskt utbetalda saneringskostnader."
+      ]
     }
   ]
 }
