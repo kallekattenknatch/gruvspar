@@ -1,0 +1,22 @@
+{
+  "site_id": "hoganas",
+  "display_name": "Höganäs",
+  "case_study_status": "research_pending",
+  "scope": "Dokumenterade gruvrelaterade miljöuppgifter. Inga mineralresurser, reserver eller prospekteringsuppgifter publiceras.",
+  "records": [],
+  "source_ids": [
+    "sgu-ores-concentrators-open-data"
+  ],
+  "data_gaps": [
+    {
+      "title": "Historisk produktion behöver identifieras",
+      "description": "Ingen direkt matchning med namnet Höganäs hittades i den granskade SGU-tabellen Malmer. Det är inte bevis för att produktion eller historiska gruvobjekt saknas; alternativa namn och verksamhetstyp behöver kontrolleras.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Kontrollera historiska namn och verksamhetstyp i SGU:s historiska gruvkartor och kommunarkiv.",
+        "Kontrollera Naturvårdsverkets utvinningsavfallsförteckning och länsstyrelsens EBH-objekt."
+      ]
+    }
+  ]
+}
