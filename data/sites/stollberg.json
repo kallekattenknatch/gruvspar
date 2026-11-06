@@ -1,0 +1,14 @@
+{
+  "site_id": "stollberg",
+  "display_name": "Stollbergs gruvområde",
+  "case_study_status": "source_registered",
+  "scope": "Dokumenterade miljöundersökningar, påverkan, beslut, åtgärder och uppföljning.",
+  "records": [],
+  "source_ids": [
+    "stollberg-main"
+  ],
+  "editorial_notes": [
+    "Platsmarkören är orienterande och anger inte gränsen för förorenat område.",
+    "Gruvdriftens historik och aktuell miljöåtgärdsstatus ska hållas isär."
+  ]
+}
