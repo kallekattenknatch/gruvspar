@@ -16,6 +16,22 @@
         "Källan är en översikt; underliggande rapporter och mätserier behöver registreras separat.",
         "Kartmarkören är orienterande, inte en risk- eller föroreningsavgränsning."
       ]
+    },
+    {
+      "id": "adak-naturvardsverket-2017",
+      "title": "Delrapportering av regeringsuppdrag: Utvärdering av efterbehandlad gruvverksamhet och hantering av gruvavfall",
+      "publisher": "Naturvårdsverket",
+      "publication_year": 2017,
+      "document_type": "utvardering-efterbehandling",
+      "access_status": "public",
+      "url": "https://www.naturvardsverket.se/contentassets/6104a3383a9949e99f8ee28d94f2375c/ru-delrapport-strategi-for-hantering-av-gruvavfall-170330.pdf",
+      "source_perspective": "myndighetsutvardering",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Utvärderar efterbehandling av bland annat Adak och anger att metallutlakningen mot Skeppträskån reducerats till 0,5–2 procent av nivån före åtgärder.",
+      "limitations": [
+        "Äldre utvärdering; procentuell minskning är inte en uppgift om dagens vattenhalter.",
+        "Belastningen mot Rudjebacken beskrivs som minskad men mindre tydligt."
+      ]
     }
   ]
 }
