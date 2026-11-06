@@ -16,6 +16,22 @@
         "Källan är identifierad men alla underliggande provresultat och bilagor har ännu inte registrerats separat.",
         "Kartmarkören är en orienterande platsposition, inte en risk- eller föroreningsavgränsning."
       ]
+    },
+    {
+      "id": "saxberget-saxbergsprojektet-2000",
+      "title": "Saxbergsprojektet: En dokumentation av projektets genomförande",
+      "publisher": "Projektledningsgruppen / Envipro Miljöteknik AB",
+      "year": 2000,
+      "url": "https://www.naturvardsverket.se/4ac498/contentassets/ad10920f11ee405ea5af8a5635cb2c9b/saxbergsproj.pdf",
+      "source_perspective": "projektredovisning",
+      "document_type": "undersökningsrapport",
+      "access_status": "public",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Originalrapport med publicerade mätvärden som registrerats separat i platsens dataregister.",
+      "limitations": [
+        "Värden gäller endast angivet provmaterial, provpunkt och tidsperiod.",
+        "Historiska mätvärden ska inte beskrivas som aktuella halter."
+      ]
     }
   ]
 }
