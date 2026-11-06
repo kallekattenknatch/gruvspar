@@ -95,11 +95,34 @@
       "source_ids": [
         "boliden-annual-report-2025"
       ]
+    },
+    {
+      "id": "aitik-operating-result-2025",
+      "record_type": "financial_result",
+      "title": "Rörelseresultat för Aitik 2025",
+      "description": "Boliden redovisar ett gruvspecifikt rörelseresultat på 948 MSEK för Aitik under 2025. Beloppet avser gruvans rörelseresultat, inte nettovinst, kassaflöde eller värdet av den brutna malmen.",
+      "sample": {
+        "material": "other",
+        "sampling_location": "Aitikgruvan, Gällivare kommun"
+      },
+      "analyte": "Rörelseresultat",
+      "result": 948,
+      "unit": "MSEK",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser ett enskilt verksamhetsår, 2025.",
+        "Rörelseresultat är inte nettovinst och ska inte blandas ihop med koncernens resultat.",
+        "Ska inte läggas till en befintlig livstidssumma utan kontroll av om 2025 redan ingår i summeringsperioden."
+      ],
+      "source_ids": [
+        "boliden-aitik-site-2025"
+      ]
     }
   ],
   "source_ids": [
     "sgu-bergverksstatistik-2025",
-    "boliden-annual-report-2025"
+    "boliden-annual-report-2025",
+    "boliden-aitik-site-2025"
   ],
   "accumulated_ore_value": {
     "status": "in_progress",
