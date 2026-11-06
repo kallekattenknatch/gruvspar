@@ -1,0 +1,36 @@
+{
+  "site_id": "kirunavaara",
+  "sources": [
+    {
+      "id": "kiruna-miljorapport-2024-kommun",
+      "title": "Miljö- och byggnämndens sammanträde 2025-06-10, §85: LKAB Kiruna miljörapport 2024",
+      "publisher": "Kiruna kommun",
+      "publication_year": 2025,
+      "document_type": "kommunalt_namndprotokoll",
+      "access_status": "public",
+      "url": "https://kiruna.se/download/18.53b3fa39197a204984f34f2/1751272306934/Milj%C3%B6-%20och%20byggn%C3%A4mndens%20sammantr%C3%A4de%202025-06-10%20signerat%20med%20pnr.pdf",
+      "source_perspective": "myndighet",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Kommunens sammanfattning av LKAB:s miljörapport för Kiruna 2024, med uppgifter om produktion, villkorsavvikelser, stoftnedfall och PM10-mätningar.",
+      "limitations": [
+        "Protokollet sammanfattar miljörapporten och ersätter inte den fullständiga rapporten eller dess mätbilagor."
+      ]
+    },
+    {
+      "id": "lkab-arsredovisning-2024",
+      "title": "LKAB års- och hållbarhetsredovisning 2024",
+      "publisher": "LKAB",
+      "publication_year": 2025,
+      "document_type": "ars-och-hallbarhetsredovisning",
+      "access_status": "public",
+      "url": "https://lkab.com/wp-content/uploads/2025/03/LKAB_2024_Ars-och-hallbarhetsredovisning.pdf",
+      "source_perspective": "verksamhetsutovare",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Redovisar miljöpåverkan från LKAB:s verksamhetsorter, inklusive överskridande av svaveldioxidvillkor i Kiruna 2024 kopplat till störningar och uppstarter i pelletsverkens rökgasrening.",
+      "limitations": [
+        "Företagets egen redovisning; återges som LKAB:s uppgifter.",
+        "Uppgiften om svaveldioxid kopplas till pelletsverken och ska inte automatiskt tillskrivas gruvbrytningen."
+      ]
+    }
+  ]
+}
