@@ -65,5 +65,51 @@
     "method": "Historisk metallproduktion eller faktiskt sålda metallprodukter värderade med dokumenterade priser för respektive period; inga kostnader, skatter eller avgifter dras av.",
     "coverage": "Livstidsunderlaget är ännu inte komplett.",
     "note": "Gruvspår sammanställer historisk malmproduktion, metallinnehåll och relevanta metallpriser för gruvans hela drifttid. Något säkert livstidstotal kan ännu inte anges. Årsomsättning eller rörelseresultat får inte användas som ersättning för ackumulerat malmvärde."
+  },
+  "data_gaps": [
+    {
+      "title": "Gruvspecifikt rörelseresultat ej komplett",
+      "description": "Årsvisa resultat och tidigare ägare behöver sammanställas.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapporter och kontrollera objektavgränsning, år och metod."
+      ]
+    },
+    {
+      "title": "Miljöunderlaget behöver breddas",
+      "description": "Fullständiga serier för mark, vatten, sediment, luft och biota är inte samlade.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapporter och kontrollera objektavgränsning, år och metod."
+      ]
+    },
+    {
+      "title": "Saneringspengar och fysisk åtgärd behöver följas upp",
+      "description": "Budget, beviljade bidrag, utbetalda medel och slutkostnad måste skiljas åt.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapporter och kontrollera objektavgränsning, år och metod."
+      ]
+    },
+    {
+      "title": "Käll- och tidsperiodskontroll pågår",
+      "description": "Historiska poster behöver kontrolleras mot originalkällor och eventuella överlapp.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapporter och kontrollera objektavgränsning, år och metod."
+      ]
+    }
+  ],
+  "reported_profit": {
+    "status": "in_progress",
+    "metric": "operating_profit",
+    "currency": "SEK",
+    "amount": null,
+    "total_amount": null,
+    "note": "Komplett gruvspecifikt historiskt rörelseresultat är ännu inte verifierat. Saknade år är inte noll."
   }
 }
