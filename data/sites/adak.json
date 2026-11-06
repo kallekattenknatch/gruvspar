@@ -93,50 +93,27 @@
     {
       "id": "adak-tailings-metals-2023",
       "record_type": "sample_result",
-      "title": "Metallhalter i anrikningssand vid Adak, SGU 2023",
-      "description": "SGU:s medelvärde för tre prov av anrikningssand från Adak redovisas i Bilaga 1C. Uppmätta medelhalter: kobolt 158 ppm, koppar 1 874 ppm, bly 54 ppm, zink 458 ppm, nickel 13 ppm och järn 9,92 %. Silver redovisas till 1,48 ppm och guld till 0,185 ppm.",
+      "title": "Metallhalter i material som transporterats från Adaks sandmagasin, SGU 2023",
+      "description": "SGU analyserade tre prov av material som läckt eller vattentransporterats från Adaks övertäckta sandmagasin och återfanns mellan magasinet och sjön Ruhtijavrie. Medelvärden enligt rapportens Bilaga 1C: kobolt 158 ppm, koppar 1 874 ppm (cirka 0,19 viktprocent), bly 54 ppm, zink 458 ppm, nickel 13 ppm och järn 9,92 viktprocent. Silver 1,48 ppm och guld 0,185 ppm. I rapportens huvudtext anges att ett av proven nådde analystaket för arsenik, över 1 viktprocent.",
       "sample": {
-        "material": "tailings",
-        "sampling_location": "Anrikningssand, Adak",
-        "sampling_method": "SGU:s sammanställning av kemiska analyser; medelvärde av n prov"
+        "material": "transported_tailings",
+        "sampling_location": "Material mellan Adaks sandmagasin och sjön Ruhtijavrie",
+        "sampling_method": "Tre spadprov av material som läckt/vattentransporterats från det övertäckta magasinet; provmaterialet hade sorterats och blandats med främmande material under transporten."
       },
       "analyte": "Kobolt, koppar, bly, zink, nickel, järn, silver och guld",
       "result": null,
       "unit": "ppm (järn i viktprocent)",
       "evidence_status": "primary_source_verified",
       "limitations": [
-        "Avser anrikningssand, inte jord, vatten, sediment eller biologiskt material.",
-        "Medelvärdet beskriver provmaterialet i rapportens urval och är inte automatiskt representativt för hela området.",
-        "Resultaten är inte i sig en hälsoriskbedömning; exponering, biotillgänglighet och relevant jämförelsegrund behöver bedömas separat."
+        "Proverna är inte tagna direkt ur det övertäckta sandmagasinet.",
+        "Materialet hade sorterats och blandats med främmande material under transporten mot sjön och är sannolikt inte representativt för magasinet som helhet.",
+        "Ett prov nådde laboratoriets analystak för arsenik (>1 viktprocent); exakt halt är därför inte känd.",
+        "Detta är kemisk karakterisering av ett specifikt provmaterial, inte en individuell hälsoriskbedömning."
       ],
       "source_ids": [
         "sgu-rr-2023-01"
       ],
       "sample_count": 3
-    },
-    {
-      "id": "adak-leached-tailings-as-2023",
-      "record_type": "sample_result",
-      "title": "Arsenik och metaller i material som transporterats från Adaks sandmagasin, SGU 2023",
-      "description": "Tre prov togs av material som läckt eller vattentransporterats från Adaks övertäckta sandmagasin och återfanns mellan magasinet och sjön Ruhtijavrie. Medelhalterna visade koppar 0,19 viktprocent och kobolt 158 ppm. Ett av proven nådde laboratoriets analystak för arsenik, över 1 viktprocent.",
-      "sample": {
-        "material": "transported_tailings",
-        "sampling_location": "Mellan Adaks sandmagasin och sjön Ruhtijavrie",
-        "sampling_method": "SGU:s provtagning och sammanvägda kemiska analyser, SGU RR 2023:01"
-      },
-      "sample_count": 3,
-      "analyte": "Metaller och grundämnen enligt SGU RR 2023:01",
-      "unit": "ppm och viktprocent",
-      "evidence_status": "primary_source_verified",
-      "limitations": [
-        "Avser endast angivna prov och provpunkter, inte hela gruvområdet.",
-        "Kemisk karakterisering av gruvavfall är inte i sig en hälsoriskbedömning.",
-        "Halter i varp, anrikningssand, sedimenterat avfall och slagg är olika provmatriser och får inte blandas eller jämföras direkt med vatten- eller jordriktvärden.",
-        "Inga uppskattningar av kvarvarande metallmängder eller resurs-/reservuppgifter publiceras här."
-      ],
-      "source_ids": [
-        "sgu-rr-2023-01"
-      ]
     }
   ],
   "source_ids": [
