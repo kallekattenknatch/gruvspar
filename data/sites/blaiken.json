@@ -152,10 +152,43 @@
       "source_ids": [
         "sgu-rr-2023-01"
       ]
+    },
+    {
+      "id": "blaiken-production-sgu-rr2023",
+      "record_type": "production_statistic",
+      "title": "Malmproduktion vid Blaiken 2006–2007 enligt SGU",
+      "description": "SGU RR 2023:01 anger att 578 000 ton malm producerades från Blaikengruvan under brytningen 2006–2007. Rapporten anger separat att 170 000 ton malm producerades från Svärtträskgruvan under samma period. Anrikningsverket behandlade även ett tidigare lager av guldförande malm under 2009, men tonnaget för detta lager anges inte i rapportutdraget.",
+      "result": 578000,
+      "unit": "ton malm 2006–2007",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Blaikengruvan"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s öppna produktionsregister redovisar en separat post på 0,785 miljoner ton för Blaiken; skillnaden mot 0,578 miljoner ton i RR 2023:01 behöver utredas.",
+        "Malm från Svärtträsk och äldre lager som behandlats i Blaikens anrikningsverk får inte räknas som malm bruten i Blaiken.",
+        "Produktionsmängd är inte malmvärde eller företagsvinst."
+      ],
+      "source_ids": [
+        "sgu-rr-2023-01"
+      ]
     }
   ],
   "source_ids": [
     "sgu-ores-concentrators-open-data",
     "sgu-rr-2023-01"
+  ],
+  "data_gaps": [
+    {
+      "title": "Skillnad mellan två SGU-produktionsuppgifter",
+      "description": "SGU RR 2023:01 anger 578 000 ton malm från Blaiken 2006–2007. SGU:s öppna Malmer-databas ger en post på 0,785 miljoner ton. Möjliga skillnader i avgränsning, lagermalm eller anrikningsflöde behöver kontrolleras innan en livstidssumma används.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Granska SGU:s källreferenser och underliggande produktionsstatistik.",
+        "Håll Svärtträskmalm och lager som anrikats i Blaiken separat från malm bruten vid Blaiken."
+      ]
+    }
   ]
 }
