@@ -95,3 +95,25 @@ Varje gruvprofil kan innehålla `reported_profit`. På webbplatsen visas endast 
 - Om en historisk ägare inte redovisat gruvspecifikt resultat ska detta anges. Koncernvinst får aldrig användas som ersättning.
 - Visa status och täckningsperiod. En delsumma får inte beskrivas som gruvans livstidssumma.
 - Håll detta mått helt separat från `accumulated_ore_value`. Redovisad vinst är företagets redovisade resultat; ackumulerat malmvärde avser värdet av den producerade malmen/metallen före kostnader och avgifter.
+
+## Ekonomiska mått: malmvärde och rörelseresultat
+
+### Ackumulerat malmvärde
+- Malmvärde ska beräknas från faktisk producerad metall eller verifierade sålda metallprodukter per år, med dokumenterad metallhalt, återvinningsgrad och prisserie för samma år.
+- Enbart ton malm multiplicerat med ett spotpris är inte ett godtagbart livstidsvärde.
+- Brutto metallvärde, fakturerat försäljningsvärde och faktiskt realiserad intäkt ska hållas åtskilda. Om behandlingsavgifter, smältlöner, transport, betalbar metall eller biproduktvillkor saknas får dessa inte antas.
+- Om historiska data inte räcker anges status som ej beräknat och de saknade underlagen listas. Ingen uppskattning får presenteras som verifierad totalsumma.
+- Malm som transporterats från andra gruvor till ett gemensamt anrikningsverk får inte tillskrivas värdgruvan utan verifierad ursprungsfördelning.
+
+### Företagens resultat
+- Gruvspecifikt rörelseresultat från årsredovisningar redovisas separat från nettovinst, kassaflöde, omsättning och malmvärde.
+- Summeringar ska visa start- och slutår, bolag/ägare och vilka år som faktiskt ingår.
+- Förvärvsår ska delas vid konsolideringsdatum när rapporten gör det.
+- Resultat för affärsområden som omfattar flera gruvor, exempelvis Boliden Area, får inte fördelas mellan gruvorna utan uttryckligt gruvspecifikt underlag.
+- Okända år är inte noll. En delperiodssumma ska märkas som delperiod och får inte beskrivas som livstidssumma.
+
+### Saneringsredovisning
+- Budget, beviljat bidrag, utbetalt bidrag, entreprenörsersättning, redovisad projektkostnad och framtida prognos är separata ekonomiska mått.
+- Fysisk åtgärd redovisas separat från finansiering. Täckning, stabilisering och vattenrening ska inte beskrivas som att föroreningsmassor avlägsnats om de inte faktiskt transporterats bort.
+- Slutrapport, kontrollprogram och efterkontroll ska länkas när de finns.
+
