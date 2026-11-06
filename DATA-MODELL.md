@@ -73,6 +73,15 @@ Beräkningen ska i första hand bygga på dokumenterade historiska försäljning
 SGU:s öppna databas Malmer och anrikningsverk är en central källa till historisk gruvproduktion och metallhalter. SGU beskriver samtidigt luckor i äldre material: systematisk rapportering av metallinnehåll börjar 1909, avfallsberg 1892 och anrikningsverk 1906. Därför ska äldre perioder märkas med rätt osäkerhet. Resurs- och reservuppgifter i samma databas ingår inte i Gruvspårs publicering.
 
 
+## SGU:s historiska produktionsmängder
+När SGU:s databas *Malmer och anrikningsverk* används för gruvprofiler får endast fältet för faktiskt producerad malm (production_mt) användas som kumulativ produktionsmängd. Det redovisas i miljoner ton och får aldrig beskrivas som malmvärde, omsättning, rörelseresultat eller nettovinst.
+
+- Fälten för mineraltillgångar och mineralreserver (resources_mt och reserves_mt) publiceras inte.
+- Fältet total_tonnage_mt får inte användas eftersom det summerar produktion, tillgångar och reserver.
+- Poster med olika SGU-koder hålls separata tills objektavgränsning, historiska delgruvor och eventuell överlappning har kontrollerats. Samma eller liknande namn är inte tillräckligt skäl för att summera.
+- SGU anger att nationella produktionssammanställningar börjar 1833 och att äldre uppgifter är sparsamma och fragmentariska. En SGU-summa ska därför beskrivas som registrerad produktion i SGU:s databas, inte automatiskt som all malm som någonsin brutits.
+- Varje post ska ha SGU-kod, registrerad tidsperiod, källa och begränsningar.
+
 ## Total redovisad vinst per gruva
 
 Varje gruvprofil kan innehålla `reported_profit`. På webbplatsen visas endast en totalsumma per gruva, inte en årsvis resultattabell. Underlaget ska ändå kunna granskas i källregistret.
