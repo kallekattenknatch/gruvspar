@@ -41,10 +41,11 @@ const article=(title,desc,meta,limitations,sourceIds,sourceMap)=>{
  if(meta){const p=document.createElement('p');p.className='small';p.textContent=meta;a.appendChild(p);}
  (limitations||[]).forEach(t=>{const p=document.createElement('p');p.className='small';p.textContent='Avgränsning: '+t;a.appendChild(p);});
  (sourceIds||[]).forEach(key=>{
-  const src=sourceMap.get(key);if(!src)return;
+  const src=sourceMap.get(key);const url=(typeof key==='string'&&(key.startsWith('http://')||key.startsWith('https://')))?key:src?.url;
+  if(!src&&!url)return;
   const p=document.createElement('p');p.className='small';
-  const a2=document.createElement('a');a2.href=src.url||'#';a2.textContent='Källa: '+(src.title||key);
-  if(src.url){a2.target='_blank';a2.rel='noopener noreferrer';}else a2.removeAttribute('href');
+  const a2=document.createElement('a');a2.href=url||'#';a2.textContent='Källa: '+(src?.title||'Öppna originaldokument');
+  if(url){a2.target='_blank';a2.rel='noopener noreferrer';}else a2.removeAttribute('href');
   p.appendChild(a2);a.appendChild(p);
  });
  return a;
@@ -64,7 +65,8 @@ if(site){
   fetch('data/remediation-projects.json').then(r=>r.ok?r.json():{projects:[]})
  ]).then(([d,local,national,remData])=>{
   const records=d.records||[];
-  const sources=[...(local.sources||[]),...(national.sources||[])];
+  const localSources=local.sources||[];
+  const sources=[...localSources,...(national.sources||[])].filter((x,i,a)=>a.findIndex(y=>y.id===x.id)===i);
   const sourceMap=new Map(sources.map(x=>[x.id,x]));
   const projectMap={'falu-gruva':['falun-faluprojektet'],'saxberget':['saxberget-saxbergsprojektet'],'gladhammar':['gladhammar-gruvor'],'adak':['adak-gruvan'],'garpenberg':['garpenberg-historical']};
   const projects=[...(d.remediation_finance?.projects||[]),...(remData.projects||[]).filter(p=>(projectMap[id]||[]).includes(p.id))];
@@ -94,7 +96,7 @@ if(site){
   render('production-records',records.filter(isProd),'Ingen produktionsstatistik är registrerad. Producerad malm är inte malmvärde eller vinst.',card);
   const financial=records.filter(isFinance);
   const rem=records.filter(isRem);
-  render('plans',sources.filter(x=>/plan|huvudstud|åtgärd|saner|efterbehand|program/i.test([x.title,x.relevance,x.document_type].join(' '))).map(x=>({title:x.title,description:x.relevance,meta:[x.publisher,x.publication_year||x.year].filter(Boolean).join(' · '),limitations:x.limitations,source_ids:[x.id]})).concat(rem.filter(x=>x.record_type==='remediation_plan')),
+  render('plans',localSources.filter(x=>/plan|huvudstud|åtgärd|saner|efterbehand|program/i.test([x.title,x.relevance,x.document_type].join(' '))).map(x=>({title:x.title,description:x.relevance,meta:[x.publisher,x.publication_year||x.year].filter(Boolean).join(' · '),limitations:x.limitations,source_ids:[x.id]})).concat(rem.filter(x=>x.record_type==='remediation_plan')),
    'Inga planer eller åtaganden är registrerade i platsregistret.',x=>article(x.title,x.description,x.meta,x.limitations,x.source_ids,sourceMap));
   const finance=byId('remediation-finance');finance.className='';finance.replaceChildren();
   if(!financial.length&&!projects.length){empty('remediation-finance','Ingen särskild saneringsekonomi är registrerad. Det är inte samma sak som att sanering inte har finansierats.');}
