@@ -113,12 +113,37 @@
         "sgu-rr-2023-01"
       ],
       "sample_count": 3
+    },
+    {
+      "id": "adak-leached-tailings-as-2023",
+      "record_type": "sample_result",
+      "title": "Arsenik och metaller i material som transporterats från Adaks sandmagasin, SGU 2023",
+      "description": "Tre prov togs av material som läckt eller vattentransporterats från Adaks övertäckta sandmagasin och återfanns mellan magasinet och sjön Ruhtijavrie. Medelhalterna visade koppar 0,19 viktprocent och kobolt 158 ppm. Ett av proven nådde laboratoriets analystak för arsenik, över 1 viktprocent.",
+      "sample": {
+        "material": "transported_tailings",
+        "sampling_location": "Mellan Adaks sandmagasin och sjön Ruhtijavrie",
+        "sampling_method": "SGU:s provtagning och sammanvägda kemiska analyser, SGU RR 2023:01"
+      },
+      "sample_count": 3,
+      "analyte": "Metaller och grundämnen enligt SGU RR 2023:01",
+      "unit": "ppm och viktprocent",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser endast angivna prov och provpunkter, inte hela gruvområdet.",
+        "Kemisk karakterisering av gruvavfall är inte i sig en hälsoriskbedömning.",
+        "Halter i varp, anrikningssand, sedimenterat avfall och slagg är olika provmatriser och får inte blandas eller jämföras direkt med vatten- eller jordriktvärden.",
+        "Inga uppskattningar av kvarvarande metallmängder eller resurs-/reservuppgifter publiceras här."
+      ],
+      "source_ids": [
+        "sgu-rr-2023-01"
+      ]
     }
   ],
   "source_ids": [
     "adak-main",
     "adak-naturvardsverket-2017",
-    "sgu-ores-concentrators-open-data"
+    "sgu-ores-concentrators-open-data",
+    "sgu-rr-2023-01"
   ],
   "editorial_notes": [
     "Platsmarkören är orienterande och anger inte gränsen för förorenat område.",
