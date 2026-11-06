@@ -1,0 +1,35 @@
+{
+  "site_id": "fabodtjarn",
+  "display_name": "Fäbodtjärn",
+  "scope": "Offentligt redovisad gruvproduktion och miljöuppgifter.",
+  "records": [
+    {
+      "id": "fabodtjarn-production-2025",
+      "record_type": "production_statistic",
+      "title": "Bruten malm och gråberg 2025",
+      "description": "SGU:s enkät redovisar 54 961 ton anrikningsmalm och 67 800 ton gråberg från Fäbodtjärn under 2025. Totalt 122 761 ton.",
+      "sample": {
+        "material": "other",
+        "sampling_location": "Fäbodtjärn, Lycksele kommun"
+      },
+      "analyte": "Anrikningsmalm och gråberg",
+      "result": 122761,
+      "unit": "ton/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Produktionsvolym, inte ekonomiskt värde eller vinst.",
+        "Volymerna beskriver 2025 och kan variera mellan år.",
+        "Inga uppgifter om mineralresurser eller reserver ingår."
+      ],
+      "source_ids": [
+        "sgu-bergverksstatistik-2025"
+      ]
+    }
+  ],
+  "source_ids": [
+    "sgu-bergverksstatistik-2025"
+  ],
+  "editorial_notes": [
+    "Produktionsstatistik beskriver faktisk brytning, inte mineralresurser eller reserver."
+  ]
+}
