@@ -9,7 +9,6 @@
       "record_type": "remediation_result",
       "title": "Metallutlakning mot Skeppträskån efter täckning",
       "description": "Naturvårdsverkets utvärdering av efterbehandlade gruvområden anger att utlakningen av metaller från Adak mot Skeppträskån efter genomförd efterbehandling hade reducerats till cirka 0,5–2 procent av den nivå som uppmättes före åtgärderna. Metallbelastningen från Adak mot Rudjebacken hade också minskat, men inte lika tydligt. Rapporten bedömde sammantaget att efterbehandlingen föreföll ha utförts med gott resultat, samtidigt som en viss belastning på recipienterna kvarstår.",
-      "result": 1.25,
       "unit": "procent av uppmätt metallutlakning före åtgärd (intervall 0,5–2 %)",
       "evidence_status": "primary_source_verified",
       "limitations": [
