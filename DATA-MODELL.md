@@ -43,3 +43,16 @@ Detta innebär inte att slutsatser får bestämmas i förväg. Sakuppgifter ska 
 
 Gruvspår är inte neutralt inför miljöförstöring. Däremot ska metoderna vara sakliga, öppna och konsekventa. Ingen aktör ska dömas på förhand och ingen dokumenterad påverkan ska döljas.
 
+## Privata laboratorierapporter och andra icke-offentliga underlag
+
+En rapport behöver inte vara sökbar på internet för att kunna ligga till grund för en redovisning. Om en rapport har lämnats direkt till Gruvspår ska källan registreras som privat tillhandahållen, inte som en offentlig webblänk.
+
+- Originalrapporten ska inte läggas i det publika GitHub-repot eller på webbplatsen utan uttryckligt godkännande från den som har rätt att dela den.
+- Offentliga poster får återge relevanta analysuppgifter när rapporten har granskats och publicering är lämplig.
+- Källhänvisningen ska då ange exempelvis: "Laboratorierapport, privat tillhandahållen till Gruvspår, ej offentligt tillgänglig". Ange laboratorium, rapportdatum och rapport-ID endast när dessa uppgifter får publiceras.
+- Markera om rapporten har granskats av Gruvspår. En uppgift som återberättats muntligt eller i text men där rapporten inte har granskats ska fortsatt märkas `user_provided_unverified`.
+- Publicera inte namn, kontaktuppgifter, kundnummer, provbeställaruppgifter eller andra person- och sekretesskänsliga detaljer.
+- Om rapporten inte får citeras eller återges ska den endast användas som privat bakgrund, i enlighet med villkoren för utlämnandet.
+
+Avsaknad av offentlig länk är alltså inte samma sak som avsaknad av källa. Källans åtkomststatus och granskningsstatus ska redovisas var för sig.
+
