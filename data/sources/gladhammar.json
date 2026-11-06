@@ -16,6 +16,22 @@
         "Källan är identifierad men alla underliggande provresultat och bilagor har ännu inte registrerats separat.",
         "Kartmarkören är en orienterande platsposition, inte en risk- eller föroreningsavgränsning."
       ]
+    },
+    {
+      "id": "gladhammar-report-2004-01",
+      "title": "Projekt Gladhammars gruvor, rapport 2004:01, Sammanfattande huvudstudierapport",
+      "publisher": "Västerviks kommun / Envipro Miljöteknik AB",
+      "year": 2005,
+      "url": "https://www.vastervik.se/globalassets/trafik-och-infrastruktur/hallbar-utveckling/gladhammars-gruvor/2004-1-sammanfattande-huvudstudierapport.pdf",
+      "source_perspective": "kommunal-huvudstudie",
+      "document_type": "undersökningsrapport",
+      "access_status": "public",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Originalrapport med publicerade mätvärden som registrerats separat i platsens dataregister.",
+      "limitations": [
+        "Värden gäller endast angivet provmaterial, provpunkt och tidsperiod.",
+        "Historiska mätvärden ska inte beskrivas som aktuella halter."
+      ]
     }
   ]
 }
