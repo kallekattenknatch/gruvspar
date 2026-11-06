@@ -86,6 +86,24 @@
         "blaiken-sgu-current",
         "blaiken-lansstyrelsen-2025"
       ]
+    },
+    {
+      "id": "blaiken-total-state-funding-through-2035",
+      "record_type": "financial_result",
+      "title": "Cirka 400 miljoner kronor i statliga bidrag beviljade för efterbehandling till och med 2035",
+      "description": "SGU anger att Länsstyrelsen Västerbotten ansökt om och beviljats totalt cirka 400 miljoner kronor i statsbidrag från Naturvårdsverket för arbetet med Blaikengruvan till och med 2035. Länsstyrelsen specificerar det senaste bidragsbeslutet till 212 miljoner kronor för 2025–2035. Denna post beskriver ungefärlig samlad beviljad finansiering, inte verifierade utbetalningar eller faktisk slutkostnad.",
+      "result": 400000000,
+      "unit": "cirka SEK i sammanlagda beviljade statsbidrag till och med 2035",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Cirka 400 miljoner kronor är beviljad finansiering, inte en redovisning av faktiskt utbetalda eller förbrukade medel.",
+        "Beloppet omfattar flera bidragsperioder; det får inte läggas ihop med 212 miljoner kronor en gång till.",
+        "Senaste perioden 2025–2035 omfattar 212 miljoner kronor enligt Länsstyrelsen."
+      ],
+      "source_ids": [
+        "blaiken-sgu-current",
+        "blaiken-lansstyrelsen-2025"
+      ]
     }
   ]
 }
