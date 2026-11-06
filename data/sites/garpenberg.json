@@ -171,6 +171,29 @@
       "source_ids": [
         "garpenberg-boliden-summary-report-2023"
       ]
+    },
+    {
+      "id": "sgu-production-20830205",
+      "record_type": "production_statistic",
+      "title": "SGU: registrerad producerad malm för Garpenbergsfältet",
+      "description": "SGU:s databas Malmer och anrikningsverk redovisar 70,87 miljoner ton producerad malm för posten Garpenbergsfältet, SGU-kod 20830205. Registrerad produktionsperiod: 1876–pågående. Detta är producerad malm enligt SGU:s historiska register, inte malmvärde, försäljningsintäkt eller företagsvinst.",
+      "result": 70.870253,
+      "unit": "miljoner ton producerad malm",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Garpenbergsfältet"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s produktionsregister bygger på historisk statistik och rapportering; det är inte automatiskt en fullständig livstidssumma för all brytning.",
+        "SGU anger att nationella sammanställningar börjar 1833 och att uppgifter före 1833 är sparsamma och fragmentariska.",
+        "Poster med olika SGU-koder redovisas separat och har inte summerats eftersom de kan avse skilda delobjekt eller överlappande statistikperioder.",
+        "Produktionsmängd får inte tolkas som malmvärde, omsättning, rörelseresultat eller nettovinst.",
+        "Mineralresurser och reserver har inte hämtats in eller publicerats."
+      ],
+      "source_ids": [
+        "sgu-ores-concentrators-open-data"
+      ]
     }
   ],
   "source_ids": [
@@ -179,13 +202,15 @@
     "smp-sok-miljorapport",
     "mod-2006-54",
     "garpenberg-dalalven-2023",
-    "sgu-bergverksstatistik-2025"
+    "sgu-bergverksstatistik-2025",
+    "sgu-ores-concentrators-open-data"
   ],
   "editorial_notes": [
     "Äldre gruvverksamhet och nuvarande verksamhet ska hållas isär när källorna gör den skillnaden.",
     "Varje provmaterial redovisas separat. Svampresultat får inte beskrivas som halter i mark eller anrikningssand.",
     "Uppgifter från användaren är inte verifierade laboratorieuppgifter förrän originalrapporten har granskats.",
-    "Analyser som genomförts inom SR:s journalistiska undersökning på reporterns begäran ingår inte i Gruvspårs register och ska inte publiceras eller användas som underlag. Andra analyser från laboratorier, myndigheter, forskare eller andra källor får registreras när källa, provtyp och metod kan redovisas."
+    "Analyser som genomförts inom SR:s journalistiska undersökning på reporterns begäran ingår inte i Gruvspårs register och ska inte publiceras eller användas som underlag. Andra analyser från laboratorier, myndigheter, forskare eller andra källor får registreras när källa, provtyp och metod kan redovisas.",
+    "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
   ],
   "accumulated_ore_value": {
     "status": "in_progress",
