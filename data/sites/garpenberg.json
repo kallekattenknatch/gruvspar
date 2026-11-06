@@ -4,12 +4,114 @@
   "case_study_status": "under_review",
   "scope": "Dokumenterade miljöundersökningar, biologiska prover, myndighetsbeslut, planerade och genomförda åtgärder samt uppföljning.",
   "public_safety_rule": "Innehåll om mineralresurser, prospekteringsmål eller information som kan underlätta att lokalisera nya fyndigheter ingår inte.",
-  "records": [],
+  "records": [
+    {
+      "id": "garpenberg-recipient-water-metals-2023",
+      "record_type": "sample_result",
+      "title": "Metaller i vatten vid Gruvsjön och Herrgårdsdammen, 2023",
+      "description": "Dalälven 2023, tabell 8, redovisar vid Gruvsjön (S23, ytvatten) Cu 0,40 µg/l, Zn 113 µg/l, Cr 0,37 µg/l, As 0,52 µg/l, U 0,62 µg/l, Cd 0,74 µg/l, Pb 0,091 µg/l och Ni 0,16 µg/l. Vid Herrgårdsdammen (34A) redovisas Cu 0,56 µg/l, Zn 79 µg/l, Cr 0,40 µg/l, As 0,38 µg/l, U 0,61 µg/l, Cd 0,55 µg/l, Pb 0,162 µg/l och Ni 0,10 µg/l. För Cu, Zn, Pb och Ni avses biotillgängliga halter; för As, Zn och U har antagen naturlig bakgrund dragits av enligt rapportens metod. Värdena är recipientvatten, inte halter i mark eller gruvavfall.",
+      "sample": {
+        "material": "surface_water",
+        "sampling_location": "Gruvsjön (S23, ytvatten) och Herrgårdsdammen (34A)",
+        "sampling_method": "Samordnad recipientkontroll, filtrerade prov och beräknade biotillgängliga halter enligt tabell 8"
+      },
+      "analyte": "Koppar, zink, krom, arsenik, uran, kadmium, bly och nickel",
+      "unit": "µg/l",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Värdena avser 2023 och är inte automatiskt representativa för andra år eller platser.",
+        "Tabell 8 redovisar bedömning enligt HVMFS 2019:25; en del värden är biotillgängliga eller bakgrundskorrigerade, inte totalhalter.",
+        "Gruvsjön tar emot utsläpp från gruvverksamhet och kommunalt avloppsreningsverk enligt rapporten; källbidrag kan därför inte tillskrivas enbart gruvan utan särskild analys."
+      ],
+      "source_ids": [
+        "garpenberg-dalalven-2023"
+      ]
+    },
+    {
+      "id": "garpenberg-pfos-forsan-2023",
+      "record_type": "sample_result",
+      "title": "PFOS i Forsån, 2023",
+      "description": "Dalälven 2023 redovisar årsmedelhalten PFOS (linjär + grenad) i Forsån, station 34, till 1,8 ng/l. Rapporten anger att detta överskred gränsvärdet för kemisk ytvattenstatus 0,65 ng/l som årsmedelvärde.",
+      "sample": {
+        "material": "surface_water",
+        "sampling_location": "Forsån, station 34",
+        "sampling_method": "Samordnad recipientkontroll, årsmedelvärde"
+      },
+      "analyte": "PFOS (linjär + grenad)",
+      "result": 1.8,
+      "unit": "ng/l",
+      "comparison": {
+        "value": 0.65,
+        "unit": "ng/l",
+        "name": "Gränsvärde för kemisk ytvattenstatus, årsmedelvärde",
+        "jurisdiction": "HVMFS 2019:25"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Mätningen avser Forsån och kan inte ensam visa vilken verksamhet eller källa som orsakat halten.",
+        "Resultatet gäller 2023."
+      ],
+      "source_ids": [
+        "garpenberg-dalalven-2023"
+      ]
+    },
+    {
+      "id": "garpenberg-pfas4-forsan-2023",
+      "record_type": "sample_result",
+      "title": "PFAS4 i Forsån, augusti 2023",
+      "description": "Dalälven 2023 redovisar PFAS4 i Forsån, station 34, till 13 ng/l i augusti 2023. Rapporten jämför med det kommande gränsvärdet för dricksvatten hos användare på 4 ng/l från 1 januari 2026. Detta är en jämförelse med dricksvattenregelverk, inte ett påstående att Forsåns ytvatten är dricksvatten.",
+      "sample": {
+        "material": "surface_water",
+        "sampling_location": "Forsån, station 34",
+        "sampling_method": "Provtagning augusti 2023"
+      },
+      "analyte": "PFAS4",
+      "result": 13,
+      "unit": "ng/l",
+      "comparison": {
+        "value": 4,
+        "unit": "ng/l",
+        "name": "Gränsvärde för PFAS4 i dricksvatten hos användare från 2026-01-01",
+        "jurisdiction": "Livsmedelsverkets dricksvattenföreskrifter"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Provmatrisen är ytvatten, inte dricksvatten vid användare.",
+        "Resultatet är ett enskilt prov från augusti 2023.",
+        "Källan till PFAS4-halten fastställs inte av detta prov."
+      ],
+      "source_ids": [
+        "garpenberg-dalalven-2023"
+      ]
+    },
+    {
+      "id": "garpenberg-nitrogen-explosives-2023",
+      "record_type": "monitoring_result",
+      "title": "Kväve och sulfat som indikatorer på sprängmedelspåverkan, 2023",
+      "description": "Dalälven 2023 beskriver höga kvävehalter i Gruvsjön och Herrgårdsdammen och anger att 60–70 procent av kvävet där förelåg som nitrit- och nitratkväve samtidigt som konduktivitet och sulfat var förhöjda. Rapporten beskriver detta som typiskt för påverkan från sprängning i gruvdrift. Den arealspecifika kväveförlusten vid Herrgårdsdammen klassades som hög.",
+      "sample": {
+        "material": "surface_water",
+        "sampling_location": "Gruvsjön och Herrgårdsdammen",
+        "sampling_method": "Samordnad recipientkontroll 2023"
+      },
+      "analyte": "Nitrit- och nitratkväve, konduktivitet och sulfat",
+      "unit": "Andel kväve som nitrit- och nitratkväve: 60–70 %",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Rapporten beskriver indikatorer som är typiska för sprängningspåverkan; de utgör inte i sig en fullständig källfördelning.",
+        "Kväve kan även komma från andra källor, vilket behöver beaktas."
+      ],
+      "source_ids": [
+        "garpenberg-dalalven-2023"
+      ]
+    }
+  ],
   "source_ids": [
     "lst-dalarna-2010-08-metallpaverkade-sjoar",
     "boliden-historiska-gruvomraden-garpenberg",
     "smp-sok-miljorapport",
-    "mod-2006-54"
+    "mod-2006-54",
+    "garpenberg-dalalven-2023"
   ],
   "editorial_notes": [
     "Äldre gruvverksamhet och nuvarande verksamhet ska hållas isär när källorna gör den skillnaden.",
