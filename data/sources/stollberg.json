@@ -1,0 +1,21 @@
+{
+  "site_id": "stollberg",
+  "sources": [
+    {
+      "id": "stollberg-main",
+      "title": "Efterbehandling av gruvområden",
+      "publisher": "SGU",
+      "document_type": "myndighetsinformation",
+      "access_status": "public",
+      "url": "https://www.sgu.se/samhallsplanering/fororenade-omraden/gruvor/",
+      "source_perspective": "myndighet",
+      "verification_status": "source_identified_content_reviewed",
+      "relevance": "SGU förbereder efterbehandling av äldre strandnära sandmagasin. SGU:s rapport 2024:02 beskriver tidigare undersökningar och provtagning av gruvavfall.",
+      "coordinate_note": "OpenStreetMap via Mapcarta, Stollbergs gruva. Markören är orienterande för gruvområdet.",
+      "limitations": [
+        "Källan är en översikt; underliggande rapporter och mätserier behöver registreras separat.",
+        "Kartmarkören är orienterande, inte en risk- eller föroreningsavgränsning."
+      ]
+    }
+  ]
+}
