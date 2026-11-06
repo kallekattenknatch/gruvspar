@@ -195,5 +195,28 @@
     "method": "Historisk metallproduktion eller faktiskt sålda metallprodukter värderade med dokumenterade priser för respektive period; inga kostnader, skatter eller avgifter dras av.",
     "coverage": "Livstidsunderlaget är ännu inte komplett.",
     "note": "Gruvspår sammanställer historisk malmproduktion, metallinnehåll och relevanta metallpriser för gruvans hela drifttid. Något säkert livstidstotal kan ännu inte anges. Årsomsättning eller rörelseresultat får inte användas som ersättning för ackumulerat malmvärde."
+  },
+  "reported_profit": {
+    "status": "provisional",
+    "metric": "operating_profit",
+    "currency": "SEK",
+    "amount": 38100000000,
+    "display_amount": "cirka 38,1 miljarder kronor",
+    "period_start": 2004,
+    "period_end": 2025,
+    "companies": [
+      {
+        "name": "Boliden AB / Boliden Mineral AB",
+        "amount": 38100000000,
+        "period": "2004–2025",
+        "coverage": "Preliminär summering av publicerade gruvspecifika årsresultat"
+      }
+    ],
+    "total_amount": 38100000000,
+    "note": "Preliminär summering av gruvspecifikt redovisat rörelseresultat. Äldre drift under andra ägare och åren före 2004 ingår inte. Beloppet är avrundat och måste kontrolleras mot fullständiga årsredovisningar innan det märks som slutligt. Malm från Lovisagruvan som behandlats i Garpenbergs anrikningsverk ska inte räknas som Garpenbergs egen malmproduktion; här avses rapporterat resultat för gruv-/anläggningsenheten enligt Boliden.",
+    "source_ids": [
+      "garpenberg-boliden-annual-reports-2004-2025",
+      "garpenberg-boliden-summary-report-2019"
+    ]
   }
 }
