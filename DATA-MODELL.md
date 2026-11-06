@@ -56,3 +56,9 @@ En rapport behöver inte vara sökbar på internet för att kunna ligga till gru
 
 Avsaknad av offentlig länk är alltså inte samma sak som avsaknad av källa. Källans åtkomststatus och granskningsstatus ska redovisas var för sig.
 
+## Avgränsning av journalistiskt beställda analyser
+
+Analyser som utförts inom SR:s journalistiska undersökning på reporterns begäran ska inte registreras, återges, citeras eller användas som underlag i Gruvspår. De tillhör det separata journalistiska arbetet.
+
+Detta undantag gäller endast dessa specifika analyser. Andra analyser från laboratorier, myndigheter, universitet, forskare, verksamhetsutövare eller andra identifierbara källor får ingå när källan, provmaterialet, metoden och eventuella begränsningar redovisas. En analys behöver inte vara publicerad på internet för att kunna registreras, men åtkomst- och granskningsstatus ska framgå.
+
