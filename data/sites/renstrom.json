@@ -134,5 +134,20 @@
       "boliden-bolidenomradet-site-2025",
       "boliden-annual-report-2025"
     ]
-  }
+  },
+  "data_gaps": [
+    {
+      "title": "Boliden redovisar endast samlat rörelseresultat för Boliden Area",
+      "description": "Boliden redovisar i årsredovisningen 2025 ett samlat rörelseresultat för Boliden Area: 2 376 MSEK för 2024 och 2 473 MSEK för 2025. Enheten omfattar Renström, Kristineberg och Kankberg samt områdets gemensamma verksamhet. Resultatet får inte fördelas mellan gruvorna utan ett gruvspecifikt underlag.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Granska äldre årsredovisningar och intern segmentrapportering efter resultat per enskild gruva.",
+        "Om separat resultat saknas ska det redovisas som ej särredovisat, inte uppskattas genom fördelning av områdets resultat."
+      ],
+      "source_ids": [
+        "boliden-annual-report-2025"
+      ]
+    }
+  ]
 }
