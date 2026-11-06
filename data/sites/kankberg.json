@@ -45,15 +45,63 @@
       "source_ids": [
         "sgu-bergverksstatistik-2025"
       ]
+    },
+    {
+      "id": "sgu-production-24820905",
+      "record_type": "production_statistic",
+      "title": "SGU: registrerad producerad malm för Kankberg (äldre brytning)",
+      "description": "SGU:s databas Malmer och anrikningsverk redovisar 1,157 miljoner ton producerad malm för posten Kankberg (äldre brytning), SGU-kod 24820905. Registrerad produktionsperiod: 1966–1997. Detta är producerad malm enligt SGU:s historiska register, inte malmvärde, försäljningsintäkt eller företagsvinst.",
+      "result": 1.156556,
+      "unit": "miljoner ton producerad malm",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Kankberg (äldre brytning)"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s produktionsregister bygger på historisk statistik och är inte automatiskt en fullständig livstidssumma för all brytning.",
+        "SGU anger att nationella sammanställningar börjar 1833 och att uppgifter före 1833 är sparsamma och fragmentariska.",
+        "Poster med olika SGU-koder redovisas separat och har inte summerats eftersom de kan avse skilda delobjekt eller överlappande statistikperioder.",
+        "Produktionsmängd är inte malmvärde, omsättning, rörelseresultat eller nettovinst.",
+        "Mineralresurser och reserver har inte publicerats."
+      ],
+      "source_ids": [
+        "sgu-ores-concentrators-open-data"
+      ]
+    },
+    {
+      "id": "sgu-production-24820907",
+      "record_type": "production_statistic",
+      "title": "SGU: registrerad producerad malm för Kankberg nya",
+      "description": "SGU:s databas Malmer och anrikningsverk redovisar 5,318 miljoner ton producerad malm för posten Kankberg nya, SGU-kod 24820907. Registrerad produktionsperiod: 2012–pågående. Detta är producerad malm enligt SGU:s historiska register, inte malmvärde, försäljningsintäkt eller företagsvinst.",
+      "result": 5.317756,
+      "unit": "miljoner ton producerad malm",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Kankberg nya"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s produktionsregister bygger på historisk statistik och är inte automatiskt en fullständig livstidssumma för all brytning.",
+        "SGU anger att nationella sammanställningar börjar 1833 och att uppgifter före 1833 är sparsamma och fragmentariska.",
+        "Poster med olika SGU-koder redovisas separat och har inte summerats eftersom de kan avse skilda delobjekt eller överlappande statistikperioder.",
+        "Produktionsmängd är inte malmvärde, omsättning, rörelseresultat eller nettovinst.",
+        "Mineralresurser och reserver har inte publicerats."
+      ],
+      "source_ids": [
+        "sgu-ores-concentrators-open-data"
+      ]
     }
   ],
   "source_ids": [
     "sgu-bergverksstatistik-2025",
     "boliden-bolidenomradet-site-2025",
-    "boliden-annual-report-2025"
+    "boliden-annual-report-2025",
+    "sgu-ores-concentrators-open-data"
   ],
   "editorial_notes": [
-    "Produktionsstatistik beskriver faktisk brytning, inte mineralresurser eller reserver."
+    "Produktionsstatistik beskriver faktisk brytning, inte mineralresurser eller reserver.",
+    "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
   ],
   "accumulated_ore_value": {
     "status": "in_progress",
