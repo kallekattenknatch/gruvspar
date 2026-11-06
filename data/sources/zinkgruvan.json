@@ -1,0 +1,36 @@
+{
+  "site_id": "zinkgruvan",
+  "sources": [
+    {
+      "id": "zinkgruvan-prtr",
+      "title": "Utsläpp i siffror: Zinkgruvan Mining AB",
+      "publisher": "Naturvårdsverket",
+      "document_type": "utslappsregister-prtr",
+      "access_status": "public",
+      "url": "https://utslappisiffror.naturvardsverket.se/sv/Sok/Anlaggningssida/?currentPage=762&epslanguage=sv&pid=2135&selectedCountryCode=sv",
+      "source_perspective": "myndighetsregister",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Anläggningssidan redovisar årsvisa rapporterade utsläpp till vatten och luft. För 2023–2025 finns mängder för arsenik, kadmium, nickel, bly, zink och totalkväve.",
+      "limitations": [
+        "Utsläppsmängder i kg/år ska inte blandas ihop med halter i recipientvatten.",
+        "Metod C avser beräknade mängder; metoderna måste beaktas.",
+        "Endast ämnen som omfattas av rapporteringen visas."
+      ]
+    },
+    {
+      "id": "zinkgruvan-court-2026",
+      "title": "Miljöprövning av Zinkgruvan",
+      "publisher": "Sveriges Domstolar",
+      "publication_year": 2026,
+      "document_type": "domstolsinformation",
+      "access_status": "public",
+      "url": "https://www.domstol.se/",
+      "source_perspective": "domstol",
+      "verification_status": "source_identified",
+      "relevance": "Kompletterande källa att bevaka för tillståndsvillkor och miljöprövning.",
+      "limitations": [
+        "Ingen specifik dom eller numeriskt villkor registrerat här."
+      ]
+    }
+  ]
+}
