@@ -156,6 +156,28 @@
       "source_ids": [
         "aitik-domstol-2026-06"
       ]
+    },
+    {
+      "id": "aitik-prtr-2025",
+      "record_type": "emission_result",
+      "title": "Rapporterade utsläpp till luft och vatten 2025",
+      "description": "Naturvårdsverkets PRTR-register visar för Aitik 2025 rapporterade utsläpp till vatten på 0 kg för arsenik, BOD7, kadmium, total klorid, krom, koppar, kvicksilver, ammoniumkväve, nickel, totalkväve, bly, totalfosfor, TOC och zink (metod M). Till luft rapporterades kolmonoxid 563 800 kg (C), fossil koldioxid 171 786 026 kg (C) och NOx 46 600 kg (C).",
+      "sample": {
+        "material": "reported_emission_to_air_and_water",
+        "sampling_location": "Boliden Mineral AB – Aitikgruvan, Gällivare"
+      },
+      "analyte": "Flera ämnen; se beskrivning",
+      "result": null,
+      "unit": "kg/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "PRTR redovisar årliga massutsläpp från anläggningen, inte koncentrationer i recipientvatten.",
+        "0 kg är det rapporterade värdet för 2025 och metod M; det betyder inte att alla ämnen saknas i miljön eller att recipienten är opåverkad.",
+        "Luftutsläpp och vattenutsläpp är skilda utsläppsvägar och ska inte summeras."
+      ],
+      "source_ids": [
+        "aitik-prtr"
+      ]
     }
   ],
   "source_ids": [
