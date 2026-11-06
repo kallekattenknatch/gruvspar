@@ -82,6 +82,21 @@
       "source_ids": [
         "svarttrask-sweco-2016"
       ]
+    },
+    {
+      "id": "svarttrask-remediation-status-sgu-2023",
+      "record_type": "remediation_result",
+      "title": "Efterbehandling genomförd på dagbrotten, vattenrening fortsätter",
+      "description": "SGU uppger att de två dagbrotten har efterbehandlats. Gråberg flyttades till det norra dagbrottet och täcktes 2018, medan det södra dagbrottet återfylldes med rent berg och morän. Sedimentationsbassängen muddrades 2015 och på nytt 2019. Vattenhalter i utströmmande vatten har minskat kraftigt men är fortfarande förhöjda vid vissa provpunkter. Vattenrening och kontroll av flöden och metallhalter fortsätter.",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s webbsida är en sammanfattning; senaste kontrollrapporter behöver hämtas för aktuella mätserier.",
+        "Genomförda åtgärder har inte inneburit att vattenreningen kunnat avslutas.",
+        "Historiska mätvärden från 2016 får inte beskrivas som dagens halter."
+      ],
+      "source_ids": [
+        "svarttrask-sgu-page"
+      ]
     }
   ]
 }
