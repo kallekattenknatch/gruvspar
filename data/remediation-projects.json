@@ -1,0 +1,279 @@
+{
+  "updated_at": "2026-11-06",
+  "method": "Belopp redovisas med den status som källan faktiskt stödjer. Budget/prognos, faktiskt utbetalt, entreprenörsersättning och total projektkostnad hålls isär. Täckning och inneslutning redovisas inte som att föroreningsmassan har avlägsnats.",
+  "projects": [
+    {
+      "id": "falun-faluprojektet",
+      "mine": "Falu gruva / Faluprojektet",
+      "period": "1992–2008 (uppföljning till 2013)",
+      "location": "Falun, Dalarnas län",
+      "total_cost_sek": 166100000,
+      "total_cost_status": "Slutrapporterad projektkostnad inklusive uppföljning enligt Naturvårdsverkets rapport 6398.",
+      "funding": [
+        {
+          "payer": "STORA / Stora Enso",
+          "amount_sek": 68000000,
+          "status": "Betald enligt slutrapport"
+        },
+        {
+          "payer": "Staten",
+          "amount_sek": 98000000,
+          "status": "Betald enligt slutrapport"
+        }
+      ],
+      "cost_breakdown": [
+        {
+          "item": "In situ-tvättning av kisbränderdeponin",
+          "amount_sek": 66000000,
+          "category": "behandling/metallextraktion"
+        },
+        {
+          "item": "Täckning av kisbränderområdet",
+          "amount_sek": 12000000,
+          "category": "inneslutning"
+        },
+        {
+          "item": "Täckning av Ingarvsmagasinet",
+          "amount_sek": 18000000,
+          "category": "inneslutning"
+        },
+        {
+          "item": "Uppsamling och rening av lakvatten från gruvområdet",
+          "amount_sek": 47000000,
+          "category": "vattenrening/löpande kontroll"
+        },
+        {
+          "item": "Omflyttning av rödfärgsråvara och grundvattenavskärmning",
+          "amount_sek": 900000,
+          "category": "riskreduktion"
+        },
+        {
+          "item": "Diverse mindre åtgärder",
+          "amount_sek": 200000,
+          "category": "övrigt"
+        },
+        {
+          "item": "Administration och provtagning",
+          "amount_sek": 19600000,
+          "category": "projektledning/kontroll"
+        },
+        {
+          "item": "Uppföljning och kontroll till 2013",
+          "amount_sek": 2400000,
+          "category": "uppföljning"
+        }
+      ],
+      "physical_actions": [
+        "Cirka 1 500 ton zink, 26 ton koppar och 2 ton kadmium tvättades ur kisbränderdeponin 1995–2006 och fångades upp i reningsprocessen.",
+        "Metallförorenat vatten samlades upp och renades genom kalkfällning; metallhydroxidslammet avvattnades och lämnades kvar på det behandlade området.",
+        "Kisbränderdeponin täcktes med tätskikt och skyddsskikt av morän.",
+        "Ingarvsmagasinet täcktes med ett tätskikt av flygaska och bioslam samt skyddsskikt."
+      ],
+      "environmental_results": [
+        "Efter tvättning och täckning minskade metalläckaget från kisbränderdeponin med 94 % för zink, 96 % för kadmium och 97 % för koppar enligt rapportens beräkningsmetod.",
+        "Efter täckning minskade läckaget från Ingarvsmagasinet med 80–90 % för zink och 80–95 % för kadmium; kopparresultatet var osäkrare.",
+        "Samlad provtagning indikerade minskade metallutsläpp från gruvavfall i Falu tätort med cirka 80–90 % för zink och kadmium samt 60–70 % för koppar."
+      ],
+      "limitations": [
+        "Kostnadssumman omfattar flera typer av åtgärder, inklusive täckning, vattenrening, administration och uppföljning. Den är inte en ren summa för borttagning av förorenade massor.",
+        "Metallerna som tvättades ut fångades i slam som enligt rapporten lämnades kvar på kisbränderdeponin; detta ska inte beskrivas som att allt metallinnehåll transporterades bort från området."
+      ],
+      "sources": [
+        "https://www.naturvardsverket.se/4ac485/globalassets/media/publikationer-pdf/ovriga-pub/978-91-620-6398-6.pdf"
+      ]
+    },
+    {
+      "id": "saxberget-saxbergsprojektet",
+      "mine": "Saxberget / Saxdalen",
+      "period": "1990-talet, teknisk dokumentation 2000",
+      "location": "Ludvika kommun, Dalarnas län",
+      "total_cost_sek": null,
+      "total_cost_status": "Fullständig slutlig totalsumma för hela projektet inte fastställd i den granskade rapporten. Ursprunglig budget var 55,2 mkr.",
+      "funding": [
+        {
+          "payer": "Boliden Mineral AB",
+          "amount_sek": null,
+          "status": "Budgeterade 7 mkr för gruvområdet; slutkostnaden uppges ha hållit sig inom budgetramen."
+        },
+        {
+          "payer": "Staten via Naturvårdsverket",
+          "amount_sek": null,
+          "status": "Finansierade delar av sandmagasinen och 11 mkr budget för Momsen-området."
+        },
+        {
+          "payer": "Kommunen",
+          "amount_sek": null,
+          "status": "Budgeterade 0,2 mkr för projektledning av Momsen-området."
+        }
+      ],
+      "cost_breakdown": [
+        {
+          "item": "Täckning av sandmagasinen, entreprenörens ersättning",
+          "amount_sek": 22000000,
+          "category": "inneslutning",
+          "status": "Rapporterad entreprenörsersättning; inte hela projektets slutkostnad."
+        },
+        {
+          "item": "Sanering i Saxdalen / Momsen-området",
+          "amount_sek": null,
+          "category": "marksanering",
+          "status": "Slutkostnaden uppges ha hållit sig inom budgetramen 11 mkr."
+        },
+        {
+          "item": "Sanering inom gruvområdet",
+          "amount_sek": null,
+          "category": "marksanering",
+          "status": "Slutkostnaden uppges ha hållit sig inom budgetramen 7 mkr."
+        }
+      ],
+      "physical_actions": [
+        "Förorenade massor i Saxdalen schaktades bort; rapporten beskriver muddring av anrikningssand i sjön Saxen.",
+        "Sandmagasinen täcktes med tätskikt och skyddsskikt. Entreprenörens ersättning för täckningsarbetena anges till cirka 22 mkr.",
+        "Schakt- och rivningsarbeten utfördes inom gruvområdet."
+      ],
+      "environmental_results": [
+        "Projektet hade utförande- och funktionskontroll av täckningen, bland annat kontroll av material, packning, vattenbalans och syretransport."
+      ],
+      "limitations": [
+        "55,2 mkr var budgeterad kostnad, inte verifierad faktisk slutkostnad.",
+        "Rapporten anger cirka 22 mkr som entreprenörens ersättning för täckningsarbetena, men detta får inte blandas ihop med hela projektets totalkostnad.",
+        "Täckning är inneslutning och minskar exponering/läckage; den avlägsnar inte automatiskt metallerna ur avfallet."
+      ],
+      "sources": [
+        "https://www.naturvardsverket.se/4ac498/contentassets/ad10920f11ee405ea5af8a5635cb2c9b/saxbergsproj.pdf"
+      ]
+    },
+    {
+      "id": "gladhammar-gruvor",
+      "mine": "Gladhammars gruvor",
+      "period": "2011 (efterkontroll 2013–2044)",
+      "location": "Västerviks kommun, Kalmar län",
+      "total_cost_sek": 58700000,
+      "total_cost_status": "Slutkostnadsprognos 58,7 mkr inklusive kommunens egen arbetsinsats och cirka 3,9 mkr avsatt för efterföljande miljökontroll; inte enbart entreprenadutgift.",
+      "funding": [
+        {
+          "payer": "Naturvårdsverket via Länsstyrelsen",
+          "amount_sek": null,
+          "status": "Huvudsaklig finansiering; exakt utbetalt belopp per finansiär kräver kontroll mot bidragsbeslut och slutredovisning."
+        },
+        {
+          "payer": "Västerviks kommun",
+          "amount_sek": null,
+          "status": "Mindre andel samt egen arbetsinsats; separat verifierat belopp saknas här."
+        }
+      ],
+      "cost_breakdown": [
+        {
+          "item": "Total projektkostnad",
+          "amount_sek": 58700000,
+          "category": "totalprojekt",
+          "status": "Slutkostnadsprognos inklusive miljökontroll."
+        },
+        {
+          "item": "Efterföljande miljökontroll",
+          "amount_sek": 3900000,
+          "category": "uppföljning",
+          "status": "Ingår i totalprognosen."
+        }
+      ],
+      "physical_actions": [
+        "Cirka 70 000 ton gruvavfall togs om hand.",
+        "Arsenikhaltig lakrest och vaskmull transporterades till extern deponi för farligt avfall.",
+        "Mindre förorenat varp och slagg placerades under vatten i Gruvviken i Tjursbosjön.",
+        "En stollgång pluggades för att minska utflödet av gruvvatten."
+      ],
+      "environmental_results": [
+        "Kommunens uppföljning 2021 visade att kopparhalterna i Tjursbosjön minskat med nära 55 %, kobolt med drygt 90 % och bly med drygt 75 %.",
+        "Efterkontrollen är långvarig eftersom sedimenten kan bli en sekundär källa till metaller; muddring kan bli aktuell om uppföljningen visar fortsatt läckage."
+      ],
+      "limitations": [
+        "Att lägga varp och slagg under vatten är en inneslutnings-/stabiliseringsåtgärd, inte borttagning av metallinnehållet ur miljön.",
+        "Totalbeloppet omfattar projektledning, undersökningar, arkeologi, miljökontroll och uppföljning samt entreprenad.",
+        "Eventuell andra etapp med muddring är inte genomförd och dess uppskattade kostnad ska inte räknas som utgift."
+      ],
+      "sources": [
+        "https://www.vastervik.se/globalassets/trafik-och-infrastruktur/hallbar-utveckling/gladhammars-gruvor/projekt-gladhammars-gruvor-erfarenhetsrapport.pdf",
+        "https://prod.vmeab.se/Kommun-och-politik/Hallbarhetsarbete-i-kommunen/miljoprojekt/Projekt-Gladhammars-gruvor/Rapporter/"
+      ]
+    },
+    {
+      "id": "adak-gruvan",
+      "mine": "Adakgruvan",
+      "period": "1998–2015",
+      "location": "Malå kommun, Västerbottens län",
+      "total_cost_sek": 22400000,
+      "total_cost_status": "Statens kostnader för efterbehandling och efterföljande kontroller/åtgärder under perioden 1998–2015 enligt Riksrevisionens rapport.",
+      "funding": [
+        {
+          "payer": "Staten",
+          "amount_sek": 22400000,
+          "status": "Statlig kostnad enligt Riksrevisionens redovisning."
+        }
+      ],
+      "cost_breakdown": [
+        {
+          "item": "Efterbehandling och efterföljande kontroller/åtgärder",
+          "amount_sek": 22400000,
+          "category": "inneslutning_och_uppfoljning",
+          "status": "Samlad periodkostnad; detaljerad kostnadsfördelning behöver hämtas från SGU/NUTEK."
+        }
+      ],
+      "physical_actions": [
+        "Avfallsområdet försågs med tätskikt av morän och skyddsskikt.",
+        "Gräs såddes på skyddsskiktet för att motverka erosion.",
+        "Industriområdet åtgärdades; sandmagasinet efterbehandlades i etapper."
+      ],
+      "environmental_results": [
+        "Åtgärderna syftade till att minska läckage av metaller till omgivande vattendrag.",
+        "Efterbehandling har krävt långvarig kontroll och återkommande åtgärder."
+      ],
+      "limitations": [
+        "Detta är en kostnad för efterbehandling och kontroll, huvudsakligen täckning/inneslutning, inte verifierad borttagning av metallförorenat avfall.",
+        "Detaljerad uppdelning mellan entreprenad, kontroll och andra åtgärder behöver hämtas från SGU:s projektakter."
+      ],
+      "sources": [
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/regeringens-skrivelse/riksrevisionens-rapport-om-ekonomiska-risker-for_h303165/html/",
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/proposition/budgetpropositionen-for-1998_gl031d24/html/"
+      ]
+    },
+    {
+      "id": "garpenberg-historical",
+      "mine": "Garpenberg",
+      "period": "1987–1996 (historisk planering och förhandlingar)",
+      "location": "Hedemora kommun, Dalarnas län",
+      "total_cost_sek": null,
+      "total_cost_status": "Ingen verifierad totalsumma för faktiskt utbetald sanering hittad. En planerad sanering av Herrgårdsområdet uppskattades 1996 till 7 mkr, men utbetalning och slutförande är inte verifierade.",
+      "funding": [
+        {
+          "payer": "Dalälvsdelegationens statliga ram",
+          "amount_sek": 100000000,
+          "status": "Ursprunglig ram för hela Dalälvsprogrammet, inte Garpenberg specifikt. Cirka 50 mkr användes för Falun; resterande cirka 50 mkr drogs in 1995 efter att avtal med Boliden inte nåtts."
+        }
+      ],
+      "cost_breakdown": [
+        {
+          "item": "Herrgårdsområdet, planerad slaggsanering",
+          "amount_sek": 7000000,
+          "category": "planerad_sanering",
+          "status": "Kostnadsuppskattning i riksdagsprotokoll 3 juni 1996; ingen verifierad utbetalning."
+        }
+      ],
+      "physical_actions": [
+        "Naturvårdsverket hade påbörjat planering av sanering av Herrgårdsområdet på Hedemora kommuns initiativ.",
+        "Riksdagsdebatten nämnde ett initiativ för viss slaggsanering och en konflikt mellan kulturmiljövård och miljöhänsyn."
+      ],
+      "environmental_results": [],
+      "limitations": [
+        "Förhandlingarna mellan staten/Naturvårdsverket och Boliden om gruvavfallet ledde inte till avtal enligt riksdagshandlingarna.",
+        "De cirka 50 mkr som drogs in var inte utbetalda till Garpenberg.",
+        "7 mkr var uppskattad kostnad, inte verifierad utgift.",
+        "SOU 2018:59 anger att rättsliga processer om uppdatering av Garpenbergs ekonomiska säkerhet pågick och att säkerheten kunde behöva femdubblas; detta är framtida säkerhet, inte historisk saneringsutgift."
+      ],
+      "sources": [
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/riksdagens-snabbprotokoll-199596104-mandagen-den_gj09104/html/",
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/riksdagens-snabbprotokoll-19949531-tisdagen-den_gi0931/html/",
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/statens-offentliga-utredningar/statens-gruvliga-risker_h6b359/html/"
+      ]
+    }
+  ]
+}
