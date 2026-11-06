@@ -95,6 +95,28 @@
       "source_ids": [
         "sgu-bergverksstatistik-2025"
       ]
+    },
+    {
+      "id": "zinkgruvan-concentrate-production-2025",
+      "record_type": "production_statistic",
+      "title": "Producerade metallkoncentrat 2025",
+      "description": "SGU:s tabell 12 redovisar för Zinkgruvans anrikningsverk 16 162 ton kopparkoncentrat, 42 563 ton blykoncentrat och 151 142 ton zinkkoncentrat under 2025. Uppgifterna avser koncentratproduktion och inte försäljningsintäkter eller livstidssumma.",
+      "sample": {
+        "material": "other",
+        "sampling_location": "Zinkgruvans anrikningsverk, Askersunds kommun"
+      },
+      "analyte": "Koppar-, bly- och zinkkoncentrat",
+      "result": 151142,
+      "unit": "ton zinkkoncentrat/år; övriga koncentratmängder anges i beskrivningen",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser endast 2025.",
+        "Koncentratproduktion är inte samma sak som mängd malm som brutits.",
+        "Detta är inte ackumulerat malmvärde."
+      ],
+      "source_ids": [
+        "sgu-bergverksstatistik-2025"
+      ]
     }
   ],
   "source_ids": [
