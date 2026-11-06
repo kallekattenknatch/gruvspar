@@ -135,6 +135,39 @@
         "SGU anger att metallinnehåll rapporteras systematiskt från 1909, avfallsberg från 1892 och anrikningsverk från 1906; äldre uppgifter är mer ofullständiga.",
         "Databasen innehåller även resurs- och reservuppgifter. Gruvspår använder endast historisk faktisk produktion och publicerar inte prospekteringsmål eller resurs-/reservuppgifter."
       ]
+    },
+    {
+      "id": "garpenberg-boliden-annual-reports-2004-2025",
+      "title": "Boliden årsredovisningar, gruvspecifikt rörelseresultat Garpenberg 2004–2025",
+      "publisher": "Boliden AB",
+      "publication_year": 2026,
+      "document_type": "arsredovisningsserie",
+      "access_status": "public",
+      "url": "https://www.boliden.com/operations/mines/boliden-garpenberg",
+      "source_perspective": "verksamhetsutovare",
+      "verification_status": "source_identified_content_reviewed",
+      "relevance": "Boliden redovisar gruvspecifikt rörelseresultat för Garpenberg i årsredovisningar och på gruvans faktasida. Historiska årsredovisningar används för den preliminära summeringen 2004–2025.",
+      "limitations": [
+        "Beloppet i Gruvspår är avrundat och preliminärt tills varje årsbelopp har dubbelkontrollerats mot originalårsredovisningarna.",
+        "Äldre drift före 2004 under andra ägare ingår inte.",
+        "Rörelseresultat är inte nettovinst eller malmvärde."
+      ]
+    },
+    {
+      "id": "garpenberg-boliden-summary-report-2019",
+      "title": "Boliden Summary Report, Resources and Reserves 2019, Garpenberg",
+      "publisher": "Boliden AB",
+      "publication_year": 2019,
+      "document_type": "teknisk_gruvrapport",
+      "access_status": "public",
+      "url": "https://www.boliden.com/globalassets/operations/exploration/mineral-resources-and-mineral-reserves-pdf/2019/resources_and_reserves_garpenberg_2019-12-31.pdf",
+      "source_perspective": "verksamhetsutovare_teknisk_rapport",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Historisk rapport bekräftar att Boliden tog över Garpenberg 1957 och redovisar historisk produktion. Den används för ägarhistorik och produktionskontext, inte som vinstkälla.",
+      "limitations": [
+        "Rapporten innehåller även resurs- och reservuppgifter som Gruvspår inte publicerar.",
+        "Malm från Lovisagruvan behandlades i Garpenberg 2005–2014."
+      ]
     }
   ]
 }
