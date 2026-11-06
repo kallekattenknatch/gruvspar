@@ -128,9 +128,34 @@
       "source_ids": [
         "sgu-ores-concentrators-open-data"
       ]
+    },
+    {
+      "id": "blaiken-blaiksjon-tailings-metals-2023",
+      "record_type": "sample_result",
+      "title": "Zink i sedimenterat anrikningssandmaterial i Blaiksjön, SGU 2023",
+      "description": "SGU tog sex prov från botten av Blaiksjön med båt och sedimentprovtagare. Det sammanvägda medelvärdet visade zink 0,31 viktprocent (cirka 3 100 ppm). SGU beskriver halten som svagt förhöjd. Mängden anrikningssand i sjön var inte känd i rapporten.",
+      "sample": {
+        "material": "tailings_sediment",
+        "sampling_location": "Blaiksjöns botten",
+        "sampling_method": "SGU:s provtagning och sammanvägda kemiska analyser, SGU RR 2023:01"
+      },
+      "sample_count": 6,
+      "analyte": "Metaller och grundämnen enligt SGU RR 2023:01",
+      "unit": "ppm och viktprocent",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser endast angivna prov och provpunkter, inte hela gruvområdet.",
+        "Kemisk karakterisering av gruvavfall är inte i sig en hälsoriskbedömning.",
+        "Halter i varp, anrikningssand, sedimenterat avfall och slagg är olika provmatriser och får inte blandas eller jämföras direkt med vatten- eller jordriktvärden.",
+        "Inga uppskattningar av kvarvarande metallmängder eller resurs-/reservuppgifter publiceras här."
+      ],
+      "source_ids": [
+        "sgu-rr-2023-01"
+      ]
     }
   ],
   "source_ids": [
-    "sgu-ores-concentrators-open-data"
+    "sgu-ores-concentrators-open-data",
+    "sgu-rr-2023-01"
   ]
 }
