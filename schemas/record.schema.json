@@ -29,7 +29,8 @@
         "planned_action",
         "completed_action",
         "monitoring_result",
-        "document"
+        "document",
+        "production_statistic"
       ]
     },
     "title": {
