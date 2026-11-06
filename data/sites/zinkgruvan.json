@@ -5,7 +5,8 @@
   "editorial_notes": [
     "Utsläppsmängder i kg/år är inte koncentrationer i recipientvatten.",
     "Metod C i utsläppsregistret betyder beräknad mängd; det är inte direkt kontinuerlig mätning.",
-    "Utsläppsregister redovisar ämnen som passerar rapporteringströsklar; frånvaro av ett ämne i tabellen betyder inte nollutsläpp."
+    "Utsläppsregister redovisar ämnen som passerar rapporteringströsklar; frånvaro av ett ämne i tabellen betyder inte nollutsläpp.",
+    "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
   ],
   "records": [
     {
@@ -140,10 +141,57 @@
       "source_ids": [
         "zinkgruvan-sec-technical-report-2005"
       ]
+    },
+    {
+      "id": "sgu-production-18820505",
+      "record_type": "production_statistic",
+      "title": "SGU: registrerad producerad malm för Zinkgruvan",
+      "description": "SGU:s databas Malmer och anrikningsverk redovisar 49,007 miljoner ton producerad malm för posten Zinkgruvan, SGU-kod 18820505. Registrerad produktionsperiod: 1860–pågående. Detta är producerad malm enligt SGU:s historiska register, inte malmvärde, försäljningsintäkt eller företagsvinst.",
+      "result": 49.006792,
+      "unit": "miljoner ton producerad malm",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Zinkgruvan"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s produktionsregister bygger på historisk statistik och rapportering; det är inte automatiskt en fullständig livstidssumma för all brytning.",
+        "SGU anger att nationella sammanställningar börjar 1833 och att uppgifter före 1833 är sparsamma och fragmentariska.",
+        "Poster med olika SGU-koder redovisas separat och har inte summerats eftersom de kan avse skilda delobjekt eller överlappande statistikperioder.",
+        "Produktionsmängd får inte tolkas som malmvärde, omsättning, rörelseresultat eller nettovinst.",
+        "Mineralresurser och reserver har inte hämtats in eller publicerats."
+      ],
+      "source_ids": [
+        "sgu-ores-concentrators-open-data"
+      ]
+    },
+    {
+      "id": "sgu-production-18820507",
+      "record_type": "production_statistic",
+      "title": "SGU: registrerad producerad malm för Zinkgruvan",
+      "description": "SGU:s databas Malmer och anrikningsverk redovisar 2,289 miljoner ton producerad malm för posten Zinkgruvan, SGU-kod 18820507. Registrerad produktionsperiod: 2010–pågående. Detta är producerad malm enligt SGU:s historiska register, inte malmvärde, försäljningsintäkt eller företagsvinst.",
+      "result": 2.289076,
+      "unit": "miljoner ton producerad malm",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Zinkgruvan"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s produktionsregister bygger på historisk statistik och rapportering; det är inte automatiskt en fullständig livstidssumma för all brytning.",
+        "SGU anger att nationella sammanställningar börjar 1833 och att uppgifter före 1833 är sparsamma och fragmentariska.",
+        "Poster med olika SGU-koder redovisas separat och har inte summerats eftersom de kan avse skilda delobjekt eller överlappande statistikperioder.",
+        "Produktionsmängd får inte tolkas som malmvärde, omsättning, rörelseresultat eller nettovinst.",
+        "Mineralresurser och reserver har inte hämtats in eller publicerats."
+      ],
+      "source_ids": [
+        "sgu-ores-concentrators-open-data"
+      ]
     }
   ],
   "source_ids": [
-    "sgu-bergverksstatistik-2025"
+    "sgu-bergverksstatistik-2025",
+    "sgu-ores-concentrators-open-data"
   ],
   "accumulated_ore_value": {
     "status": "in_progress",
