@@ -1,11 +1,45 @@
 {
   "site_id": "adak",
   "display_name": "Adakfältet",
-  "case_study_status": "source_registered",
+  "case_study_status": "published_environmental_data_added",
   "scope": "Dokumenterade miljöundersökningar, påverkan, beslut, åtgärder och uppföljning.",
-  "records": [],
+  "records": [
+    {
+      "id": "adak-metal-leaching-after-cover",
+      "record_type": "remediation_result",
+      "title": "Metallutlakning mot Skeppträskån efter täckning",
+      "description": "Naturvårdsverkets utvärdering av efterbehandlade gruvområden anger att utlakningen av metaller från Adak mot Skeppträskån efter genomförd efterbehandling hade reducerats till cirka 0,5–2 procent av den nivå som uppmättes före åtgärderna. Metallbelastningen från Adak mot Rudjebacken hade också minskat, men inte lika tydligt. Rapporten bedömde sammantaget att efterbehandlingen föreföll ha utförts med gott resultat, samtidigt som en viss belastning på recipienterna kvarstår.",
+      "result": 1.25,
+      "unit": "procent av uppmätt metallutlakning före åtgärd (intervall 0,5–2 %)",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Resultatet gäller utlakning mot Skeppträskån enligt den äldre utvärderingen; det är inte ett aktuellt provvärde.",
+        "Intervallet beskriver relativ belastning efter jämfört med före åtgärd, inte en halt i vatten.",
+        "Rapporten beskriver en kvarstående belastning på recipienterna."
+      ],
+      "source_ids": [
+        "adak-naturvardsverket-2017"
+      ]
+    },
+    {
+      "id": "adak-lime-ponds-current-assessment",
+      "record_type": "environmental_observation",
+      "title": "Kalkdammar minskar arsenik och järn, men inte koppar, sulfat eller pH",
+      "description": "SGU:s objektsida, senast granskad 21 oktober 2025, anger att täckningen av sandmagasinet minskat läckaget av bland annat koppar och arsenik. Det utläckande vattnet bedöms dock fortfarande vara för surt och innehålla för höga metallhalter. Tre kalkdammar har anlagts. Enligt SGU har dammarna hittills minskat arsenik- och järnhalterna i det avbördade vattnet, medan koppar- och sulfathalter samt pH förblivit oförändrade. SGU utreder förbättring av två dammar som avleder vatten mot Rudtjejaure.",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Detta är SGU:s sammanfattande bedömning, inte en numerisk mätserie.",
+        "Uppgiften ska inte tolkas som att alla metallhalter minskat eller att vattenreningen är färdig.",
+        "SGU-sidan beskriver status vid granskning 2025-10-21."
+      ],
+      "source_ids": [
+        "adak-main"
+      ]
+    }
+  ],
   "source_ids": [
-    "adak-main"
+    "adak-main",
+    "adak-naturvardsverket-2017"
   ],
   "editorial_notes": [
     "Platsmarkören är orienterande och anger inte gränsen för förorenat område.",
