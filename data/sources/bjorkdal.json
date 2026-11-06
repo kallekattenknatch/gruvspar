@@ -35,6 +35,22 @@
         "SGU anger att metallinnehåll rapporteras systematiskt från 1909, avfallsberg från 1892 och anrikningsverk från 1906; äldre uppgifter är mer ofullständiga.",
         "Databasen innehåller även resurs- och reservuppgifter. Gruvspår använder endast historisk faktisk produktion och publicerar inte prospekteringsmål eller resurs-/reservuppgifter."
       ]
+    },
+    {
+      "id": "bjorkdal-prtr",
+      "title": "Utsläpp i siffror: Björkdalsgruvan",
+      "publisher": "Naturvårdsverket",
+      "publication_year": 2026,
+      "document_type": "PRTR-anläggningsregister",
+      "access_status": "public",
+      "url": "https://utslappisiffror.naturvardsverket.se/sv/Sok/Anlaggningssida/?pid=4493",
+      "source_perspective": "myndighet",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Naturvårdsverkets PRTR-sida redovisar rapporterade årliga utsläpp från Björkdalsgruvan. 2024 års tabell innehåller bland annat arsenik, totalkväve och totalfosfor till vatten samt CO2 och NOx till luft.",
+      "limitations": [
+        "Årliga massutsläpp är inte koncentrationer i recipientvatten.",
+        "Metod C och E innebär beräknad respektive uppskattad mängd."
+      ]
     }
   ]
 }
