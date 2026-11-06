@@ -56,5 +56,16 @@
   ],
   "editorial_notes": [
     "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
+  ],
+  "data_gaps": [
+    {
+      "title": "Två SGU-poster för Långbansfältet",
+      "description": "Två koder redovisar separata produktionsmängder och överlappande år. Ingen gemensam totalsumma har beräknats.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Kontrollera historiska delgruvor och källreferenser för koderna 17820104 och 17820121."
+      ]
+    }
   ]
 }
