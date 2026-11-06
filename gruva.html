@@ -114,10 +114,10 @@ if(site){
   render('authority',sources.filter(x=>/myndighet|domstol|länsstyrelse|kommun|tillsyn|beslut|föreläggande|sgu|naturvårdsverket/i.test([x.publisher,x.title,x.document_type].join(' '))).map(x=>({title:x.title,description:x.relevance,meta:[x.publisher,x.publication_year||x.year].filter(Boolean).join(' · '),limitations:x.limitations,source_ids:[x.id]})).concat(records.filter(isRisk)),
    'Inga särskilda tillsynsbeslut är registrerade. Se även källförteckningen.',x=>article(x.title,x.description,x.meta,x.limitations,x.source_ids,sourceMap));
   render('gaps',d.data_gaps||[],'Inga särskilda kunskapsluckor är registrerade i platsfilen.',x=>article(x.title,x.description,[x.priority,x.status].filter(Boolean).join(' · '),x.next_steps||[],x.source_ids,sourceMap));
-  render('sources',sources,'Inga identifierade källor är registrerade för platsen.',x=>article(x.title,x.relevance,[x.publisher,x.publication_year||x.year,x.document_type||x.type,x.verification_status].filter(Boolean).join(' · '),x.limitations,[],sourceMap).appendChild?(()=>{
+  render('sources',sources,'Inga identifierade källor är registrerade för platsen.',x=>{
    const e=article(x.title,x.relevance,[x.publisher,x.publication_year||x.year,x.document_type||x.type,x.verification_status].filter(Boolean).join(' · '),x.limitations,[],sourceMap);
    if(x.url){const a=document.createElement('a');a.href=x.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Öppna originalkällan';e.appendChild(a);}return e;
-  })():document.createElement('article'));
+  });
   const ov=d.accumulated_ore_value;
   byId('ore-value-amount').textContent=ov?.amount!=null?new Intl.NumberFormat('sv-SE',{style:'currency',currency:ov.currency||'SEK',maximumFractionDigits:0}).format(ov.amount):'Livstidsvärde ej fastställt';
   byId('ore-value-detail').textContent=ov?.note||'Beräkning kräver verifierad årsproduktion av sålda metaller, utbyte och historiska priser. Malmtonnage är inte ekonomiskt värde.';
