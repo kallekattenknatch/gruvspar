@@ -66,6 +66,23 @@
         "Brubäckens avrinningsområde får inte automatiskt likställas med varje provpunkt i Garpenberg.",
         "Uppgifterna i domen behöver kontrolleras mot underliggande rapporter innan mätdata registreras."
       ]
+    },
+    {
+      "id": "garpenberg-dalalven-2023",
+      "title": "Dalälven 2023 – Resultat och diskussion",
+      "publisher": "Dalälvens vattenvårdsförening; analyser SGS Analytics Sweden AB",
+      "publication_year": 2024,
+      "document_type": "recipientkontroll-arsrapport",
+      "access_status": "public",
+      "url": "https://www.dalalvensvvf.se/wp-content/uploads/Dalalven-2023.pdf",
+      "source_perspective": "samordnad-recipientkontroll",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Innehåller recipientkontroll 2023 för Garpenbergsområdet med metallhalter i vatten, PFOS, PFAS4, kväve, sulfat och tidsserier för flera provstationer.",
+      "limitations": [
+        "Vattenresultat gäller angivna stationer och provmatriser; de är inte halter i mark eller gruvavfall.",
+        "Rapporten redovisar påverkan från flera möjliga källor, inklusive gruvverksamhet och avloppsreningsverk.",
+        "För filtrerade prov används beräknade biotillgängliga halter för vissa metaller; detta ska inte blandas med totalhalter i ofiltrerade prov."
+      ]
     }
   ]
 }
