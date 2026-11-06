@@ -125,6 +125,24 @@
         "Produktionsvolym är inte försäljningsintäkt eller ackumulerat malmvärde.",
         "Resurs- och reservuppgifter används inte i Gruvspår."
       ]
+    },
+    {
+      "id": "sgu-ores-concentrators-open-data",
+      "title": "Malmer och anrikningsverk, öppna data",
+      "publisher": "Sveriges geologiska undersökning (SGU)",
+      "publication_year": 2025,
+      "document_type": "oppna_data_produktionshistorik",
+      "access_status": "public",
+      "url": "https://api.sgu.se/oppnadata/malmer-anrikningsverk/ogc/features/v1",
+      "source_perspective": "myndighetsdata",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "SGU:s öppna databas innehåller historiska uppgifter om gruvor och anrikningsverk: produktionsperioder, producerad malmmängd, metallhalter, gråberg samt mängder och metallinnehåll i koncentrat. Underlaget bygger bland annat på Bergshanteringen 1833–1977, Bergverksstatistik och äldre bergmästarhandlingar.",
+      "limitations": [
+        "Uppgiften production_mt avser producerad malm och är inte i sig malmvärde eller försäljningsintäkt.",
+        "Metallhalter måste kopplas till rätt gruva, tidsperiod och prov-/produktionsunderlag innan de används för värdeberäkning.",
+        "SGU anger att metallinnehåll rapporteras systematiskt från 1909, avfallsberg från 1892 och anrikningsverk från 1906; äldre uppgifter är mer ofullständiga.",
+        "Databasen innehåller även resurs- och reservuppgifter. Gruvspår använder endast historisk faktisk produktion och publicerar inte prospekteringsmål, fyndighetsdetaljer eller resurs-/reservuppgifter."
+      ]
     }
   ]
 }
