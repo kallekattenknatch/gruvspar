@@ -148,6 +148,50 @@
       "source_ids": [
         "boliden-annual-report-2025"
       ]
+    },
+    {
+      "title": "Gruvspecifikt rörelseresultat ej komplett",
+      "description": "Boliden redovisar samlat rörelseresultat för Boliden Area; detta kan inte fördelas mellan Renström, Kristineberg och Kankberg.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta gruvspecifika originalrapporter och kontrollera avgränsning, år och metod."
+      ]
+    },
+    {
+      "title": "Miljöunderlaget behöver breddas",
+      "description": "Fullständiga serier för mark, vatten, sediment, luft och biota är inte samlade.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta gruvspecifika originalrapporter och kontrollera avgränsning, år och metod."
+      ]
+    },
+    {
+      "title": "Saneringspengar och fysisk åtgärd behöver följas upp",
+      "description": "Budget, bidrag, utbetalningar och slutkostnad måste skiljas åt.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta gruvspecifika originalrapporter och kontrollera avgränsning, år och metod."
+      ]
+    },
+    {
+      "title": "Käll- och tidsperiodskontroll pågår",
+      "description": "Historiska poster behöver kontrolleras mot originalkällor och eventuella överlapp.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta gruvspecifika originalrapporter och kontrollera avgränsning, år och metod."
+      ]
     }
-  ]
+  ],
+  "reported_profit": {
+    "status": "in_progress",
+    "metric": "operating_profit",
+    "currency": "SEK",
+    "amount": null,
+    "total_amount": null,
+    "note": "Boliden redovisar samlat resultat för Boliden Area, inte separat för Renström. Resultatet fördelas inte mellan gruvor."
+  }
 }
