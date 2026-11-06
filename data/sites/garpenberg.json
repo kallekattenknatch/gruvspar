@@ -242,10 +242,11 @@
       }
     ],
     "total_amount": 38100000000,
-    "note": "Preliminär summering av gruvspecifikt redovisat rörelseresultat 2004–2025, cirka 38,1 miljarder kronor. Beloppet är inte nettovinst, inte malmvärde och inte hela gruvans historiska livstidsresultat. Summan ska betraktas som preliminär tills samtliga årsbelopp har stämts av mot respektive originalrapport. Boliden anger separat rörelseresultat för Garpenberg på 4 411 MSEK för 2025 och 3 740 MSEK för 2024.",
+    "note": "Preliminär summering av gruvspecifikt redovisat rörelseresultat 2004–2025, cirka 38,1 miljarder kronor. Beloppet är inte nettovinst, inte malmvärde och inte hela gruvans historiska livstidsresultat. Summan ska betraktas som preliminär tills samtliga årsbelopp har stämts av mot respektive originalrapport. Boliden anger separat rörelseresultat för Garpenberg på 4 411 MSEK för 2025 och 3 740 MSEK för 2024. Boliden års- och hållbarhetsredovisning 2025 bekräftar 4 411 MSEK för 2025.",
     "source_ids": [
       "garpenberg-boliden-annual-reports-2004-2025",
-      "garpenberg-boliden-summary-report-2019"
+      "garpenberg-boliden-summary-report-2019",
+      "boliden-annual-report-2025"
     ],
     "annual_results": [
       {
