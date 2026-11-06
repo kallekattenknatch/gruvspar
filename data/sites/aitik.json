@@ -109,5 +109,27 @@
     "method": "Historisk metallproduktion eller faktiskt sålda metallprodukter värderade med dokumenterade priser för respektive period; inga kostnader, skatter eller avgifter dras av.",
     "coverage": "Livstidsunderlaget är ännu inte komplett.",
     "note": "Gruvspår sammanställer historisk malmproduktion, metallinnehåll och relevanta metallpriser för gruvans hela drifttid. Något säkert livstidstotal kan ännu inte anges. Årsomsättning eller rörelseresultat får inte användas som ersättning för ackumulerat malmvärde."
+  },
+  "reported_profit": {
+    "status": "partial_verified",
+    "metric": "operating_profit",
+    "currency": "SEK",
+    "amount": 26121000000,
+    "display_amount": "26,1 miljarder kronor",
+    "period_start": 2010,
+    "period_end": 2025,
+    "companies": [
+      {
+        "name": "Boliden AB / Boliden Mineral AB",
+        "amount": 26121000000,
+        "period": "2010–2025",
+        "coverage": "Delperiod; verifierad årsredovisningsserie"
+      }
+    ],
+    "total_amount": 26121000000,
+    "note": "Preliminär summering av gruvspecifikt redovisat rörelseresultat för 2010–2025. Detta är inte Aitiks hela livstid eftersom gruvan startade 1968. Äldre år saknas i den verifierade summeringen. Måttet är rörelseresultat, inte nettovinst eller kassaflöde. Beloppet ska uppdateras om äldre eller korrigerade årsdata hittas.",
+    "source_ids": [
+      "aitik-boliden-annual-reports-2010-2025"
+    ]
   }
 }
