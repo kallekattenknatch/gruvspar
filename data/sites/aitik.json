@@ -77,5 +77,14 @@
   ],
   "source_ids": [
     "sgu-bergverksstatistik-2025"
-  ]
+  ],
+  "accumulated_ore_value": {
+    "status": "in_progress",
+    "amount": null,
+    "currency": "SEK",
+    "period": "Från produktionsstart till senaste verifierbara produktionsår",
+    "method": "Historisk metallproduktion eller faktiskt sålda metallprodukter värderade med dokumenterade priser för respektive period; inga kostnader, skatter eller avgifter dras av.",
+    "coverage": "Livstidsunderlaget är ännu inte komplett.",
+    "note": "Gruvspår sammanställer historisk malmproduktion, metallinnehåll och relevanta metallpriser för gruvans hela drifttid. Något säkert livstidstotal kan ännu inte anges. Årsomsättning eller rörelseresultat får inte användas som ersättning för ackumulerat malmvärde."
+  }
 }
