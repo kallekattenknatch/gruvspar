@@ -125,7 +125,7 @@ target.appendChild(item);
     [p.period,p.status,p.estimated_or_reserved_amount_sek!=null?'Kostnadsuppskattning: '+p.estimated_or_reserved_amount_sek.toLocaleString('sv-SE')+' kr':'',
      p.confirmed_paid_sek!=null?'Bekräftat utbetalt: '+p.confirmed_paid_sek.toLocaleString('sv-SE')+' kr':'',
      p.evidence_status||''].filter(Boolean).join(' · '),p.limitations,p.source_ids)));
-   if(d.remediation_finance.open_questions?.length)finance.appendChild(make('Öppna frågor att utreda',d.remediation_finance.open_questions.join(' ')));
+   if(d.remediation_finance?.open_questions?.length)finance.appendChild(make('Öppna frågor att utreda',d.remediation_finance.open_questions.join(' ')));
   }else blank('remediation-finance','Ingen särskild saneringsekonomi är registrerad.');
   const planSources=allSources.filter(x=>/plan|huvudstud|åtgärd|saner|efterbehand|program/i.test([x.title,x.relevance,x.document_type].join(' ')));
   render('plans',planSources.concat(remediationRecords.filter(r=>r.record_type==='remediation_plan').map(r=>({title:r.title,description:r.description,meta:r.evidence_status,limitations:r.limitations,source_ids:r.source_ids})),projects.map(p=>({title:p.name,description:p.findings?.join(' '),meta:p.period+' · '+p.status,limitations:p.limitations,source_ids:p.source_ids}))),
