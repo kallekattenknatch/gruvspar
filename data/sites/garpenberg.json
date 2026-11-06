@@ -4,78 +4,12 @@
   "case_study_status": "under_review",
   "scope": "Dokumenterade miljöundersökningar, biologiska prover, myndighetsbeslut, planerade och genomförda åtgärder samt uppföljning.",
   "public_safety_rule": "Innehåll om mineralresurser, prospekteringsmål eller information som kan underlätta att lokalisera nya fyndigheter ingår inte.",
-  "records": [
-    {
-      "id": "user-reported-fly-agaric-lead",
-      "site_id": "garpenberg",
-      "record_type": "sample_result",
-      "title": "Användarrapporterad blyanalys av flugsvamp från anrikningssand",
-      "description": "Användaren har uppgett att en flugsvamp som växte direkt i anrikningssand analyserades och att blyhalten låg omkring 300–400 gånger över det jämförelsevärde som användes i den ursprungliga jämförelsen. Detta är en preliminär uppgift, inte ett verifierat publicerat analysresultat. Absolut halt, enhet, jämförelsevärdets namn och användningsområde behöver hämtas ur laboratorierapporten innan resultatet kan bedömas eller jämföras.",
-      "sample": {
-        "material": "mushroom",
-        "species": "Flugsvamp (Amanita muscaria, artbestämning behöver bekräftas)",
-        "sampling_location": "Uppges ha vuxit direkt i anrikningssand i Garpenberg",
-        "washed": false,
-        "fresh_or_dry": "unknown"
-      },
-      "analyte": "Bly (Pb)",
-      "evidence_status": "user_provided_unverified",
-      "limitations": [
-        "Uppgiften bygger på användarens återgivning av analysresultatet.",
-        "Laboratorierapport, provdatum, exakt provpunkt, artbestämning, halt, enhet och jämförelsevärde saknas i registret.",
-        "Kvoten mot ett jämförelsevärde är inte i sig en hälsoriskbedömning.",
-        "Svampprovet är biologiskt material och får inte beskrivas som ett prov av anrikningssand."
-      ],
-      "source_ids": []
-    },
-    {
-      "id": "user-reported-porcini-lead",
-      "site_id": "garpenberg",
-      "record_type": "sample_result",
-      "title": "Användarrapporterad blyanalys av karljohanssvamp från området",
-      "description": "Användaren har uppgett att karljohanssvamp (Boletus edulis) från en plats omkring 100 meter från området analyserades och att blyhalten låg omkring 20–30 gånger över det jämförelsevärde som användes i den ursprungliga jämförelsen. Uppgiften är preliminär. Den exakta provpunkten, absoluta halten, enheten och jämförelsevärdets relevans behöver kontrolleras mot laboratorierapporten.",
-      "sample": {
-        "material": "mushroom",
-        "species": "Karljohanssvamp (Boletus edulis, artbestämning behöver bekräftas)",
-        "sampling_location": "Uppges vara cirka 100 meter från området i Garpenberg",
-        "fresh_or_dry": "unknown"
-      },
-      "analyte": "Bly (Pb)",
-      "evidence_status": "user_provided_unverified",
-      "limitations": [
-        "Uppgiften bygger på användarens återgivning av analysresultatet.",
-        "Laboratorierapport, provdatum, exakt provpunkt, artbestämning, halt, enhet och jämförelsevärde saknas i registret.",
-        "Jämförelsevärdet kan vara avsett för annan matris eller användning och måste identifieras innan slutsatser dras.",
-        "Detta är ett svampprov, inte ett markprov."
-      ],
-      "source_ids": []
-    },
-    {
-      "id": "user-reported-porcini-sulfur-difference",
-      "site_id": "garpenberg",
-      "record_type": "sample_result",
-      "title": "Användarrapporterad skillnad i svavelhalt mellan svampprov",
-      "description": "Användaren har uppgett att svavelhalten var tydligt högre i ett karljohanssvampprov som plockats cirka 20 meter lägre i höjd än ett jämförande prov. Det har framförts som en möjlig indikation på påverkan från området, men en sådan förklaring kan inte fastställas utan fullständiga analysdata, provpunkter och alternativa förklaringar.",
-      "sample": {
-        "material": "mushroom",
-        "species": "Karljohanssvamp (Boletus edulis, artbestämning behöver bekräftas)",
-        "sampling_location": "Ett av två jämförda prov uppges ha plockats cirka 20 meter lägre i höjd"
-      },
-      "analyte": "Svavel (S)",
-      "evidence_status": "user_provided_unverified",
-      "limitations": [
-        "Exakta halter, enheter, provdatum och provpunkter saknas.",
-        "Det är oklart om proverna är jämförbara vad gäller art, storlek, ålder, färsk/torr vikt och provberedning.",
-        "Skillnaden visar inte i sig att svavel kommer från anrikningssanden."
-      ],
-      "source_ids": []
-    }
-  ],
+  "records": [],
   "source_ids": [],
   "editorial_notes": [
     "Äldre gruvverksamhet och nuvarande verksamhet ska hållas isär när källorna gör den skillnaden.",
     "Varje provmaterial redovisas separat. Svampresultat får inte beskrivas som halter i mark eller anrikningssand.",
     "Uppgifter från användaren är inte verifierade laboratorieuppgifter förrän originalrapporten har granskats.",
-    "Tre användarrapporterade uppgifter om svampprover har lagts in som obekräftade arbetsuppgifter. De får inte presenteras som verifierade analysresultat innan laboratorierapporterna har granskats."
+    "Analyser som genomförts inom SR:s journalistiska undersökning på reporterns begäran ingår inte i Gruvspårs register och ska inte publiceras eller användas som underlag. Andra analyser från laboratorier, myndigheter, forskare eller andra källor får registreras när källa, provtyp och metod kan redovisas."
   ]
 }
