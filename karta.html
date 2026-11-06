@@ -34,7 +34,7 @@ function layoutMarkers(){
   markerNodes.forEach(m=>{
     m.c.setAttribute('cx',m.pos.x);
     m.c.setAttribute('cy',m.pos.y);
-    m.c.setAttribute('r',5/factor);
+    m.c.setAttribute('r',4/Math.pow(factor,1.35));
   });
 }
 function setView(v){const w=Math.max(500/30,Math.min(500,v.w));const h=w*1.8;const x=Math.max(0,Math.min(500-w,v.x));const y=Math.max(0,Math.min(900-h,v.y));view={x,y,w,h};svg.setAttribute('viewBox',x+' '+y+' '+w+' '+h);layoutMarkers()}
