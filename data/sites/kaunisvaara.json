@@ -1,0 +1,22 @@
+{
+  "site_id": "kaunisvaara",
+  "display_name": "Kaunisvaara",
+  "case_study_status": "research_pending",
+  "scope": "Dokumenterade gruvrelaterade miljöuppgifter. Inga mineralresurser, reserver eller prospekteringsuppgifter publiceras.",
+  "records": [],
+  "source_ids": [
+    "sgu-ores-concentrators-open-data"
+  ],
+  "data_gaps": [
+    {
+      "title": "SGU-produktionspost behöver korsidentifieras",
+      "description": "Ingen direkt matchning med namnet Kaunisvaara hittades i den granskade SGU-tabellen Malmer. Det kan finnas annan registrering för gruvområdet eller produktionsdata under ett annat namn; inget tonnage publiceras utan säker matchning.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Kontrollera SGU:s Bergverksstatistik och historiska gruv-/anrikningsverksregister.",
+        "Hämta verksamhetsutövarens miljörapporter och produktionsredovisning."
+      ]
+    }
+  ]
+}
