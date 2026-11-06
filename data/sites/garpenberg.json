@@ -148,6 +148,29 @@
       "source_ids": [
         "sgu-bergverksstatistik-2025"
       ]
+    },
+    {
+      "id": "garpenberg-historic-processing-1957-2023",
+      "record_type": "production_statistic",
+      "title": "Historiskt anrikad malm 1957–2023",
+      "description": "Bolidens tekniska sammanställning för Garpenberg anger att omkring 63,4 miljoner ton malm hade processats sedan Boliden tog över gruvan 1957 till och med 2023. Underlaget redovisar årsvisa malmtonnage och genomsnittshalter i femårsintervall för äldre år samt mer detaljerat från 2000. Mellan 2005 och 2014 processades även malm från Lovisagruvan i Garpenbergs anrikningsverk. Därför är totalen inte liktydig med enbart malm bruten i Garpenberg.",
+      "sample": {
+        "material": "other",
+        "sampling_location": "Garpenbergsgruvan och anrikningsverk, Hedemora kommun"
+      },
+      "analyte": "Anrikad malm",
+      "result": 63400000,
+      "unit": "ton kumulativt 1957–2023",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Bolidens tekniska rapport anger både 66,5 och 63,4 miljoner ton i utdrag från samma rapport; 63,4 Mt anges som total sedan övertagandet i tabellkommentaren. Skillnaden måste kontrolleras mot originaltabellen innan en siffra används som slutligt totalvärde.",
+        "Malm från Lovisagruvan ingick i anrikningen 2005–2014.",
+        "Anrikad mängd är inte samma sak som mängd bruten malm och inte samma sak som försäljningsintäkt.",
+        "Uppgiften avser till och med 2023; 2024–2025 ska kompletteras."
+      ],
+      "source_ids": [
+        "garpenberg-boliden-summary-report-2023"
+      ]
     }
   ],
   "source_ids": [
