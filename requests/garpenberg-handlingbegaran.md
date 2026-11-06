@@ -1,6 +1,7 @@
 # Begäran om allmänna handlingar – Garpenbergs gruvområden och historiska gruvavfall
 
 **Avsändare:** [Namn och kontaktuppgifter]  
+**Föreslagna mottagare:** Länsstyrelsen Dalarna: dalarna@lansstyrelsen.se · Naturvårdsverket: registrator@naturvardsverket.se · Hedemora kommun: kommun@hedemora.se (be kommunen vidarebefordra till registrator och miljöförvaltningen).  
 **Ärende:** Begäran om utlämnande av allmänna handlingar enligt offentlighetsprincipen  
 **Avgränsning:** Hela Garpenbergsområdet i Hedemora kommun, inklusive historiska gruvområden, slagghögar, varp, anrikningsavfall, sandmagasin, sediment, förorenad mark, grundvatten och ytvatten.
 
@@ -27,3 +28,10 @@ Vänligen bekräfta mottagandet och ange diarienummer.
 Med vänlig hälsning,  
 [Namn]  
 [Telefon/e-post]
+
+
+## Utskick och diarieföring
+
+Skicka begäran separat till respektive myndighet så att varje myndighet kan söka i sina egna diarier och arkiv. Begär diarienummer och digital leverans. Om mottagaren inte är rätt registrator, be att begäran vidarebefordras till registrator och ansvarig miljöenhet.
+
+**Obs:** Denna begäran är ett utkast och har inte skickats. Begäran om allmänna handlingar riktas till myndigheterna. Boliden är en privat aktör och omfattas inte av offentlighetsprincipen på samma sätt; bolaget behöver därför få en separat frivillig begäran om att lämna ut projektredovisning, fakturaunderlag och slutrapporter.
