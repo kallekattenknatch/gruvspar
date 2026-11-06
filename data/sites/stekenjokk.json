@@ -1,0 +1,37 @@
+{
+  "site_id": "stekenjokk",
+  "display_name": "Stekenjokk",
+  "case_study_status": "sgu_production_record_added",
+  "scope": "Historisk faktisk malmproduktion och dokumenterade miljöuppgifter. Inga mineralresurser, reserver eller prospekteringsuppgifter publiceras.",
+  "records": [
+    {
+      "id": "sgu-production-24620103",
+      "record_type": "production_statistic",
+      "title": "SGU: registrerad producerad malm för Stekenjokk",
+      "description": "SGU:s databas Malmer och anrikningsverk redovisar 6,972 miljoner ton producerad malm för posten Stekenjokk, SGU-kod 24620103. Registrerad produktionsperiod: 1976–1988. Detta är producerad malm enligt SGU:s historiska register, inte malmvärde, försäljningsintäkt eller företagsvinst.",
+      "result": 6.971736,
+      "unit": "miljoner ton producerad malm",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Stekenjokk"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s produktionsregister bygger på historisk statistik och rapportering; det är inte automatiskt en fullständig livstidssumma för all brytning.",
+        "SGU anger att nationella sammanställningar börjar 1833 och att uppgifter före 1833 är sparsamma och fragmentariska.",
+        "Poster med olika SGU-koder redovisas separat och har inte summerats eftersom de kan avse skilda delobjekt eller överlappande statistikperioder.",
+        "Produktionsmängd får inte tolkas som malmvärde, omsättning, rörelseresultat eller nettovinst.",
+        "Mineralresurser och reserver har inte hämtats in eller publicerats."
+      ],
+      "source_ids": [
+        "sgu-ores-concentrators-open-data"
+      ]
+    }
+  ],
+  "source_ids": [
+    "sgu-ores-concentrators-open-data"
+  ],
+  "editorial_notes": [
+    "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
+  ]
+}
