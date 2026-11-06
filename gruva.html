@@ -82,7 +82,7 @@ target.appendChild(item);
  const render=(id,items,msg,fn)=>{const e=get(id);if(!e)return;if(!items.length){blank(id,msg);return;}e.className='';e.replaceChildren(...items.map(fn));};
  try{
   const [d,s,national]=await Promise.all([
-   fetch('data/sites/'+dataId+'.json').then(r=>{if(!r.ok)throw Error();return r.json()}),
+   fetch('data/sites/'+dataId+'.json').then(r=>r.ok?r.json():{records:[],case_study_status:'not_yet_registered'}),
    fetch('data/sources/'+dataId+'.json').then(r=>r.ok?r.json():{sources:[]}),
    fetch('data/sources/nationellt.json').then(r=>r.ok?r.json():{sources:[]}).catch(()=>({sources:[]}))
   ]);
