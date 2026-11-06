@@ -1,0 +1,58 @@
+{
+  "site_id": "blaiken",
+  "display_name": "Blaikengruvan",
+  "scope": "Publicerade biologiska undersökningar och miljöuppföljning av vatten och fisk i området runt den nedlagda gruvan.",
+  "editorial_notes": [
+    "Fiskresultaten avser abborre från Storuman och Storjuktan, provtagen juni 2019. De är inte vattenhalter eller halter i gruvavfall.",
+    "Kiselalgsresultaten är screeningindikatorer för möjlig metall- och miljögiftspåverkan, inte direkta metallkoncentrationer.",
+    "Kvicksilverhalterna i fisk bedömdes i rapporten inte vara orsakade av gruvverksamheten; rapporten beskriver luftnedfall som bakgrundsorsak."
+  ],
+  "records": [
+    {
+      "id": "blaiken-fish-muscle-2019",
+      "record_type": "sample_result",
+      "title": "Metaller i abborre från Storuman och Storjuktan, 2019",
+      "description": "Sweco analyserade muskelvävnad från 10 abborrar från Storuman och 5 från Storjuktan. Medelhalter (mg/kg våtvikt): Storuman: arsenik <0,018, kadmium <0,001, kobolt 0,003, koppar 0,158, kvicksilver 0,421, mangan 0,104, nickel <0,008, bly <0,008 och zink 3,551. Storjuktan: arsenik 0,021, kadmium <0,001, kobolt 0,003, koppar 0,151, kvicksilver 0,585, mangan 0,104, nickel <0,008, bly <0,008 och zink 3,740. I Storjuktan var maxhalten kvicksilver 0,952 mg/kg våtvikt. Rapportens riskbedömning fann att halterna av zink, kadmium och koppar inte gjorde fisken hälsofarlig att äta enligt den bedömning som gjordes. Kvicksilverhalten överskred EU:s då tillämpade gränsvärde 0,50 mg/kg i medel för Storjuktan; rapporten kopplar inte detta till gruvverksamheten utan beskriver luftnedfall som generell orsak.",
+      "sample": {
+        "material": "animal_tissue",
+        "sampling_location": "Storuman och Storjuktan, provfiske 12–13 juni 2019",
+        "sampling_method": "Nätprovfiske; muskelprov från abborre analyserade av ALS Scandinavia, analyspaket M-4 Grundämnen i biota"
+      },
+      "analyte": "As, Cd, Co, Cu, Hg, Mn, Ni, Pb, Zn",
+      "unit": "mg/kg våtvikt (VS)",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Resultaten gäller endast abborre från två sjöar och provtagningen 2019.",
+        "Provantalet var 10 abborrar från Storuman och 5 från Storjuktan.",
+        "Värden under rapporteringsgränsen anges med < och är inte noll.",
+        "Rapportens hälsoriskbedömning bygger på vuxen person, 70 kg, och konsumtion av 150 g fisk dagligen; den kan inte utan vidare överföras till barn eller andra konsumtionsmönster.",
+        "Kvicksilverresultaten ska inte tillskrivas gruvan utan stöd; rapporten bedömer att halterna inte orsakats av gruvverksamheten."
+      ],
+      "source_ids": [
+        "blaiken-sweco-fisk-kiselalger-2019"
+      ]
+    },
+    {
+      "id": "blaiken-diatoms-screening-2018",
+      "record_type": "biological_observation",
+      "title": "Kiselalger visar screeningindikation på metall- och miljögiftspåverkan, 2018",
+      "description": "Swecos screeningtabell redovisar för Blaiksjöbäcken 15 kiselalgstaxon, diversitetsindex 2,4, deformerade skal 3 % och 83 % taxa toleranta mot miljögifter. För Storjuktan–Smakarbäcken redovisas 16 taxa, diversitetsindex 1,5, deformerade skal 1 % och 94 % taxa toleranta mot miljögifter. Rapporten anger att de låga taxaantalen/diversiteten och andelen deformerade skal kan indikera påverkan av metaller eller miljögifter. Den sammanfattar att screeningindikatorn bekräftar förhöjda tungmetallhalter framför allt i Blaiksjöbäcken och Storjuktan–Smakarbäcken.",
+      "sample": {
+        "material": "plant",
+        "sampling_location": "Blaiksjöbäcken och Storjuktan–Smakarbäcken",
+        "sampling_method": "Påväxtalger provtagna 28 augusti 2018 enligt SS-EN 13946:2014; analys enligt SS-EN 14407"
+      },
+      "analyte": "Kiselalgstaxon, diversitetsindex, andel deformerade skal och andel miljögiftstoleranta taxa",
+      "unit": "antal; index; procent",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Detta är biologiska screeningindikatorer, inte laboratoriemätta metallhalter i vatten.",
+        "Screeningindikatorn kan indikera påverkan av höga eller måttligt höga halter av Cu, Zn, Cd och Pb eller bekämpningsmedel, men anger inte enskilda koncentrationer.",
+        "Referenslokalerna Närtabäcken och Stabburbäcken hade också hög andel miljögiftstoleranta taxa; tolkningen måste göras i sammanhang."
+      ],
+      "source_ids": [
+        "blaiken-sweco-fisk-kiselalger-2019"
+      ]
+    }
+  ]
+}
