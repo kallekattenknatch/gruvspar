@@ -66,6 +66,22 @@
         "Gemensamt resultat för flera gruvor, får inte tillskrivas en enskild gruva.",
         "Rörelseresultat är inte nettovinst eller malmvärde."
       ]
+    },
+    {
+      "id": "kankberg-prtr",
+      "title": "Utsläpp i siffror: Kankbergsgruvan",
+      "publisher": "Naturvårdsverket",
+      "publication_year": 2026,
+      "document_type": "PRTR-anläggningsregister",
+      "access_status": "public",
+      "url": "https://utslappisiffror.naturvardsverket.se/sv/Sok/Anlaggningssida/?pid=4496",
+      "source_perspective": "myndighet",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Naturvårdsverkets anläggningssida med årliga rapporterade utsläpp till luft och vatten från Kankbergsgruvan, rapporteringsår 2012–2025.",
+      "limitations": [
+        "Årliga utsläppsmängder i kg är massflöden, inte koncentrationer i recipientvatten eller bevis på uppmätt ekologisk effekt.",
+        "Värdena ska kopplas till respektive rapporteringsår och utsläppsmatris."
+      ]
     }
   ]
 }
