@@ -1,0 +1,37 @@
+{
+  "site_id": "aitik",
+  "sources": [
+    {
+      "id": "aitik-prtr",
+      "title": "Utsläpp i siffror: Boliden Mineral AB – Aitikgruvan",
+      "publisher": "Naturvårdsverket",
+      "document_type": "utslappsregister-prtr",
+      "access_status": "public",
+      "url": "https://utslappisiffror.naturvardsverket.se/sv/Sok/Anlaggningssida/?pid=1952",
+      "source_perspective": "myndighetsregister",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Anläggningssidan för Aitikgruvan redovisar årsvisa rapporterade utsläpp till vatten. För 2023 och 2024 finns mängder för bland annat arsenik, kadmium, koppar, kvicksilver, nickel, bly och näringsämnen.",
+      "limitations": [
+        "Årsutsläpp i kg ska inte tolkas som koncentrationer i vatten.",
+        "Registeruppgifterna anger rapporteringsmetod och omfattar rapporteringspliktiga ämnen.",
+        "Utsläppsmängderna visar inte ensamma recipientens tillstånd eller risk."
+      ]
+    },
+    {
+      "id": "aitik-dom-2026",
+      "title": "Mark- och miljödomstolen lämnar tillstånd till fortsatt och utökad gruvverksamhet i Aitik",
+      "publisher": "Sveriges Domstolar, Umeå tingsrätt",
+      "publication_year": 2026,
+      "document_type": "domstolsbeslut-pressmeddelande",
+      "access_status": "public",
+      "url": "https://www.domstol.se/nyheter/2026/06/mark--och-miljodomstolen-lamnar-tillstand-till-fortsatt-och-utokad-gruvverksamhet-i-aitik/",
+      "source_perspective": "domstol",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Mål M 3747-23. Domstolen beslutade 15 juni 2026 om fortsatt och utökad verksamhet med villkor för bland annat utsläpp till vatten och luft, damning och efterbehandling. Ytterligare utredningar ska redovisas senare.",
+      "limitations": [
+        "Pressmeddelandet sammanfattar domen men ersätter inte fullständigt avgörande och samtliga villkor.",
+        "Domstolens bedömning av miljökvalitetsnormer ska återges som domstolens bedömning, inte som oberoende mätdata."
+      ]
+    }
+  ]
+}
