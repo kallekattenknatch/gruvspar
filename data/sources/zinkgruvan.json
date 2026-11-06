@@ -48,6 +48,23 @@
         "Vissa anrikningsverk tar emot malm från flera gruvor. Gemensam produktion får inte fördelas på enskilda gruvor utan belägg.",
         "Rapportens resurs- och reservuppgifter publiceras inte i Gruvspår."
       ]
+    },
+    {
+      "id": "zinkgruvan-sec-technical-report-2005",
+      "title": "Lundin Mining Annual Information Form 2005, Zinkgruvan Mine technical description",
+      "publisher": "Lundin Mining Corporation, filed with U.S. Securities and Exchange Commission",
+      "publication_year": 2006,
+      "document_type": "tekniskt_gruvunderlag",
+      "access_status": "public",
+      "url": "https://www.sec.gov/Archives/edgar/data/1377085/000120445906000902/exh9956.htm",
+      "source_perspective": "verksamhetsutovare_teknisk_rapport",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Historisk redovisning av Zinkgruvans produktion. Anger cirka 29,9 miljoner ton producerad malm 1860–2003 med genomsnittshalter 11,3 procent zink och 2,4 procent bly samt senare års produktionsdata.",
+      "limitations": [
+        "Bolaget uppger att detaljerade äldre produktionsuppgifter inte var lätt tillgängliga och beskriver 29,9 Mt som en uppskattning.",
+        "Uppgiften avser malmproduktion, inte intäkter eller ackumulerat malmvärde.",
+        "Källan är äldre och måste kompletteras med senare produktion och prisdata."
+      ]
     }
   ]
 }
