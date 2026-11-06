@@ -47,6 +47,90 @@
       "source_ids": [
         "sgu-ores-concentrators-open-data"
       ]
+    },
+    {
+      "id": "kristineberg-prtr-2025",
+      "record_type": "emission_statistic",
+      "title": "Rapporterade utsläpp till vatten, 2025",
+      "description": "Naturvårdsverkets PRTR-register redovisar för rapporteringsåret 2025: As 1,3 kg, Cd 2,7 kg, Cu 17,7 kg, Hg 0,03 kg, totalkväve 17 744 kg, Pb 0,85 kg och Zn 216,7 kg till vatten. Uppgifterna avser rapporterade massutsläpp från anläggningen.",
+      "sample": {
+        "material": "reported_emission_to_water",
+        "sampling_location": "Anläggningens rapporterade utsläppspunkt(er)"
+      },
+      "analyte": "Flera ämnen",
+      "unit": "kg/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Massutsläpp i kg/år är inte samma sak som uppmätt koncentration i vatten.",
+        "Utsläppsmängder kan inte jämföras direkt med gränsvärden i µg/l eller mg/l.",
+        "PRTR-redovisning ska läsas tillsammans med verksamhetens kontrollprogram och recipientmätningar."
+      ],
+      "source_ids": [
+        "kristineberg-prtr"
+      ]
+    },
+    {
+      "id": "kristineberg-prtr-2024",
+      "record_type": "emission_statistic",
+      "title": "Rapporterade utsläpp till vatten, 2024",
+      "description": "Naturvårdsverkets PRTR-register redovisar för rapporteringsåret 2024: As 2,67 kg, Cd 2,32 kg, Cu 16,35 kg, Hg 0,03 kg, totalkväve 10 694 kg, Pb 0,77 kg och Zn 223,9 kg till vatten. Uppgifterna avser rapporterade massutsläpp från anläggningen.",
+      "sample": {
+        "material": "reported_emission_to_water",
+        "sampling_location": "Anläggningens rapporterade utsläppspunkt(er)"
+      },
+      "analyte": "Flera ämnen",
+      "unit": "kg/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Massutsläpp i kg/år är inte samma sak som uppmätt koncentration i vatten.",
+        "Utsläppsmängder kan inte jämföras direkt med gränsvärden i µg/l eller mg/l.",
+        "PRTR-redovisning ska läsas tillsammans med verksamhetens kontrollprogram och recipientmätningar."
+      ],
+      "source_ids": [
+        "kristineberg-prtr"
+      ]
+    },
+    {
+      "id": "kristineberg-prtr-2023",
+      "record_type": "emission_statistic",
+      "title": "Rapporterade utsläpp till vatten, 2023",
+      "description": "Naturvårdsverkets PRTR-register redovisar för rapporteringsåret 2023: As 1,23 kg, Cd 2,18 kg, Cu 21,31 kg, Hg 0,029 kg, totalkväve 13 469 kg, Pb 0,72 kg och Zn 338,6 kg till vatten. Uppgifterna avser rapporterade massutsläpp från anläggningen.",
+      "sample": {
+        "material": "reported_emission_to_water",
+        "sampling_location": "Anläggningens rapporterade utsläppspunkt(er)"
+      },
+      "analyte": "Flera ämnen",
+      "unit": "kg/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Massutsläpp i kg/år är inte samma sak som uppmätt koncentration i vatten.",
+        "Utsläppsmängder kan inte jämföras direkt med gränsvärden i µg/l eller mg/l.",
+        "PRTR-redovisning ska läsas tillsammans med verksamhetens kontrollprogram och recipientmätningar."
+      ],
+      "source_ids": [
+        "kristineberg-prtr"
+      ]
+    },
+    {
+      "id": "kristineberg-prtr-2022",
+      "record_type": "emission_statistic",
+      "title": "Rapporterade utsläpp till vatten, 2022",
+      "description": "Naturvårdsverkets PRTR-register redovisar för rapporteringsåret 2022: As 1,44 kg, Cd 1,71 kg, Cu 21,1 kg, Hg 0,02 kg, totalkväve 14 570 kg, Pb 0,59 kg och Zn 239,3 kg till vatten. Uppgifterna avser rapporterade massutsläpp från anläggningen.",
+      "sample": {
+        "material": "reported_emission_to_water",
+        "sampling_location": "Anläggningens rapporterade utsläppspunkt(er)"
+      },
+      "analyte": "Flera ämnen",
+      "unit": "kg/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Massutsläpp i kg/år är inte samma sak som uppmätt koncentration i vatten.",
+        "Utsläppsmängder kan inte jämföras direkt med gränsvärden i µg/l eller mg/l.",
+        "PRTR-redovisning ska läsas tillsammans med verksamhetens kontrollprogram och recipientmätningar."
+      ],
+      "source_ids": [
+        "kristineberg-prtr"
+      ]
     }
   ],
   "source_ids": [
