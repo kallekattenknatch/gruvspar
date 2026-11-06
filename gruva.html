@@ -76,7 +76,7 @@ target.appendChild(item);
   if(desc){const p=document.createElement('p');p.textContent=desc;a.appendChild(p);}
   if(meta){const p=document.createElement('p');p.className='small';p.textContent=meta;a.appendChild(p);}
   (limitations||[]).forEach(t=>{const p=document.createElement('p');p.className='small';p.textContent='Begränsning: '+t;a.appendChild(p);});
-  if(sourceIds&&sourceIds.length){const p=document.createElement('p');p.className='small';p.textContent='Käll-ID: '+sourceIds.join(', ');a.appendChild(p);}
+  if(sourceIds&&sourceIds.length){const p=document.createElement('p');p.className='small';p.appendChild(document.createTextNode('Källa: '));sourceIds.forEach((src,i)=>{if(i)p.appendChild(document.createTextNode(' · '));if(/^https?:\\/\\//i.test(src)){const link=document.createElement('a');link.href=src;link.target='_blank';link.rel='noopener noreferrer';link.textContent='Öppna dokument';p.appendChild(link);}else p.appendChild(document.createTextNode(src));});a.appendChild(p);}
   return a;
  };
  const render=(id,items,msg,fn)=>{const e=get(id);if(!e)return;if(!items.length){blank(id,msg);return;}e.className='';e.replaceChildren(...items.map(fn));};
@@ -134,7 +134,7 @@ target.appendChild(item);
    x=>make(x.title||x.name,x.description||x.relevance,x.meta||[x.publisher,x.publication_year,x.verification_status].filter(Boolean).join(' · '),x.limitations,x.source_ids));
   const done=remediationRecords.filter(r=>r.record_type==='remediation_result').map(r=>({name:r.title,description:r.description,period:'',status:r.evidence_status,limitations:r.limitations,source_ids:r.source_ids})).concat(projects.filter(p=>(p.physical_actions||[]).length>0||p.physical_remediation_verified===true||/completed|finished|slutförd|genomförd/i.test(p.status||'')));
   render('done',done,'Inga genomförda och verifierade fysiska åtgärder är registrerade. Planer och kostnadsuppskattningar räknas inte som utfört arbete.',
-   p=>make(p.name||p.mine,[...(p.physical_actions||[]),...(p.environmental_results||[])].join(' '),[p.period,p.total_cost_status].filter(Boolean).join(' · '),p.limitations,p.sources||p.source_ids));
+   p=>make(p.name||p.mine,p.description||[...(p.physical_actions||[]),...(p.environmental_results||[])].join(' '),[p.period,p.total_cost_status].filter(Boolean).join(' · '),p.limitations,p.sources||p.source_ids));
   render('sources',allSources,'Inga källor är registrerade.',
    x=>{const e=make(x.title,x.relevance,[x.publisher,x.publication_year||x.year,x.document_type||x.type,x.verification_status].filter(Boolean).join(' · '),x.limitations,[x.id]);if(x.url){const a=document.createElement('a');a.href=x.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Öppna källa';e.appendChild(a);}return e;});
   const authorities=allSources.filter(x=>/myndighet|domstol|riksdag|länsstyrelse|kommun|tillsyn|beslut|föreläggande/i.test([x.publisher,x.title,x.document_type].join(' '))).concat(riskRecords.map(r=>({title:r.title,relevance:r.description,publisher:'Riskbedömning',verification_status:r.evidence_status,limitations:r.limitations,id:r.id,source_ids:r.source_ids})));
