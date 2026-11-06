@@ -1,0 +1,37 @@
+{
+  "site_id": "grangesberg",
+  "display_name": "Grängesberg",
+  "case_study_status": "sgu_production_record_added",
+  "scope": "Historisk faktisk malmproduktion och dokumenterade miljöuppgifter. Inga mineralresurser, reserver eller prospekteringsuppgifter publiceras.",
+  "records": [
+    {
+      "id": "sgu-production-20850201",
+      "record_type": "production_statistic",
+      "title": "SGU: registrerad producerad malm för Grängesberg mining district",
+      "description": "SGU:s databas Malmer och anrikningsverk redovisar 132,782 miljoner ton producerad malm för posten Grängesberg mining district, SGU-kod 20850201. Registrerad produktionsperiod: 1783–1989. Detta är producerad malm enligt SGU:s historiska register, inte malmvärde, försäljningsintäkt eller företagsvinst.",
+      "result": 132.781542,
+      "unit": "miljoner ton producerad malm",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Grängesberg mining district"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s produktionsregister bygger på historisk statistik och rapportering; det är inte automatiskt en fullständig livstidssumma för all brytning.",
+        "SGU anger att nationella sammanställningar börjar 1833 och att uppgifter före 1833 är sparsamma och fragmentariska.",
+        "Poster med olika SGU-koder redovisas separat och har inte summerats eftersom de kan avse skilda delobjekt eller överlappande statistikperioder.",
+        "Produktionsmängd får inte tolkas som malmvärde, omsättning, rörelseresultat eller nettovinst.",
+        "Mineralresurser och reserver har inte hämtats in eller publicerats."
+      ],
+      "source_ids": [
+        "sgu-ores-concentrators-open-data"
+      ]
+    }
+  ],
+  "source_ids": [
+    "sgu-ores-concentrators-open-data"
+  ],
+  "editorial_notes": [
+    "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
+  ]
+}
