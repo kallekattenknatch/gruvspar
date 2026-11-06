@@ -51,7 +51,20 @@ document.getElementById('reset').addEventListener('click',()=>setView({x:0,y:0,w
 let touchStart=null;
 svg.addEventListener('touchstart',e=>{e.preventDefault();if(e.touches.length===1){const t=e.touches[0];touchStart={mode:'pan',x:t.clientX,y:t.clientY,view:{...view}}}else if(e.touches.length>=2){const a=e.touches[0],b=e.touches[1],cx=(a.clientX+b.clientX)/2,cy=(a.clientY+b.clientY)/2;touchStart={mode:'pinch',distance:Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY),center:{x:cx,y:cy},anchor:svgPoint(cx,cy),view:{...view}}}},{passive:false});
 svg.addEventListener('touchmove',e=>{e.preventDefault();if(!touchStart)return;const rect=svg.getBoundingClientRect();if(e.touches.length===1&&touchStart.mode==='pan'){const t=e.touches[0],dx=(t.clientX-touchStart.x)*touchStart.view.w/rect.width,dy=(t.clientY-touchStart.y)*touchStart.view.h/rect.height;setView({...touchStart.view,x:touchStart.view.x-dx,y:touchStart.view.y-dy})}else if(e.touches.length>=2){const a=e.touches[0],b=e.touches[1],d=Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY),factor=d/Math.max(1,touchStart.distance),w=touchStart.view.w/factor,h=w*1.8,cx=(a.clientX+b.clientX)/2,cy=(a.clientY+b.clientY)/2,dx=(cx-touchStart.center.x)*touchStart.view.w/rect.width,dy=(cy-touchStart.center.y)*touchStart.view.h/rect.height,rx=(touchStart.anchor.x-touchStart.view.x)/touchStart.view.w,ry=(touchStart.anchor.y-touchStart.view.y)/touchStart.view.h;setView({x:touchStart.anchor.x-rx*w-dx*w/touchStart.view.w,y:touchStart.anchor.y-ry*h-dy*h/touchStart.view.h,w})}},{passive:false});
-function clearTouch(){touchStart=null}svg.addEventListener('touchend',clearTouch,{passive:true});svg.addEventListener('touchcancel',clearTouch,{passive:true});
+function clearTouch(e){
+  if(touchStart&&touchStart.mode==='pan'&&e.changedTouches&&e.changedTouches.length){
+    const t=e.changedTouches[0];
+    if(Math.hypot(t.clientX-touchStart.x,t.clientY-touchStart.y)<12){
+      const p=svgPoint(t.clientX,t.clientY),rect=svg.getBoundingClientRect();
+      const radius=24*view.w/rect.width;
+      let nearest=null,best=radius;
+      markerNodes.forEach(m=>{const d=Math.hypot(m.pos.x-p.x,m.pos.y-p.y);if(d<best){best=d;nearest=m}});
+      if(nearest)show(nearest.p);
+    }
+  }
+  touchStart=null;
+}
+svg.addEventListener('touchend',clearTouch,{passive:true});svg.addEventListener('touchcancel',()=>{touchStart=null},{passive:true});
 svg.addEventListener('wheel',e=>{e.preventDefault();zoomCenter(e.deltaY<0?1.15:1/1.15)},{passive:false});
 let mouse=null;svg.addEventListener('mousedown',e=>{if(e.button===0)mouse={x:e.clientX,y:e.clientY,view:{...view}}});window.addEventListener('mousemove',e=>{if(!mouse)return;const r=svg.getBoundingClientRect(),dx=(e.clientX-mouse.x)*mouse.view.w/r.width,dy=(e.clientY-mouse.y)*mouse.view.h/r.height;setView({...mouse.view,x:mouse.view.x-dx,y:mouse.view.y-dy})});window.addEventListener('mouseup',()=>mouse=null);
 </script></body></html>
