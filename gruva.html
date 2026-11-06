@@ -72,7 +72,7 @@ if(site){
   const projects=[...(d.remediation_finance?.projects||[]),...(remData.projects||[]).filter(p=>(projectMap[id]||[]).includes(p.id))];
   const isProd=r=>/production|produktion/i.test(r.record_type||'');
   const isBio=r=>/biology|biolog|svamp|fung|fauna|flora|fish|fisk|plant|växt|animal_tissue|biota/i.test([r.record_type,r.sample?.material,r.title].join(' '));
-  const isWater=r=>/surface_water|groundwater|sediment|water|recipient|ytvatten|grundvatten/i.test([r.sample?.material,r.title,r.record_type].join(' '));
+  const isWater=r=>{const m=[r.sample?.material,r.title,r.record_type].join(' ');return !/air_and_water/i.test(m)&&/surface_water|groundwater|sediment|water|recipient|ytvatten|grundvatten/i.test(m);};
   const isRem=r=>/remediation_plan|remediation_result/i.test(r.record_type||'');
   const isFinance=r=>/financial_result|financial_record/i.test(r.record_type||'');
   const isRisk=r=>/risk_assessment|authority_decision|inspection|decision/i.test(r.record_type||'');
@@ -96,7 +96,7 @@ if(site){
   render('production-records',records.filter(isProd),'Ingen produktionsstatistik är registrerad. Producerad malm är inte malmvärde eller vinst.',card);
   const financial=records.filter(isFinance);
   const rem=records.filter(isRem);
-  render('plans',localSources.filter(x=>/plan|huvudstud|åtgärd|saner|efterbehand|program/i.test([x.title,x.relevance,x.document_type].join(' '))).map(x=>({title:x.title,description:x.relevance,meta:[x.publisher,x.publication_year||x.year].filter(Boolean).join(' · '),limitations:x.limitations,source_ids:[x.id]})).concat(rem.filter(x=>x.record_type==='remediation_plan')),
+  render('plans',localSources.filter(x=>/plan|huvudstud|åtgärd|saner|efterbehand|program/i.test([x.title,x.relevance,x.document_type].join(' '))).map(x=>({title:x.title,description:x.relevance,meta:[x.publisher,x.publication_year||x.year].filter(Boolean).join(' · '),limitations:x.limitations,source_ids:[x.id]})).concat(rem.filter(x=>x.record_type==='remediation_plan'),projects.map(p=>({title:p.mine||p.name,description:p.description||[...(p.physical_actions||[]),...(p.environmental_results||[])].join(' '),meta:[p.period,p.total_cost_status].filter(Boolean).join(' · '),limitations:p.limitations,source_ids:p.sources}))),
    'Inga planer eller åtaganden är registrerade i platsregistret.',x=>article(x.title,x.description,x.meta,x.limitations,x.source_ids,sourceMap));
   const finance=byId('remediation-finance');finance.className='';finance.replaceChildren();
   if(!financial.length&&!projects.length){empty('remediation-finance','Ingen särskild saneringsekonomi är registrerad. Det är inte samma sak som att sanering inte har finansierats.');}
