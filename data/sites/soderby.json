@@ -56,5 +56,16 @@
   ],
   "editorial_notes": [
     "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
+  ],
+  "data_gaps": [
+    {
+      "title": "Två SGU-poster med närliggande namn",
+      "description": "Söderby-Karlsäng och Söderby gruvor redovisas som separata poster. De har inte slagits ihop till en totalsumma.",
+      "priority": "Medel",
+      "status": "Öppen",
+      "next_steps": [
+        "Kontrollera geografisk avgränsning och historiska gruvnamn för SGU-koderna 3820404 och 1200301."
+      ]
+    }
   ]
 }
