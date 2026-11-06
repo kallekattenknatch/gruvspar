@@ -1,0 +1,67 @@
+{
+  "scope": "Nationella grundkällor för att identifiera gruvrelaterade miljöobjekt och hitta vidare till rapporter. Listorna ska inte tolkas som bevis för att varje enskilt objekt är förorenat.",
+  "sources": [
+    {
+      "id": "naturvardsverket-utvinningsavfall-2023",
+      "title": "Sammanställning av utvinningsavfallsanläggningar - 2023",
+      "publisher": "Naturvårdsverket, sammanställd från länsstyrelserna och EBH-stödet",
+      "year": 2023,
+      "url": "https://www.naturvardsverket.se/48f5a9/contentassets/2e43e45989e14c13be80620da50d7b87/sammanstallning-forteckning-2023.pdf",
+      "type": "nationell förteckning",
+      "relevance": "Nationell lista över stängda och övergivna utvinningsavfallsanläggningar med objektnamn, län och kommun. Innehåller både gruvor och andra gruvrelaterade avfallsobjekt.",
+      "limitations": [
+        "Uppdaterad december 2023; inte en komplett förteckning över alla historiska gruvor i Sverige.",
+        "Förekomst i listan bevisar inte i sig att ett objekt är förorenat eller att risk är fastställd.",
+        "Objekt kan vara anrikningsverk, sandmagasin, hyttområden eller andra anläggningar, inte enbart gruvor."
+      ]
+    },
+    {
+      "id": "sgu-bergsstaten-gruvor-i-sverige",
+      "title": "Gruvor i Sverige",
+      "publisher": "SGU / Bergsstaten",
+      "year": 2026,
+      "url": "https://www.sgu.se/bergsstaten/gruvor/gruvor-i-sverige-2/",
+      "type": "nationell översikt",
+      "relevance": "Officiell översikt över producerande gruvor i Sverige och verksamhetsinnehavare.",
+      "limitations": [
+        "Omfattar producerande gruvor, inte alla nedlagda gruvor eller gruvavfallsobjekt."
+      ]
+    },
+    {
+      "id": "naturvardsverket-efterbehandling-nedlagda-gruvor",
+      "title": "Efterbehandling, nedlagda gruvor",
+      "publisher": "Naturvårdsverket",
+      "year": null,
+      "url": "https://www.naturvardsverket.se/vagledning-och-stod/branscher-och-verksamheter/gruvor/efterbehandling-nedlagda-gruvor/",
+      "type": "myndighetsvägledning",
+      "relevance": "Övergripande information om ansvar, nationell förteckning, Faluprojektet, Saxbergsprojektet, Blaiken och Svärtträsk.",
+      "limitations": [
+        "Vägledning och sammanfattning, inte ersättning för de enskilda projektrapporterna."
+      ]
+    },
+    {
+      "id": "sgu-efterbehandling-gruvomraden",
+      "title": "Efterbehandling av gruvområden",
+      "publisher": "Sveriges geologiska undersökning (SGU)",
+      "year": null,
+      "url": "https://www.sgu.se/samhallsplanering/fororenade-omraden/gruvor/",
+      "type": "myndighetsöversikt",
+      "relevance": "Samlar information om SGU:s arbete med nedlagda gruvområden, bland annat Blaiken, Svärtträsk, Torskbäcken, Adak och Stollberg.",
+      "limitations": [
+        "Översiktssida; varje objekts rapporter och beslut måste granskas separat."
+      ]
+    },
+    {
+      "id": "sgu-gruvor-i-sverige-antal",
+      "title": "Svensk gruvnäring och historiska gruvor",
+      "publisher": "SGU",
+      "year": 2023,
+      "url": "https://www.sgu.se/mineralnaring/svensk-gruvnaring/",
+      "type": "bakgrundsinformation",
+      "relevance": "SGU anger att uppemot 3 000 gruvor har funnits i Sverige. Ger kontext om skillnaden mellan dagens gruvor och den historiska gruvverksamheten.",
+      "limitations": [
+        "Antalet är en övergripande uppskattning, inte ett komplett register över miljöobjekt."
+      ]
+    }
+  ]
+}
