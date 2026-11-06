@@ -1,11 +1,37 @@
 {
   "site_id": "stollberg",
   "display_name": "Stollbergs gruvområde",
-  "case_study_status": "source_registered",
+  "case_study_status": "published_measurements_added",
   "scope": "Dokumenterade miljöundersökningar, påverkan, beslut, åtgärder och uppföljning.",
-  "records": [],
+  "records": [
+    {
+      "id": "stollberg-tailings-64-drill-samples-2023",
+      "record_type": "sample_result",
+      "title": "Medelhalter i efterbehandlat sandmagasin, 64 borrprov",
+      "description": "SGU RR 2023:01 redovisar sammanslagna medelvärden från 64 maskinborrprov i det övertäckta sandmagasinet: järn 10,6 viktprocent, zink 0,49 viktprocent, bly 0,31 viktprocent, antimon 14 ppm och silver 8,9 ppm. Detta är kemisk sammansättning i anrikningssand, inte halt i omgivande jord eller vatten.",
+      "sample": {
+        "material": "tailings",
+        "sampling_location": "Stollbergs sandmagasin",
+        "sampling_method": "64 maskinborrprov genom efterbehandlad övertäckning",
+        "sample_date": "2021-01-01",
+        "fresh_or_dry": "unknown"
+      },
+      "analyte": "Järn (Fe), zink (Zn), bly (Pb), antimon (Sb), silver (Ag)",
+      "unit": "viktprocent för Fe, Zn och Pb; ppm för Sb och Ag",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Rapporten anger sammanslagna medelvärden för proverna; detta är inte ett fullständigt statistiskt intervall för hela magasinet.",
+        "Uppgifterna gäller anrikningssand och får inte jämföras direkt med jord- eller vattenriktvärden.",
+        "Provtagningsåret anges som 2021 i rapportens fältarbete; kontrollera bilagor för exakt provdatum."
+      ],
+      "source_ids": [
+        "stollberg-sgu-rr-2023-01"
+      ]
+    }
+  ],
   "source_ids": [
-    "stollberg-main"
+    "stollberg-main",
+    "stollberg-sgu-rr-2023-01"
   ],
   "editorial_notes": [
     "Platsmarkören är orienterande och anger inte gränsen för förorenat område.",
