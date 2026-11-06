@@ -71,3 +71,18 @@ Beräkningen ska i första hand bygga på dokumenterade historiska försäljning
 Årsvisa rörelseresultat för en affärsenhet får inte summeras och presenteras som malmvärde. Koncernintäkter, smältverksintäkter och gemensamma anrikningsverk får inte fördelas på enskilda gruvor utan underlag. Malm från andra gruvor som behandlats i ett anrikningsverk ska särredovisas eller dras bort när det går. Malmtonnage får inte ensamt användas som kronor.
 
 SGU:s öppna databas Malmer och anrikningsverk är en central källa till historisk gruvproduktion och metallhalter. SGU beskriver samtidigt luckor i äldre material: systematisk rapportering av metallinnehåll börjar 1909, avfallsberg 1892 och anrikningsverk 1906. Därför ska äldre perioder märkas med rätt osäkerhet. Resurs- och reservuppgifter i samma databas ingår inte i Gruvspårs publicering.
+
+
+## Total redovisad vinst per gruva
+
+Varje gruvprofil kan innehålla `reported_profit`. På webbplatsen visas endast en totalsumma per gruva, inte en årsvis resultattabell. Underlaget ska ändå kunna granskas i källregistret.
+
+- Identifiera varje företag som ägt eller drivit gruvan och ange dess ägar-/driftperiod.
+- Summera endast resultat som uttryckligen kan hänföras till den aktuella gruvan. Koncernresultat eller ett större gruvområdes resultat får inte fördelas på enskilda gruvor.
+- Lägg ihop företagens gruvspecifika resultat till en gemensam gruvsumma när perioderna och måtten är jämförbara.
+- Använd i första hand rörelseresultat när det är det mått som företaget redovisar per gruva. Blanda inte rörelseresultat, EBITDA, nettovinst, omsättning eller kassaflöde i samma summa.
+- Ta med negativa resultatår. Saknade år är okända, inte noll.
+- Vid ägarbyte ska överlappande redovisningsperioder inte dubbelräknas. Om ett förvärv sker mitt under året ska redovisad period anges.
+- Om en historisk ägare inte redovisat gruvspecifikt resultat ska detta anges. Koncernvinst får aldrig användas som ersättning.
+- Visa status och täckningsperiod. En delsumma får inte beskrivas som gruvans livstidssumma.
+- Håll detta mått helt separat från `accumulated_ore_value`. Redovisad vinst är företagets redovisade resultat; ackumulerat malmvärde avser värdet av den producerade malmen/metallen före kostnader och avgifter.
