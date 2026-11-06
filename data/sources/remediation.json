@@ -1,0 +1,67 @@
+{
+  "sources": [
+    {
+      "id": "falun-naturvardsverket-6398",
+      "title": "Efterbehandling av gruvavfall i Falun 1992–2008, Rapport 6398",
+      "publisher": "Naturvårdsverket",
+      "year": 2010,
+      "url": "https://www.naturvardsverket.se/4ac485/globalassets/media/publikationer-pdf/ovriga-pub/978-91-620-6398-6.pdf",
+      "type": "Slutrapport",
+      "relevance": "Slutredovisning av Faluprojektets åtgärder, kostnader, ansvarsfördelning och miljöresultat."
+    },
+    {
+      "id": "saxberget-naturvardsverket",
+      "title": "Saxbergsprojektet – En dokumentation av projektets genomförande",
+      "publisher": "Projektledningsgruppen / Naturvårdsverket",
+      "year": 2000,
+      "url": "https://www.naturvardsverket.se/4ac498/contentassets/ad10920f11ee405ea5af8a5635cb2c9b/saxbergsproj.pdf",
+      "type": "Teknisk projektdokumentation",
+      "relevance": "Redovisar projektbudget, entreprenörsersättning, täckningsarbeten, marksanering i Saxdalen och gruvområdet samt funktionskontroll."
+    },
+    {
+      "id": "gladhammar-vastervik-erfarenhetsrapport",
+      "title": "Projekt Gladhammars gruvor – Projekt- och erfarenhetsrapport 2012:1",
+      "publisher": "Västerviks kommun",
+      "year": 2012,
+      "url": "https://www.vastervik.se/globalassets/trafik-och-infrastruktur/hallbar-utveckling/gladhammars-gruvor/projekt-gladhammars-gruvor-erfarenhetsrapport.pdf",
+      "type": "Slutlig projekt- och erfarenhetsrapport",
+      "relevance": "Redovisar slutkostnadsprognos, finansiering, entreprenad, mängder borttaget gruvavfall, efterkontroll och miljöresultat."
+    },
+    {
+      "id": "adak-riksrevision-2015",
+      "title": "Riksrevisionens granskning: Gruvavfall – ekonomiska risker för staten",
+      "publisher": "Riksrevisionen / Sveriges riksdag",
+      "year": 2015,
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/regeringens-skrivelse/riksrevisionens-rapport-om-ekonomiska-risker-for_h303165/html/",
+      "type": "Granskningsrapport återgiven i regeringsskrivelse",
+      "relevance": "Redovisar statens kostnader för efterbehandling och kontroll av Adakgruvan 1998–2015 samt beskriver torrtäckning."
+    },
+    {
+      "id": "garpenberg-riksdag-1996",
+      "title": "Riksdagens snabbprotokoll 1995/96:104 – Sanering av gruvavfall i Garpenberg",
+      "publisher": "Sveriges riksdag",
+      "year": 1996,
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/riksdagens-snabbprotokoll-199596104-mandagen-den_gj09104/html/",
+      "type": "Riksdagsprotokoll",
+      "relevance": "Redovisar att planering av Herrgårdsområdets sanering påbörjats med uppskattad kostnad 7 mkr, samt att Dalälvsmedel drogs in efter att avtal med Boliden inte kom till stånd."
+    },
+    {
+      "id": "garpenberg-riksdag-1994",
+      "title": "Riksdagens snabbprotokoll 1994/95:31",
+      "publisher": "Sveriges riksdag",
+      "year": 1994,
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/riksdagens-snabbprotokoll-19949531-tisdagen-den_gi0931/html/",
+      "type": "Riksdagsprotokoll",
+      "relevance": "Redovisar att något avtal om Garpenbergs gruvavfall inte kommit till stånd och att Naturvårdsverket förberedde prövning av ansvarsfrågan."
+    },
+    {
+      "id": "garpenberg-sou-2018-59",
+      "title": "SOU 2018:59 – Statens gruvliga risker",
+      "publisher": "Gruvavfallsfinansieringsutredningen",
+      "year": 2018,
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/statens-offentliga-utredningar/statens-gruvliga-risker_h6b359/html/",
+      "type": "Statlig utredning",
+      "relevance": "Beskriver att rättsliga processer om uppdatering av säkerheter för Aitik och Garpenberg pågick och att säkerheterna kunde behöva femdubblas."
+    }
+  ]
+}
