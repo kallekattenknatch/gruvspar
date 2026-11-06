@@ -70,6 +70,22 @@
       "source_ids": [
         "blaiken-lansstyrelsen-2025"
       ]
+    },
+    {
+      "id": "blaiken-remediation-work-status-2025",
+      "record_type": "remediation_plan",
+      "title": "Efterbehandling och vattenrening: aktuell status",
+      "description": "SGU uppger att dagbrott A, B och D har efterbehandlats och att ett avskärande dike leder vatten förbi gruvområdet. Den stora gråbergstippen sluttäcks med ett tätskikt av bentonitinblandad morän. Arbetet påbörjades hösten 2023 och beräknas enligt SGU:s information pågå till 2026. Vattenrening krävs även efter att efterbehandlingsarbetena avslutats.",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Uppgiften beskriver SGU:s projektstatus på webbsidan senast granskad 2025-03-18.",
+        "Planerat färdigställande 2026 är en tidsplan, inte bekräftelse på att arbetet redan är slutfört.",
+        "Vattenreningens långsiktiga kostnad och faktiska utbetalningar ska redovisas separat från beviljade bidrag."
+      ],
+      "source_ids": [
+        "blaiken-sgu-current",
+        "blaiken-lansstyrelsen-2025"
+      ]
     }
   ]
 }
