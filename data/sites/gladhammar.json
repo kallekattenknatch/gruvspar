@@ -1,0 +1,14 @@
+{
+  "site_id": "gladhammar",
+  "display_name": "Gladhammars gruvor",
+  "case_study_status": "source_registered",
+  "scope": "Dokumenterade miljöundersökningar, påverkan, beslut, åtgärder och uppföljning.",
+  "records": [],
+  "source_ids": [
+    "gladhammar-main"
+  ],
+  "editorial_notes": [
+    "Platsmarkören är en orienterande position och anger inte gränsen för förorenat område.",
+    "Status för miljöpåverkan och efterbehandling ska hållas isär från om gruvdrift har upphört."
+  ]
+}
