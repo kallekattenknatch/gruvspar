@@ -53,6 +53,23 @@
       "source_ids": [
         "blaiken-sweco-fisk-kiselalger-2019"
       ]
+    },
+    {
+      "id": "blaiken-remediation-funding-2025-2035",
+      "record_type": "financial_result",
+      "title": "Statligt bidrag för fortsatt efterbehandling 2025–2035",
+      "description": "Länsstyrelsen Västerbotten meddelade den 17 november 2025 att efterbehandlingsarbetet vid Blaikengruvan kan fortsätta tack vare ett statligt bidrag på 212 miljoner kronor för perioden 2025–2035. Myndigheten anger att vattenrening bedöms behövas under lång tid. Beloppet är beviljad finansiering för perioden, inte verifierat utbetalda pengar eller slutlig projektkostnad.",
+      "result": 212000000,
+      "unit": "SEK i statligt bidrag för perioden 2025–2035",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Beviljat bidrag ska inte redovisas som redan utbetald kostnad.",
+        "Beloppet avser perioden 2025–2035 och ska inte summeras med tidigare finansiering utan särskild redovisning.",
+        "Källa är myndighetens information från 2025-11-17."
+      ],
+      "source_ids": [
+        "blaiken-lansstyrelsen-2025"
+      ]
     }
   ]
 }
