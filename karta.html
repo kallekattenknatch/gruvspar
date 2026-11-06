@@ -35,7 +35,7 @@ function layoutMarkers(){
     m.c.setAttribute('cx',m.pos.x);
     m.c.setAttribute('cy',m.pos.y);
     // Keep a clear, nearly constant screen size at every zoom level.
-    m.c.setAttribute('r',7/factor);
+    m.c.setAttribute('r',Math.max(4.5,Math.min(11.5,7*Math.pow(factor,0.25))));
     m.c.setAttribute('fill',color(m.p[3]));
     m.c.setAttribute('stroke','#172b20');
     m.c.setAttribute('stroke-width','1.5');
