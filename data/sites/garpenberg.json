@@ -1,0 +1,14 @@
+{
+  "site_id": "garpenberg",
+  "display_name": "Garpenberg",
+  "case_study_status": "under_review",
+  "scope": "Dokumenterade miljöundersökningar, biologiska prover, myndighetsbeslut, planerade och genomförda åtgärder samt uppföljning.",
+  "public_safety_rule": "Innehåll om mineralresurser, prospekteringsmål eller information som kan underlätta att lokalisera nya fyndigheter ingår inte.",
+  "records": [],
+  "source_ids": [],
+  "editorial_notes": [
+    "Äldre gruvverksamhet och nuvarande verksamhet ska hållas isär när källorna gör den skillnaden.",
+    "Varje provmaterial redovisas separat. Svampresultat får inte beskrivas som halter i mark eller anrikningssand.",
+    "Uppgifter från användaren är inte verifierade laboratorieuppgifter förrän originalrapporten har granskats."
+  ]
+}
