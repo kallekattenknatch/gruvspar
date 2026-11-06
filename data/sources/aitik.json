@@ -83,6 +83,23 @@
         "SGU anger att metallinnehåll rapporteras systematiskt från 1909, avfallsberg från 1892 och anrikningsverk från 1906; äldre uppgifter är mer ofullständiga.",
         "Databasen innehåller även resurs- och reservuppgifter. Gruvspår använder endast historisk faktisk produktion och publicerar inte prospekteringsmål eller resurs-/reservuppgifter."
       ]
+    },
+    {
+      "id": "aitik-boliden-annual-reports-2010-2025",
+      "title": "Boliden årsredovisningar, gruvspecifikt rörelseresultat Aitik 2010–2025",
+      "publisher": "Boliden AB",
+      "publication_year": 2026,
+      "document_type": "arsredovisningsserie",
+      "access_status": "public",
+      "url": "https://financialfilings.com/filings/boliden/annual-report/2026/32902138/",
+      "source_perspective": "verksamhetsutovare",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Sammanställning av publicerade gruvspecifika rörelseresultat för Aitik. Årsredovisningen 2019 innehåller tioårsöversikt 2010–2019; senare årsredovisningar kompletterar serien till 2025. Summan i Gruvspår avser endast de verifierade åren 2010–2025.",
+      "limitations": [
+        "Täcker inte Aitiks hela driftstid från 1968.",
+        "Rörelseresultat är inte nettovinst eller malmvärde.",
+        "Beloppet är en summering av årsvisa gruvspecifika resultat och ska uppdateras om årsredovisningar korrigeras."
+      ]
     }
   ]
 }
