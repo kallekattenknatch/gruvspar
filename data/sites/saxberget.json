@@ -1,11 +1,82 @@
 {
   "site_id": "saxberget",
   "display_name": "Saxberget / Saxbergsgruvan",
-  "case_study_status": "source_registered",
+  "case_study_status": "published_measurements_added",
   "scope": "Dokumenterade miljöundersökningar, påverkan, beslut, åtgärder och uppföljning.",
-  "records": [],
+  "records": [
+    {
+      "id": "sax-water-downstream-tailings-1991-1996",
+      "record_type": "sample_result",
+      "title": "Årsmedelhalter i vatten nedströms sandmagasinen 1991–1996",
+      "description": "Rapportens tabell 8.3 redovisar årsmedelhalter (mg/l): 1991 Cu ≈0,001; Pb 0,002; Zn 0,28; Cd <0,001; As <0,002. 1992 Cu ≈0,001; Pb 0,015; Zn 0,25; Cd <0,001; As <0,002. 1993 Cu ≈0,002; Pb 0,002; Zn 0,28; Cd <0,001; As <0,002. 1994 Cu 0,003; Pb 0,018; Zn 0,75; Cd 0,005; As <0,002. 1995 Cu ≈0,003; Pb 0,015; Zn 0,43; Cd <0,001; As <0,002. 1996 Cu ≈0,006; Pb 0,016; Zn 0,40; Cd <0,001; As n.d.",
+      "sample": {
+        "material": "surface_water",
+        "sampling_location": "Nedströms sandmagasinen",
+        "sampling_method": "Årsmedel av vattenprov enligt tabell 8.3",
+        "sample_date": "1991-01-01"
+      },
+      "analyte": "Koppar (Cu), bly (Pb), zink (Zn), kadmium (Cd), arsenik (As)",
+      "unit": "mg/l",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Historiska mätvärden från 1991–1996, inte aktuella halter.",
+        "n.d. betyder ej påvisat/ej bestämt enligt rapportens notation; det ska inte ersättas med noll.",
+        "Mätpunkterna kan ha flyttats när utsläppspunkter förändrades."
+      ],
+      "source_ids": [
+        "saxberget-saxbergsprojektet-2000"
+      ]
+    },
+    {
+      "id": "sax-water-upstream-saxen-1991-1996",
+      "record_type": "sample_result",
+      "title": "Årsmedelhalter i vatten strax uppströms sjön Saxen 1991–1996",
+      "description": "Rapportens tabell 8.4 redovisar årsmedelhalter (mg/l): 1991 Cu 0,009; Pb 0,04; Zn 4,4; Cd 0,004; As <0,002. 1992 Cu 0,007; Pb 0,05; Zn 3,1; Cd 0,003; As <0,002. 1993 Cu 0,009; Pb 0,014; Zn 2,7; Cd 0,003; As <0,002. 1994 Cu 0,012; Pb 0,02; Zn 3,7; Cd 0,004; As <0,002. 1995 Cu 0,011; Pb 0,014; Zn 3,6; Cd 0,004; As <0,002. 1996 Cu 0,009; Pb 0,016; Zn 2,5; Cd 0,0035; As n.d.",
+      "sample": {
+        "material": "surface_water",
+        "sampling_location": "Strax uppströms sjön Saxen",
+        "sampling_method": "Årsmedel av vattenprov enligt tabell 8.4",
+        "sample_date": "1991-01-01"
+      },
+      "analyte": "Koppar (Cu), bly (Pb), zink (Zn), kadmium (Cd), arsenik (As)",
+      "unit": "mg/l",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Historiska mätvärden från 1991–1996, inte aktuella halter.",
+        "Uppströmspositionen är den som rapporten anger och ska inte tolkas som opåverkad referens utan ytterligare stöd.",
+        "n.d. ska inte ersättas med noll."
+      ],
+      "source_ids": [
+        "saxberget-saxbergsprojektet-2000"
+      ]
+    },
+    {
+      "id": "sax-treated-minewater-1991-1996",
+      "record_type": "sample_result",
+      "title": "Årsmedelhalter i behandlat gruvvatten nedströms gruvan 1991–1996",
+      "description": "Rapportens tabell 8.5 redovisar årsmedelhalter (mg/l): 1991 Cu 0,008; Pb 0,107; Zn 51; Cd 0,08; As <0,005. 1992 Cu 0,009; Pb 0,069; Zn 52; Cd 0,073; As <0,002. Efter förändrad behandling och utsläppspunkt: 1994 Cu 0,002; Pb 0,006; Zn 3,5; Cd <0,001; As <0,002. 1995 Cu 0,02; Pb 0,039; Zn 4,4; Cd 0,026; As <0,002. 1996 Cu 0,014; Pb 0,063; Zn 5,2; Cd 0,018; As n.d. Rapporten anger att inget vattenutsläpp från gruvan skedde från mars 1997.",
+      "sample": {
+        "material": "surface_water",
+        "sampling_location": "Nedströms gruvan efter behandling",
+        "sampling_method": "Årsmedel av vattenprov enligt tabell 8.5",
+        "sample_date": "1991-01-01"
+      },
+      "analyte": "Koppar (Cu), bly (Pb), zink (Zn), kadmium (Cd), arsenik (As)",
+      "unit": "mg/l",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Historiska värden, inte aktuella halter.",
+        "Behandling och utsläppspunkt ändrades inför 1994; jämför före och efter med hänsyn till detta.",
+        "n.d. ska inte ersättas med noll."
+      ],
+      "source_ids": [
+        "saxberget-saxbergsprojektet-2000"
+      ]
+    }
+  ],
   "source_ids": [
-    "saxberget-main"
+    "saxberget-main",
+    "saxberget-saxbergsprojektet-2000"
   ],
   "editorial_notes": [
     "Platsmarkören är en orienterande position och anger inte gränsen för förorenat område.",
