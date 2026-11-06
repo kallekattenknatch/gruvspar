@@ -28,3 +28,18 @@ Registrera minst provmaterial, provdatum, provpunkt, ämne, resultat, enhet och 
 
 ## Garpenberg
 Garpenberg är första fördjupade fallstudien. Uppgifter från tidigare samtal ska inte publiceras som verifierade analysresultat innan rapporter och provuppgifter har granskats.
+
+## Perspektiv och redaktionell hållning
+
+Gruvspår granskar gruvdriftens miljöpåverkan och hur företag och myndigheter hanterar den. Naturens, människors och ekosystemens långsiktiga skydd är utgångspunkten för vilka frågor som ställs och följs upp.
+
+Detta innebär inte att slutsatser får bestämmas i förväg. Sakuppgifter ska vara spårbara och bedömningar ska stå i proportion till underlaget. Gruvspår ska:
+- redovisa dokumenterad påverkan, utsläpp, föroreningar och miljörisker utan att tona ned dem,
+- granska verksamhetsutövares ansvar, åtaganden och faktiska åtgärder,
+- granska myndigheters beslut, tillsyn och uppföljning,
+- redovisa osäkerheter, motstridiga uppgifter och kunskapsluckor öppet,
+- även redovisa verifierade miljöförbättringar och åtgärder som fungerat,
+- skilja mellan fakta, källors påståenden, myndighetsbedömningar och Gruvspårs egna analyser.
+
+Gruvspår är inte neutralt inför miljöförstöring. Däremot ska metoderna vara sakliga, öppna och konsekventa. Ingen aktör ska dömas på förhand och ingen dokumenterad påverkan ska döljas.
+
