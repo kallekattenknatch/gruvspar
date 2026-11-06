@@ -5,7 +5,8 @@
   "editorial_notes": [
     "Årsutsläpp i kg är belastningsmängder, inte koncentrationer i recipientvatten.",
     "PRTR-resultaten är rapporterade utsläpp från anläggningen; de anger inte ensamma ekologisk eller human hälsorisk.",
-    "Uppgifterna nedan är separata årsdata och får inte blandas ihop med koncernens sammanlagda utsläpp."
+    "Uppgifterna nedan är separata årsdata och får inte blandas ihop med koncernens sammanlagda utsläpp.",
+    "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
   ],
   "records": [
     {
@@ -117,12 +118,36 @@
       "source_ids": [
         "boliden-aitik-site-2025"
       ]
+    },
+    {
+      "id": "sgu-production-25230101",
+      "record_type": "production_statistic",
+      "title": "SGU: registrerad producerad malm för Aitik",
+      "description": "SGU:s databas Malmer och anrikningsverk redovisar 1 069,099 miljoner ton producerad malm för posten Aitik, SGU-kod 25230101. Registrerad produktionsperiod: 1968–pågående. Detta är producerad malm enligt SGU:s historiska register, inte malmvärde, försäljningsintäkt eller företagsvinst.",
+      "result": 1069.098866,
+      "unit": "miljoner ton producerad malm",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Aitik"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s produktionsregister bygger på historisk statistik och är inte automatiskt en fullständig livstidssumma för all brytning.",
+        "SGU anger att nationella sammanställningar börjar 1833 och att uppgifter före 1833 är sparsamma och fragmentariska.",
+        "Poster med olika SGU-koder redovisas separat och har inte summerats eftersom de kan avse skilda delobjekt eller överlappande statistikperioder.",
+        "Produktionsmängd är inte malmvärde, omsättning, rörelseresultat eller nettovinst.",
+        "Mineralresurser och reserver har inte publicerats."
+      ],
+      "source_ids": [
+        "sgu-ores-concentrators-open-data"
+      ]
     }
   ],
   "source_ids": [
     "sgu-bergverksstatistik-2025",
     "boliden-annual-report-2025",
-    "boliden-aitik-site-2025"
+    "boliden-aitik-site-2025",
+    "sgu-ores-concentrators-open-data"
   ],
   "accumulated_ore_value": {
     "status": "in_progress",
