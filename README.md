@@ -3,7 +3,7 @@
 Oberoende kunskapsbank om gruvdriftens miljöspår, historiska och aktuella mätdata, föroreningar och dokumenterade miljö- och hälsofrågor.
 
 ## Status
-Pilotversion 1.8 under uppbyggnad. Webbplatsen är inte färdiglanserad. Innehåll, källor, länkar, provmetadata och tillgänglighet ska kvalitetssäkras före bred lansering.
+Pilotversion 1.8. Webbplatsen utvecklas och uppgifterna kompletteras löpande. Kontrollera alltid källhänvisningar och datastatus innan informationen används som beslutsunderlag.
 
 ## Publiceringsprinciper
 - Publicera dokumenterade miljöspår, inte prospekteringsmål eller mineralresursinformation.
