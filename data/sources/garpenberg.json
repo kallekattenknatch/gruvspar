@@ -100,6 +100,23 @@
         "Vissa anrikningsverk tar emot malm från flera gruvor. Gemensam produktion får inte fördelas på enskilda gruvor utan belägg.",
         "Rapportens resurs- och reservuppgifter publiceras inte i Gruvspår."
       ]
+    },
+    {
+      "id": "garpenberg-boliden-summary-report-2023",
+      "title": "Boliden Summary Report, Resources and Reserves 2023, Garpenberg",
+      "publisher": "Boliden AB",
+      "publication_year": 2023,
+      "document_type": "teknisk_gruvrapport",
+      "access_status": "public",
+      "url": "https://www.scribd.com/document/742382995/Resources-and-Reserves-Garpenberg-2023-12-31-1",
+      "source_perspective": "verksamhetsutovare_teknisk_rapport",
+      "verification_status": "source_identified_secondary_host",
+      "relevance": "Rapportutdrag innehåller historisk malmproduktion och halter för Garpenberg från 1957 till 2023. Uppgifterna kan användas för att bygga en historisk produktionsserie.",
+      "limitations": [
+        "Länken är en sekundär värd (Scribd); originalrapport från Boliden bör hämtas och granskas innan publicering av slutlig livstidssumma.",
+        "Utdraget innehåller en intern skillnad mellan 66,5 och 63,4 miljoner ton som måste redas ut mot originaltabellen.",
+        "Anrikningsverket tog även emot malm från Lovisagruvan 2005–2014."
+      ]
     }
   ]
 }
