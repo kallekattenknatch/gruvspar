@@ -100,6 +100,22 @@
         "Rörelseresultat är inte nettovinst eller malmvärde.",
         "Beloppet är en summering av årsvisa gruvspecifika resultat och ska uppdateras om årsredovisningar korrigeras."
       ]
+    },
+    {
+      "id": "boliden-aitik-site-2025",
+      "title": "Boliden Aitik, verksamhet och nyckeltal",
+      "publisher": "Boliden AB",
+      "publication_year": 2026,
+      "document_type": "gruvspecifik-verksamhetssida",
+      "access_status": "public",
+      "url": "https://www.boliden.com/sv/verksamhet/gruvor/boliden-aitik/",
+      "source_perspective": "verksamhetsutovare",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Bolidens officiella Aitik-sida anger rörelseresultat 948 MSEK för 2025 och beskriver produktion samt gruvans verksamhet.",
+      "limitations": [
+        "Bolagets egen redovisning.",
+        "Rörelseresultatet är ett årsresultat för Aitik, inte nettovinst eller malmvärde."
+      ]
     }
   ]
 }
