@@ -12,8 +12,7 @@
       "sample": {
         "material": "surface_water",
         "sampling_location": "Nedströms sandmagasinen",
-        "sampling_method": "Årsmedel av vattenprov enligt tabell 8.3",
-        "sample_date": "1991-01-01"
+        "sampling_method": "Årsmedel av vattenprov enligt tabell 8.3"
       },
       "analyte": "Koppar (Cu), bly (Pb), zink (Zn), kadmium (Cd), arsenik (As)",
       "unit": "mg/l",
@@ -35,8 +34,7 @@
       "sample": {
         "material": "surface_water",
         "sampling_location": "Strax uppströms sjön Saxen",
-        "sampling_method": "Årsmedel av vattenprov enligt tabell 8.4",
-        "sample_date": "1991-01-01"
+        "sampling_method": "Årsmedel av vattenprov enligt tabell 8.4"
       },
       "analyte": "Koppar (Cu), bly (Pb), zink (Zn), kadmium (Cd), arsenik (As)",
       "unit": "mg/l",
@@ -58,8 +56,7 @@
       "sample": {
         "material": "surface_water",
         "sampling_location": "Nedströms gruvan efter behandling",
-        "sampling_method": "Årsmedel av vattenprov enligt tabell 8.5",
-        "sample_date": "1991-01-01"
+        "sampling_method": "Årsmedel av vattenprov enligt tabell 8.5"
       },
       "analyte": "Koppar (Cu), bly (Pb), zink (Zn), kadmium (Cd), arsenik (As)",
       "unit": "mg/l",
