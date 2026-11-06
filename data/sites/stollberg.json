@@ -13,7 +13,6 @@
         "material": "tailings",
         "sampling_location": "Stollbergs sandmagasin",
         "sampling_method": "64 maskinborrprov genom efterbehandlad övertäckning",
-        "sample_date": "2021-01-01",
         "fresh_or_dry": "unknown"
       },
       "analyte": "Järn (Fe), zink (Zn), bly (Pb), antimon (Sb), silver (Ag)",
