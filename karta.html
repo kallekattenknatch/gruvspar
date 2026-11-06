@@ -26,7 +26,7 @@ function slug(s){return s.toLowerCase().replace(/å/g,'a').replace(/ä/g,'a').re
 function slugify(s){return s.toLowerCase().replace(/å/g,'a').replace(/ä/g,'a').replace(/ö/g,'o').replace(/\//g,' ').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}
 function render(q=''){group.innerHTML='';list.innerHTML='';markerNodes.length=0;leaderLayer=document.createElementNS(ns,'g');group.appendChild(leaderLayer);let n=0;places.filter(p=>p.join(' ').toLocaleLowerCase('sv').includes(q.toLocaleLowerCase('sv'))).forEach(p=>{n++;const pos=xy(p),c=document.createElementNS(ns,'circle');c.setAttribute('r','8');c.setAttribute('fill',color(p[3]));c.setAttribute('class','point');c.style.pointerEvents='all';c.setAttribute('tabindex','0');c.setAttribute('aria-label',p[0]);c.addEventListener('click',()=>show(p));c.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();show(p)}});group.appendChild(c);markerNodes.push({p,pos,c});const b=document.createElement('button');b.textContent=p[0];b.addEventListener('click',()=>show(p));list.appendChild(b)});document.getElementById('count').textContent=n;layoutMarkers()}
 const svg=document.getElementById('map');let view={x:0,y:0,w:500,h:900};
-render();document.getElementById('search').addEventListener('input',e=>render(e.target.value));document.getElementById('close').addEventListener('click',()=>popup.classList.remove('show'));
+document.getElementById('search').addEventListener('input',e=>render(e.target.value));document.getElementById('close').addEventListener('click',()=>popup.classList.remove('show'));
 function layoutMarkers(){
   if(!markerNodes.length)return;
   leaderLayer.innerHTML='';
@@ -71,5 +71,6 @@ function clearTouch(e){
 }
 svg.addEventListener('touchend',clearTouch,{passive:true});svg.addEventListener('touchcancel',()=>{touchStart=null},{passive:true});
 svg.addEventListener('wheel',e=>{e.preventDefault();zoomCenter(e.deltaY<0?1.15:1/1.15)},{passive:false});
+render();
 let mouse=null;svg.addEventListener('mousedown',e=>{if(e.button===0)mouse={x:e.clientX,y:e.clientY,view:{...view}}});window.addEventListener('mousemove',e=>{if(!mouse)return;const r=svg.getBoundingClientRect(),dx=(e.clientX-mouse.x)*mouse.view.w/r.width,dy=(e.clientY-mouse.y)*mouse.view.h/r.height;setView({...mouse.view,x:mouse.view.x-dx,y:mouse.view.y-dy})});window.addEventListener('mouseup',()=>mouse=null);
 </script></body></html>
