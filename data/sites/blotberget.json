@@ -1,0 +1,22 @@
+{
+  "site_id": "blotberget",
+  "display_name": "Blötberget",
+  "case_study_status": "research_pending",
+  "scope": "Dokumenterade gruvrelaterade miljöuppgifter. Inga mineralresurser, reserver eller prospekteringsuppgifter publiceras.",
+  "records": [],
+  "source_ids": [
+    "sgu-ores-concentrators-open-data"
+  ],
+  "data_gaps": [
+    {
+      "title": "Ingen direkt SGU-matchning i produktionsregistret",
+      "description": "Någon direkt matchning med namnet Blötberget hittades inte i den granskade SGU-tabellen Malmer. Alternativa historiska namn eller separat gruvområdespost behöver kontrolleras innan produktionstal kan publiceras.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Kontrollera historiska namn och delgruvor i SGU:s historiska gruvkartor.",
+        "Sök kommunala och länsstyrelsearkiv efter produktionsstatistik och miljöundersökningar."
+      ]
+    }
+  ]
+}
