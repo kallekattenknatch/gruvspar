@@ -24,13 +24,38 @@
       "source_ids": [
         "sgu-bergverksstatistik-2025"
       ]
+    },
+    {
+      "id": "sgu-production-24810314",
+      "record_type": "production_statistic",
+      "title": "SGU: registrerad producerad malm för Fäbodtjärn",
+      "description": "SGU:s databas Malmer och anrikningsverk redovisar 0,02 miljoner ton producerad malm för posten Fäbodtjärn, SGU-kod 24810314. Registrerad produktionsperiod: 2024–pågående. Detta är producerad malm enligt SGU:s historiska register, inte malmvärde, försäljningsintäkt eller företagsvinst.",
+      "result": 0.019502,
+      "unit": "miljoner ton producerad malm",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Fäbodtjärn"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s produktionsregister bygger på historisk statistik och är inte automatiskt en fullständig livstidssumma för all brytning.",
+        "SGU anger att nationella sammanställningar börjar 1833 och att uppgifter före 1833 är sparsamma och fragmentariska.",
+        "Poster med olika SGU-koder redovisas separat och har inte summerats eftersom de kan avse skilda delobjekt eller överlappande statistikperioder.",
+        "Produktionsmängd är inte malmvärde, omsättning, rörelseresultat eller nettovinst.",
+        "Mineralresurser och reserver har inte publicerats."
+      ],
+      "source_ids": [
+        "sgu-ores-concentrators-open-data"
+      ]
     }
   ],
   "source_ids": [
-    "sgu-bergverksstatistik-2025"
+    "sgu-bergverksstatistik-2025",
+    "sgu-ores-concentrators-open-data"
   ],
   "editorial_notes": [
-    "Produktionsstatistik beskriver faktisk brytning, inte mineralresurser eller reserver."
+    "Produktionsstatistik beskriver faktisk brytning, inte mineralresurser eller reserver.",
+    "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
   ],
   "accumulated_ore_value": {
     "status": "in_progress",
