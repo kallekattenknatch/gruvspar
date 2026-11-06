@@ -1,0 +1,14 @@
+{
+  "site_id": "adak",
+  "display_name": "Adakfältet",
+  "case_study_status": "source_registered",
+  "scope": "Dokumenterade miljöundersökningar, påverkan, beslut, åtgärder och uppföljning.",
+  "records": [],
+  "source_ids": [
+    "adak-main"
+  ],
+  "editorial_notes": [
+    "Platsmarkören är orienterande och anger inte gränsen för förorenat område.",
+    "Gruvdriftens historik och aktuell miljöåtgärdsstatus ska hållas isär."
+  ]
+}
