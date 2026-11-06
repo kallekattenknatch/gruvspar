@@ -69,6 +69,56 @@
         "Hämta SGU:s anrikningsverksrader för Torskbäcken och skilj ingående malm, koncentrat och anrikningssand.",
         "Identifiera vilka gruvor som levererade malm och redovisa endast verifierade flöden."
       ]
+    },
+    {
+      "title": "Gruvspecifikt rörelseresultat ej komplett",
+      "description": "Årsvisa resultat och tidigare ägare behöver sammanställas.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapporter och kontrollera objektavgränsning, år och metod."
+      ]
+    },
+    {
+      "title": "Miljöunderlaget behöver breddas",
+      "description": "Fullständiga serier för mark, vatten, sediment, luft och biota är inte samlade.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapporter och kontrollera objektavgränsning, år och metod."
+      ]
+    },
+    {
+      "title": "Saneringspengar och fysisk åtgärd behöver följas upp",
+      "description": "Budget, bidrag, utbetalningar och slutkostnad måste skiljas åt.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapporter och kontrollera objektavgränsning, år och metod."
+      ]
+    },
+    {
+      "title": "Käll- och tidsperiodskontroll pågår",
+      "description": "Historiska poster behöver kontrolleras mot originalkällor och eventuella överlapp.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapporter och kontrollera objektavgränsning, år och metod."
+      ]
     }
-  ]
+  ],
+  "accumulated_ore_value": {
+    "status": "not_applicable",
+    "amount": null,
+    "currency": "SEK",
+    "note": "Torskbäcken är ett tidigare anrikningsverk, inte en separat gruva. Behandlad malm och producerat koncentrat redovisas som anläggningsflöden."
+  },
+  "reported_profit": {
+    "status": "in_progress",
+    "metric": "operating_profit",
+    "currency": "SEK",
+    "amount": null,
+    "total_amount": null,
+    "note": "Gruvspecifikt historiskt rörelseresultat är ännu inte verifierat. Saknade år är inte noll."
+  }
 }
