@@ -1,0 +1,56 @@
+{
+  "site_id": "aitik",
+  "display_name": "Aitikgruvan",
+  "scope": "Offentligt rapporterade utsläpp till vatten enligt Naturvårdsverkets PRTR-register.",
+  "editorial_notes": [
+    "Årsutsläpp i kg är belastningsmängder, inte koncentrationer i recipientvatten.",
+    "PRTR-resultaten är rapporterade utsläpp från anläggningen; de anger inte ensamma ekologisk eller human hälsorisk.",
+    "Uppgifterna nedan är separata årsdata och får inte blandas ihop med koncernens sammanlagda utsläpp."
+  ],
+  "records": [
+    {
+      "id": "aitik-prtr-2024",
+      "record_type": "emission_result",
+      "title": "Rapporterade utsläpp till vatten 2024",
+      "description": "Naturvårdsverkets PRTR-register redovisar för Boliden Mineral AB – Aitikgruvan: arsenik 1,3 kg, kadmium 0,08 kg, krom 0,24 kg, koppar 4,5 kg, kvicksilver 0,002 kg, nickel 2,19 kg, bly 0,17 kg, zink 11 kg, totalkväve 10 095 kg, ammoniumkväve 226 kg, totalfosfor 9,9 kg, klorid 156 060 kg, BOD7 5 089 kg och TOC 9 053 kg. Metod M anges för vattenutsläppen.",
+      "sample": {
+        "material": "surface_water",
+        "sampling_location": "Rapporterade utsläpp till vatten från Aitikgruvan, Gällivare"
+      },
+      "analyte": "As, Cd, Cr, Cu, Hg, Ni, Pb, Zn, totalkväve, ammoniumkväve, totalfosfor, klorid, BOD7, TOC",
+      "result": 11,
+      "unit": "kg/år för zink; övriga ämnen redovisas i beskrivningen",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Årsutsläpp, inte koncentrationer i recipientvatten.",
+        "Metod M betecknar mätbaserad uppgift i registret; det är inte nödvändigtvis kontinuerlig mätning.",
+        "PRTR visar rapporterade mängder, inte riskbedömning eller miljökvalitetsstatus."
+      ],
+      "source_ids": [
+        "aitik-prtr"
+      ]
+    },
+    {
+      "id": "aitik-prtr-2023",
+      "record_type": "emission_result",
+      "title": "Rapporterade utsläpp till vatten 2023",
+      "description": "Naturvårdsverkets PRTR-register redovisar för Boliden Mineral AB – Aitikgruvan: arsenik 10 kg, kadmium 0,06 kg, krom 0,08 kg, koppar 1,52 kg, kvicksilver 0,002 kg, nickel 0,88 kg, bly 0,06 kg, totalkväve 5 403 kg, ammoniumkväve 180 kg och totalfosfor 4,3 kg. Klorid 89 000 kg redovisas också. Metod M anges för vattenutsläppen.",
+      "sample": {
+        "material": "surface_water",
+        "sampling_location": "Rapporterade utsläpp till vatten från Aitikgruvan, Gällivare"
+      },
+      "analyte": "As, Cd, Cr, Cu, Hg, Ni, Pb, totalkväve, ammoniumkväve, totalfosfor, klorid",
+      "result": 10,
+      "unit": "kg/år för arsenik; övriga ämnen redovisas i beskrivningen",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Årsutsläpp, inte koncentrationer i recipientvatten.",
+        "Metod M betecknar mätbaserad uppgift i registret; det är inte nödvändigtvis kontinuerlig mätning.",
+        "Zinkvärde saknas i den återgivna tabellsektionen; frånvaro ska inte tolkas som nollutsläpp."
+      ],
+      "source_ids": [
+        "aitik-prtr"
+      ]
+    }
+  ]
+}
