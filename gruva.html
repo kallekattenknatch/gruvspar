@@ -121,9 +121,9 @@ target.appendChild(item);
   const finance=get('remediation-finance');
   if(finance&&(d.remediation_finance||financialRecords.length||matchedGlobalProjects.length)){
    finance.className='';finance.replaceChildren();
-   finance.appendChild(make('Verifierad totalsumma faktiskt utbetalt',
-    (d.remediation_finance&&d.remediation_finance.confirmed_total_spent_note)||'Ingen verifierad totalsumma finns.',
-    'Status: '+((d.remediation_finance&&d.remediation_finance.status)||'Enskilda poster registrerade')));
+   finance.appendChild(make('Ekonomisk redovisning',
+    (d.remediation_finance&&d.remediation_finance.confirmed_total_spent_note)||(matchedGlobalProjects.length?'Projektkostnader, beviljad finansiering och faktiskt utbetalda belopp redovisas separat per projekt nedan.':'Ingen verifierad totalsumma för faktiskt utbetalt finns i platsregistret.'),
+    'Status: '+((d.remediation_finance&&d.remediation_finance.status)||'Belopp redovisas per projekt och källstatus')));
    financialRecords.forEach(r=>finance.appendChild(card(r)));
    projects.forEach(p=>finance.appendChild(make(p.name||p.mine,p.findings?.join(' ')||[...(p.physical_actions||[]),...(p.environmental_results||[])].join(' '),
     [p.period,p.status,p.total_cost_sek!=null?'Rapporterad total projektkostnad: '+p.total_cost_sek.toLocaleString('sv-SE')+' kr':'',p.total_cost_status,...(p.funding||[]).map(f=>(f.payer||'Finansiär')+': '+(f.amount_sek!=null?f.amount_sek.toLocaleString('sv-SE')+' kr':'belopp ej specificerat')+' ('+f.status+')')].filter(Boolean).join(' · '),p.limitations,p.sources)));
