@@ -136,5 +136,16 @@
       "boliden-bolidenomradet-site-2025",
       "boliden-annual-report-2025"
     ]
-  }
+  },
+  "data_gaps": [
+    {
+      "title": "Äldre Kankberg och Kankberg nya hålls isär",
+      "description": "SGU redovisar en äldre brytningsperiod 1966–1997 och en separat post för Kankberg nya från 2012. De två produktionsmängderna har inte summerats till en enda gruvsumma.",
+      "priority": "Medel",
+      "status": "Öppen",
+      "next_steps": [
+        "Bekräfta kartmarkörens geografiska omfattning och om äldre Kankberg ska ingå i samma profil."
+      ]
+    }
+  ]
 }
