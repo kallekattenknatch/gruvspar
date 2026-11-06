@@ -34,10 +34,10 @@ function layoutMarkers(){
   markerNodes.forEach(m=>{
     m.c.setAttribute('cx',m.pos.x);
     m.c.setAttribute('cy',m.pos.y);
-    m.c.setAttribute('r',Math.max(4,6/factor));
+    m.c.setAttribute('r',5/factor);
   });
 }
-function setView(v){const w=Math.max(500/30,Math.min(500,v.w));const h=w*1.8;const x=Math.max(0,Math.min(500-w,v.x));const y=Math.max(0,Math.min(900-h,v.y));view={x,y,w,h};svg.setAttribute('viewBox',x+' '+y+' '+w+' '+h)}
+function setView(v){const w=Math.max(500/30,Math.min(500,v.w));const h=w*1.8;const x=Math.max(0,Math.min(500-w,v.x));const y=Math.max(0,Math.min(900-h,v.y));view={x,y,w,h};svg.setAttribute('viewBox',x+' '+y+' '+w+' '+h);layoutMarkers()}
 function svgPoint(clientX,clientY){const p=svg.createSVGPoint();p.x=clientX;p.y=clientY;return p.matrixTransform(svg.getScreenCTM().inverse())}
 function zoomCenter(f){const w=view.w/f,h=w*1.8;setView({x:view.x+(view.w-w)/2,y:view.y+(view.h-h)/2,w})}
 document.getElementById('zoomIn').addEventListener('click',()=>zoomCenter(1.35));
