@@ -160,6 +160,23 @@
         "Halter i avfall får inte jämföras direkt med vattenhalter eller jordriktvärden utan rätt provmatris och jämförelsegrund.",
         "Resultat gäller de provtagna delobjekten och provurvalen, inte automatiskt hela gruvområdet."
       ]
+    },
+    {
+      "id": "boliden-annual-report-2025",
+      "title": "Boliden Annual and Sustainability Report 2025",
+      "publisher": "Boliden AB",
+      "publication_year": 2026,
+      "document_type": "års- och hållbarhetsredovisning",
+      "access_status": "public",
+      "url": "https://investors.boliden.com/sites/boliden-ir/files/pr/202603040118-1.pdf",
+      "source_perspective": "verksamhetsutövare",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Redovisar gruvspecifikt rörelseresultat för Aitik, Garpenberg och Zinkgruvan samt ett samlat resultat för Boliden Area. Zinkgruvan konsoliderades från 16 april 2025.",
+      "limitations": [
+        "Gruvspecifikt rörelseresultat är inte nettovinst eller malmvärde.",
+        "Boliden Area är en sammanlagd redovisningsenhet för Renström, Kristineberg, Kankberg och övrig verksamhet; resultatet får inte fördelas på enskilda gruvor.",
+        "Zinkgruvans resultat 2025 avser endast perioden efter konsolidering 16 april 2025."
+      ]
     }
   ]
 }
