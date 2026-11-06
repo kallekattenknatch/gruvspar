@@ -16,6 +16,22 @@
         "Källan är en översikt; underliggande rapporter och mätserier behöver registreras separat.",
         "Kartmarkören är orienterande, inte en risk- eller föroreningsavgränsning."
       ]
+    },
+    {
+      "id": "stollberg-sgu-rr-2023-01",
+      "title": "SGU RR 2023:01, Hållbar utvinning och återvinning av metaller och mineral från sekundära resurser",
+      "publisher": "SGU och Naturvårdsverket",
+      "year": 2023,
+      "url": "https://resource.sgu.se/dokument/publikation/rr/rr202301rapport/RR2301.pdf",
+      "source_perspective": "myndighetsrapport",
+      "document_type": "undersökningsrapport",
+      "access_status": "public",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Originalrapport med publicerade mätvärden som registrerats separat i platsens dataregister.",
+      "limitations": [
+        "Värden gäller endast angivet provmaterial, provpunkt och tidsperiod.",
+        "Historiska mätvärden ska inte beskrivas som aktuella halter."
+      ]
     }
   ]
 }
