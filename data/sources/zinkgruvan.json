@@ -83,6 +83,22 @@
         "SGU anger att metallinnehåll rapporteras systematiskt från 1909, avfallsberg från 1892 och anrikningsverk från 1906; äldre uppgifter är mer ofullständiga.",
         "Databasen innehåller även resurs- och reservuppgifter. Gruvspår använder endast historisk faktisk produktion och publicerar inte prospekteringsmål eller resurs-/reservuppgifter."
       ]
+    },
+    {
+      "id": "zinkgruvan-boliden-operating-profit-2025",
+      "title": "Boliden Annual Report 2025, operating profit per mine",
+      "publisher": "Boliden AB",
+      "publication_year": 2026,
+      "document_type": "arsredovisning",
+      "access_status": "public",
+      "url": "https://financialfilings.com/filings/boliden/annual-report/2026/32902138/",
+      "source_perspective": "verksamhetsutovare",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Redovisar 358 miljoner kronor i rörelseresultat för Zinkgruvan 2025. Boliden konsoliderade Zinkgruvan från 16 april 2025, varför beloppet avser Bolidens redovisade period och inte automatiskt hela kalenderåret.",
+      "limitations": [
+        "Rörelseresultat är inte nettovinst eller malmvärde.",
+        "Beloppet får inte tolkas som resultat för hela 2025 eller hela gruvans livstid."
+      ]
     }
   ]
 }
