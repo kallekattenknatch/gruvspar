@@ -1,4 +1,71 @@
 {
   "site_id": "garpenberg",
-  "sources": []
+  "sources": [
+    {
+      "id": "lst-dalarna-2010-08-metallpaverkade-sjoar",
+      "title": "Metallpåverkade sjöar och vattendrag i Dalarna. Konsekvenser av en tusenårig gruvhistoria",
+      "publisher": "Länsstyrelsen i Dalarnas län",
+      "publication_year": 2010,
+      "document_type": "myndighetsrapport",
+      "access_status": "public",
+      "url": "https://www.lansstyrelsen.se/download/18.8cd5a1b19362fb4fc22544/1732537310810/Metallp%C3%A5verkade%20sj%C3%B6ar%20och%20vattendrag%20i%20Dalarna.%20Konsekvenser%20av%20en%20tusen%C3%A5rig%20gruvhistoria%2C%20rapport%202010%3A08.pdf",
+      "relevance": "Beskriver Forsåns avrinningsområde, Garpenbergsfältets gruvavfallsobjekt, historisk deponering och samordnad recipientkontroll.",
+      "source_perspective": "myndighet",
+      "verification_status": "source_identified_content_reviewed",
+      "limitations": [
+        "Rapporten är från 2010 och beskriver förhållanden och underlag vid den tiden.",
+        "Uppgifter måste knytas till rätt objekt, provpunkt och tidsperiod innan enskilda halter registreras."
+      ]
+    },
+    {
+      "id": "boliden-historiska-gruvomraden-garpenberg",
+      "title": "Historiska gruvområden i Garpenberg, Hedemora kommun",
+      "publisher": "Boliden",
+      "publication_year": null,
+      "document_type": "verksamhetsutovarens-information",
+      "access_status": "public",
+      "url": "https://www.boliden.com/sv/verksamhet/gruvor/boliden-garpenberg/historiska-gruvomraden-i-garpenberg-hedemora-kommun/",
+      "relevance": "Boliden beskriver historiska gruvområden, pågående huvudstudie, undersökta medier och biologiska provtyper samt bolagets preliminära tidsplan.",
+      "source_perspective": "verksamhetsutovare",
+      "verification_status": "source_identified_content_reviewed",
+      "limitations": [
+        "Detta är verksamhetsutövarens egen information och ska återges som Bolidens uppgifter.",
+        "Tidsplan och påståenden om risk ska kontrolleras mot beslut, rapporter och myndighetsmaterial.",
+        "Webbsidan anger att huvudstudien väntas bli klar 2027."
+      ]
+    },
+    {
+      "id": "smp-sok-miljorapport",
+      "title": "Sök miljörapport",
+      "publisher": "Svenska miljörapporteringsportalen, Länsstyrelserna",
+      "publication_year": null,
+      "document_type": "myndighetsportal-vagledning",
+      "access_status": "public",
+      "url": "https://smpinfo.lansstyrelsen.se/hur-gor-jag/tillsynsmyndighet/sok-miljorapport/",
+      "relevance": "Vägledning för att söka verksamheters miljörapporter och uppgifter om granskningsstatus, rapportår och tillsynsobjekt.",
+      "source_perspective": "myndighet",
+      "verification_status": "source_identified_content_reviewed",
+      "limitations": [
+        "Detta är en sökvägledning, inte en miljörapport för Garpenberg.",
+        "Enskilda rapporter behöver identifieras och granskas separat."
+      ]
+    },
+    {
+      "id": "mod-2006-54",
+      "title": "MÖD 2006:54",
+      "publisher": "Mark- och miljööverdomstolen",
+      "publication_year": 2006,
+      "document_type": "domstolsavgorande",
+      "access_status": "public",
+      "url": "https://www.ratiolex.se/mod/2006/54/",
+      "relevance": "Avgörandet återger uppgifter om bakgrundshalter i sediment i Brubäckens avrinningsområde och diskussion om metallbelastning och gruvvatten.",
+      "source_perspective": "domstol",
+      "verification_status": "source_identified_secondary_host",
+      "limitations": [
+        "Den länkade sidan är en sekundär publicering av avgörandet, inte domstolens egen webbplats.",
+        "Brubäckens avrinningsområde får inte automatiskt likställas med varje provpunkt i Garpenberg.",
+        "Uppgifterna i domen behöver kontrolleras mot underliggande rapporter innan mätdata registreras."
+      ]
+    }
+  ]
 }
