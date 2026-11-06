@@ -89,6 +89,30 @@
       "source_ids": [
         "sgu-ores-concentrators-open-data"
       ]
+    },
+    {
+      "id": "adak-tailings-metals-2023",
+      "record_type": "sample_result",
+      "title": "Metallhalter i anrikningssand vid Adak, SGU 2023",
+      "description": "SGU:s medelvärde för tre prov av anrikningssand från Adak redovisas i Bilaga 1C. Uppmätta medelhalter: kobolt 158 ppm, koppar 1 874 ppm, bly 54 ppm, zink 458 ppm, nickel 13 ppm och järn 9,92 %. Silver redovisas till 1,48 ppm och guld till 0,185 ppm.",
+      "sample": {
+        "material": "tailings",
+        "sampling_location": "Anrikningssand, Adak",
+        "sampling_method": "SGU:s sammanställning av kemiska analyser; medelvärde av n prov"
+      },
+      "analyte": "Kobolt, koppar, bly, zink, nickel, järn, silver och guld",
+      "result": null,
+      "unit": "ppm (järn i viktprocent)",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser anrikningssand, inte jord, vatten, sediment eller biologiskt material.",
+        "Medelvärdet beskriver provmaterialet i rapportens urval och är inte automatiskt representativt för hela området.",
+        "Resultaten är inte i sig en hälsoriskbedömning; exponering, biotillgänglighet och relevant jämförelsegrund behöver bedömas separat."
+      ],
+      "source_ids": [
+        "sgu-rr-2023-01"
+      ],
+      "sample_count": 3
     }
   ],
   "source_ids": [
