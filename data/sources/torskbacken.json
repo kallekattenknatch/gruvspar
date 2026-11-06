@@ -1,0 +1,21 @@
+{
+  "site_id": "torskbacken",
+  "sources": [
+    {
+      "id": "torskbacken-main",
+      "title": "Torskbäckens före detta anrikningsverk",
+      "publisher": "Sveriges geologiska undersökning (SGU)",
+      "document_type": "myndighetsinformation-eller-rapport",
+      "access_status": "public",
+      "url": "https://www.sgu.se/samhallsplanering/fororenade-omraden/gruvor/torskbackens-fore-detta-anrikningsverk/",
+      "source_perspective": "myndighet",
+      "verification_status": "source_identified_content_reviewed",
+      "relevance": "Före detta anrikningsverk. SGU beskriver metall- och arsenikförorenad anrikningssand på land och metallhalter i sediment i Torskbäcksviken. Efterbehandling planeras/utreds.",
+      "coordinate_note": "SGU:s öppna geodata för anrikningsverk, koordinat i SWEREF 99 TM omräknad till WGS84",
+      "limitations": [
+        "Källan är identifierad men alla underliggande provresultat och bilagor har ännu inte registrerats separat.",
+        "Kartmarkören är en orienterande platsposition, inte en risk- eller föroreningsavgränsning."
+      ]
+    }
+  ]
+}
