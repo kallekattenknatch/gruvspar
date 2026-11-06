@@ -47,6 +47,48 @@
       "source_ids": [
         "sgu-ores-concentrators-open-data"
       ]
+    },
+    {
+      "id": "renstrom-prtr-2025",
+      "record_type": "emission_statistic",
+      "title": "Rapporterade utsläpp till vatten, 2025",
+      "description": "Naturvårdsverkets PRTR-register redovisar för rapporteringsåret 2025: As 2,83 kg, totalkväve 19 104 kg och Zn 83,8 kg till vatten. Uppgifterna avser rapporterade massutsläpp från anläggningen.",
+      "sample": {
+        "material": "reported_emission_to_water",
+        "sampling_location": "Anläggningens rapporterade utsläppspunkt(er)"
+      },
+      "analyte": "Flera ämnen",
+      "unit": "kg/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Massutsläpp i kg/år är inte samma sak som uppmätt koncentration i vatten.",
+        "Utsläppsmängder kan inte jämföras direkt med gränsvärden i µg/l eller mg/l.",
+        "PRTR-redovisning ska läsas tillsammans med verksamhetens kontrollprogram och recipientmätningar."
+      ],
+      "source_ids": [
+        "renstrom-prtr"
+      ]
+    },
+    {
+      "id": "renstrom-prtr-2024",
+      "record_type": "emission_statistic",
+      "title": "Rapporterade utsläpp till vatten, 2024",
+      "description": "Naturvårdsverkets PRTR-register redovisar för rapporteringsåret 2024: As 3,57 kg, totalkväve 21 378 kg och Zn 78,2 kg till vatten. Uppgifterna avser rapporterade massutsläpp från anläggningen.",
+      "sample": {
+        "material": "reported_emission_to_water",
+        "sampling_location": "Anläggningens rapporterade utsläppspunkt(er)"
+      },
+      "analyte": "Flera ämnen",
+      "unit": "kg/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Massutsläpp i kg/år är inte samma sak som uppmätt koncentration i vatten.",
+        "Utsläppsmängder kan inte jämföras direkt med gränsvärden i µg/l eller mg/l.",
+        "PRTR-redovisning ska läsas tillsammans med verksamhetens kontrollprogram och recipientmätningar."
+      ],
+      "source_ids": [
+        "renstrom-prtr"
+      ]
     }
   ],
   "source_ids": [
