@@ -162,31 +162,25 @@
     "companies": [
       {
         "name": "Rio Tinto",
-        "period": "före 2004",
+        "period": "Före 2 juni 2004",
         "amount": null,
-        "coverage": "Gruvspecifikt livstidsresultat ej verifierat"
+        "coverage": "Gruvspecifikt resultat ej verifierat"
       },
       {
         "name": "Lundin Mining",
-        "period": "2004–201 Lundin-ägarperiod",
+        "period": "2 juni 2004–15 april 2025",
         "amount": null,
-        "coverage": "Gruvspecifikt resultatserie behöver samlas in"
-      },
-      {
-        "name": "Zinkgruvan Mining / Lundin Mining",
-        "period": "senare ägarperiod till april 2025",
-        "amount": null,
-        "coverage": "Separat gruvresultat behöver verifieras"
+        "coverage": "Gruvspecifik totalsumma behöver byggas från årsredovisningar"
       },
       {
         "name": "Boliden AB / Boliden Mineral AB",
-        "period": "från april 2025",
-        "amount": null,
-        "coverage": "2025 års resultat separat rapporterat; helårssumma kräver periodisering"
+        "period": "16 april–31 december 2025",
+        "amount": 358000000,
+        "coverage": "358 miljoner kronor i rapporterat rörelseresultat för Zinkgruvan efter konsolidering; avser inte helår"
       }
     ],
     "total_amount": null,
-    "note": "Ingen tillförlitlig total för hela gruvans ägarperioder har ännu kunnat räknas fram. Koncernresultat och verksamhetsområdesresultat används inte som ersättning. Enskilda företagsperioder ska fyllas i när gruvspecifika årsresultat har verifierats.",
+    "note": "Boliden redovisar 358 miljoner kronor i rörelseresultat för Zinkgruvan för den del av 2025 då gruvan konsoliderades från 16 april. Rio Tintos och Lundin Minings historiska gruvresultat är ännu inte summerade. Därför visas ingen totalsumma för hela gruvans livstid.",
     "source_ids": [
       "zinkgruvan-sec-technical-report-2005",
       "sgu-bergverksstatistik-2025"
