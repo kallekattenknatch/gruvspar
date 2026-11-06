@@ -84,14 +84,39 @@
       "source_ids": [
         "gladhammar-report-2004-01"
       ]
+    },
+    {
+      "id": "sgu-production-8830301",
+      "record_type": "production_statistic",
+      "title": "SGU: registrerad producerad malm för Gladhammars gruvfält",
+      "description": "SGU:s databas Malmer och anrikningsverk redovisar 0,006 miljoner ton producerad malm för posten Gladhammars gruvfält, SGU-kod 8830301. Registrerad produktionsperiod: 1820–1934. Detta är producerad malm enligt SGU:s historiska register, inte malmvärde, försäljningsintäkt eller företagsvinst.",
+      "result": 0.005669,
+      "unit": "miljoner ton producerad malm",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Gladhammars gruvfält"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s produktionsregister bygger på historisk statistik och är inte automatiskt en fullständig livstidssumma för all brytning.",
+        "SGU anger att nationella sammanställningar börjar 1833 och att uppgifter före 1833 är sparsamma och fragmentariska.",
+        "Poster med olika SGU-koder redovisas separat och har inte summerats eftersom de kan avse skilda delobjekt eller överlappande statistikperioder.",
+        "Produktionsmängd är inte malmvärde, omsättning, rörelseresultat eller nettovinst.",
+        "Mineralresurser och reserver har inte publicerats."
+      ],
+      "source_ids": [
+        "sgu-ores-concentrators-open-data"
+      ]
     }
   ],
   "source_ids": [
     "gladhammar-main",
-    "gladhammar-report-2004-01"
+    "gladhammar-report-2004-01",
+    "sgu-ores-concentrators-open-data"
   ],
   "editorial_notes": [
     "Platsmarkören är en orienterande position och anger inte gränsen för förorenat område.",
-    "Status för miljöpåverkan och efterbehandling ska hållas isär från om gruvdrift har upphört."
+    "Status för miljöpåverkan och efterbehandling ska hållas isär från om gruvdrift har upphört.",
+    "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
   ]
 }
