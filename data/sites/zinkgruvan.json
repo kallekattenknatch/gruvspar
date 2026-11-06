@@ -187,6 +187,27 @@
       "source_ids": [
         "sgu-ores-concentrators-open-data"
       ]
+    },
+    {
+      "id": "zinkgruvan-prtr-2025",
+      "record_type": "emission_statistic",
+      "title": "Rapporterade utsläpp till vatten, 2025",
+      "description": "Naturvårdsverkets PRTR-register redovisar för rapporteringsåret 2025: Rapporterade utsläpp till vatten: As 16,3 kg, Cd 1 kg, Ni 22,1 kg, totalkväve 30 709 kg, Pb 59 kg och Zn 1 070,5 kg. Rapporterat NOx-utsläpp till luft: 19 530 kg. Uppgifterna avser rapporterade massutsläpp från anläggningen.",
+      "sample": {
+        "material": "reported_emission_to_water",
+        "sampling_location": "Anläggningens rapporterade utsläppspunkt(er)"
+      },
+      "analyte": "Flera ämnen",
+      "unit": "kg/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Massutsläpp i kg/år är inte samma sak som uppmätt koncentration i vatten.",
+        "Utsläppsmängder kan inte jämföras direkt med gränsvärden i µg/l eller mg/l.",
+        "PRTR-redovisning ska läsas tillsammans med verksamhetens kontrollprogram och recipientmätningar."
+      ],
+      "source_ids": [
+        "zinkgruvan-prtr"
+      ]
     }
   ],
   "source_ids": [
