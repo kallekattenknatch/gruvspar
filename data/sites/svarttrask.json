@@ -98,5 +98,17 @@
         "svarttrask-sgu-page"
       ]
     }
+  ],
+  "data_gaps": [
+    {
+      "title": "SGU:s post saknar redovisad produktion",
+      "description": "SGU:s tabell har en post med namnet Svärtträsk men saknar produktionsmängd och driftperiod. Detta får inte tolkas som att ingen malm bröts; gruvans cirka nio månaders drift 2006–2007 behöver beläggas från andra primärkällor.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta produktionsuppgifter från tillstånds- och miljörapporter samt konkursboets handlingar.",
+        "Kontrollera om SGU har en separat produktionspost under annat namn."
+      ]
+    }
   ]
 }
