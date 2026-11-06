@@ -34,6 +34,38 @@
       "source_ids": [
         "adak-main"
       ]
+    },
+    {
+      "id": "adak-history-waste-scale-2025",
+      "record_type": "production_statistic",
+      "title": "Historisk produktion och gruvavfall i Adakfältet",
+      "description": "SGU anger att cirka 8,3 miljoner ton malm bröts i Adakfältet 1940–1977. Inom området har cirka 5,9 miljoner ton gruvavfall och förorenade massor lagts i ett sandmagasin. Uppgifterna avser Adakfältet med flera gruvor, inte enbart en enskild gruva.",
+      "result": 8300000,
+      "unit": "ton malm 1940–1977; cirka 5,9 miljoner ton gruvavfall och förorenade massor",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s uppgifter gäller Adakfältet som helhet, inklusive Adak, Lindsköldsgruvan och Brännmyran.",
+        "Historisk produktionsmängd är inte ekonomiskt värde eller vinst.",
+        "Avfallsmängden är en ungefärlig total för sandmagasinet och blandade massor."
+      ],
+      "source_ids": [
+        "adak-main"
+      ]
+    },
+    {
+      "id": "adak-cover-and-water-treatment",
+      "record_type": "remediation_result",
+      "title": "Täckning av sandmagasin och tre kalkdammar",
+      "description": "SGU beskriver en första enklare täckning 1992 och en kompletterande kvalificerad täckning 1996–1999 med 0,5 meter packat tätskikt och 1,5 meter skyddsskikt. Tre kalkdammar har anlagts för att behandla vatten mot Rudtjejaure och Skeppträskån. SGU uppger att dammarna hittills minskat arsenik- och järnhalter, medan koppar, sulfat och pH varit oförändrade. Förbättring av två dammar utreds.",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s webbsammanfattning redovisar inte numeriska haltserier för före och efter åtgärd.",
+        "Åtgärderna innebär inte att allt förorenat material har avlägsnats.",
+        "Vattenbehandlingen är inte färdig enligt SGU:s statusbeskrivning."
+      ],
+      "source_ids": [
+        "adak-main"
+      ]
     }
   ],
   "source_ids": [
