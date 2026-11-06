@@ -35,19 +35,19 @@
     },
     {
       "id": "sgu-bergverksstatistik-2025",
-      "title": "Bergverksstatistik 2025, Periodiska publikationer 2026:1",
+      "title": "Bergverksstatistik 2025, Periodiska publikationer 2026:2",
       "publisher": "Sveriges geologiska undersökning (SGU)",
       "publication_year": 2026,
       "document_type": "nationell-produktions-och-miljostatistik",
       "access_status": "public",
-      "url": "https://resource.sgu.se/dokument/publikation/pp/pp202601rapport/pp2026-1-rapport.pdf",
+      "url": "https://resource.sgu.se/dokument/publikation/pp/pp202602rapport/pp2026-2-rapport.pdf",
       "source_perspective": "myndighetsstatistik",
       "verification_status": "primary_source_reviewed",
-      "relevance": "Tabell 5 och 11 redovisar 2025 års brutna malmvolymer och gråberg per gruva. Tabell 15–17 redovisar nationella avfallsmängder och utsläpp av metaller till vatten. Gruvspår använder endast faktisk produktion och avfalls-/miljöstatistik, inte prospekteringsuppgifter eller resurs-/reservdata.",
+      "relevance": "SGU:s slutliga årsrapport för 2025. Tabell 11 redovisar bruten malm och gråberg per gruva, tabell 12 redovisar anrikning och koncentratproduktion och tabell 13 innehåller historiska koncentratserier 1978–2025. Uppgifter används endast där de kan knytas till rätt gruva eller anrikningsverk.",
       "limitations": [
-        "Produktionsmängder är inte ekonomisk vinst eller omsättning.",
-        "Järnmalms- och ickejärnmalmsgruvornas tabeller använder olika definitioner och ska inte jämföras utan förklaring.",
-        "Nationella utsläppstal får inte fördelas på enskilda gruvor utan gruvspecifika data."
+        "Produktionsmängder och metallmängder är inte i sig försäljningsintäkter eller ackumulerat malmvärde.",
+        "Vissa anrikningsverk tar emot malm från flera gruvor. Gemensam produktion får inte fördelas på enskilda gruvor utan belägg.",
+        "Rapportens resurs- och reservuppgifter publiceras inte i Gruvspår."
       ]
     }
   ]
