@@ -33,5 +33,17 @@
   ],
   "editorial_notes": [
     "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
+  ],
+  "data_gaps": [
+    {
+      "title": "SGU:s historiska Bolidenpost avser avslutad gruva",
+      "description": "Den SGU-post som matchar namnet Boliden anger brytningsperiod 1926–1967 och status Closed mine. Kartans nuvarande markör/status behöver skiljas från företaget Boliden och eventuell senare verksamhet i området.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Kontrollera vad kartmarkören avser geografiskt.",
+        "Håll historiska Boliden-gruvan skild från företaget Boliden AB och andra närliggande verksamheter."
+      ]
+    }
   ]
 }
