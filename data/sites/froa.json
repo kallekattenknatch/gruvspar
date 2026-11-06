@@ -1,0 +1,37 @@
+{
+  "site_id": "froa",
+  "display_name": "Fröå",
+  "case_study_status": "sgu_production_record_added",
+  "scope": "Historisk faktisk malmproduktion och dokumenterade miljöuppgifter. Inga mineralresurser, reserver eller prospekteringsuppgifter publiceras.",
+  "records": [
+    {
+      "id": "sgu-production-23210101",
+      "record_type": "production_statistic",
+      "title": "SGU: registrerad producerad malm för Fröå malmfält",
+      "description": "SGU:s databas Malmer och anrikningsverk redovisar 0,055 miljoner ton producerad malm för posten Fröå malmfält, SGU-kod 23210101. Registrerad produktionsperiod: 1874–1919. Detta är producerad malm enligt SGU:s historiska register, inte malmvärde, försäljningsintäkt eller företagsvinst.",
+      "result": 0.054688,
+      "unit": "miljoner ton producerad malm",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Fröå malmfält"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s produktionsregister bygger på historisk statistik och är inte automatiskt en fullständig livstidssumma för all brytning.",
+        "SGU anger att nationella sammanställningar börjar 1833 och att uppgifter före 1833 är sparsamma och fragmentariska.",
+        "Poster med olika SGU-koder redovisas separat och har inte summerats eftersom de kan avse skilda delobjekt eller överlappande statistikperioder.",
+        "Produktionsmängd är inte malmvärde, omsättning, rörelseresultat eller nettovinst.",
+        "Mineralresurser och reserver har inte publicerats."
+      ],
+      "source_ids": [
+        "sgu-ores-concentrators-open-data"
+      ]
+    }
+  ],
+  "source_ids": [
+    "sgu-ores-concentrators-open-data"
+  ],
+  "editorial_notes": [
+    "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
+  ]
+}
