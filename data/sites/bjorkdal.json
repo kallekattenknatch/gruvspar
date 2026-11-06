@@ -47,6 +47,28 @@
       "source_ids": [
         "sgu-ores-concentrators-open-data"
       ]
+    },
+    {
+      "id": "bjorkdal-prtr-2024",
+      "record_type": "emission_result",
+      "title": "Rapporterade utsläpp till vatten och luft 2024",
+      "description": "Naturvårdsverkets PRTR-register redovisar för Björkdalsgruvan 2024 arsenik 4,9 kg till vatten (metod C), totalkväve 24 020 kg till vatten (C) och totalfosfor 47,3 kg till vatten (C). Till luft rapporterades biogen CO2 193 055 kg (E), fossil CO2 6 522 346 kg (E), total CO2 6 715 401 kg (E) och NOx 198 559 kg (E).",
+      "sample": {
+        "material": "reported_emission_to_air_and_water",
+        "sampling_location": "Björkdalsgruvan AB, Skellefteå"
+      },
+      "analyte": "Arsenik, totalkväve, totalfosfor, koldioxid och NOx",
+      "result": null,
+      "unit": "kg/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Utsläppsmängder är inte koncentrationer i recipientvatten.",
+        "Metod C betyder beräknad mängd och E uppskattad mängd enligt registret.",
+        "PRTR redovisar rapporteringspliktiga ämnen och mängder; saknade ämnen i tabellen är inte nollutsläpp."
+      ],
+      "source_ids": [
+        "bjorkdal-prtr"
+      ]
     }
   ],
   "source_ids": [
