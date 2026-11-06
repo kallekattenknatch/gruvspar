@@ -218,5 +218,108 @@
       "garpenberg-boliden-annual-reports-2004-2025",
       "garpenberg-boliden-summary-report-2019"
     ]
+  },
+  "remediation_finance": {
+    "status": "partial_documentation",
+    "scope": "Hela Garpenbergsområdet: historiska gruvområden, gruvavfall, anrikningsavfall, sandmagasin, sediment, mark och vatten.",
+    "accounting_rule": "Budget, beslutad finansiering, faktiskt utbetalt, entreprenadkostnad, utförd fysisk åtgärd och uppmätt miljöeffekt redovisas separat. Övertäckning och inneslutning räknas inte som att föroreningsmassan avlägsnats eller renats.",
+    "confirmed_total_spent_sek": null,
+    "confirmed_total_spent_note": "Ingen verifierad totalsumma för faktiskt utbetalda saneringskostnader i hela Garpenberg har ännu kunnat fastställas från de granskade offentliga handlingarna.",
+    "projects": [
+      {
+        "id": "garpenberg-dalalven-negotiations-1987-1995",
+        "name": "Dalälvsdelegationens planerade sanering av gruvavfall i Garpenberg",
+        "period": "1987–1995",
+        "category": "historical_funding_and_negotiations",
+        "status": "no_agreement_reached",
+        "estimated_or_reserved_amount_sek": 100000000,
+        "amount_scope": "Ursprunglig total statlig ram för Dalälvsdelegationens arbete i Dalälven, inte ett Garpenbergsspecifikt projektbelopp.",
+        "confirmed_paid_for_garpenberg_sek": null,
+        "confirmed_paid_note": "Inga utbetalningar till Garpenberg har kunnat verifieras i de granskade handlingarna.",
+        "findings": [
+          "Dalälvsdelegationens arbete identifierade stora behov av saneringsåtgärder kring Garpenberg.",
+          "Förhandlingar fördes mellan staten/Naturvårdsverket och Boliden Mineral AB men något avtal kom aldrig till stånd.",
+          "Miljöministern uppgav 1996 att cirka 50 miljoner kronor hade använts till avfallssanering i Falun och att återstående cirka 50 miljoner kronor drogs in 1995 eftersom avtal med Boliden saknades.",
+          "Detta är finansieringshistorik för Dalälvsprogrammet. Det är inte belägg för att 50 miljoner kronor betalades ut till Garpenberg."
+        ],
+        "physical_remediation_verified": false,
+        "environmental_outcome_verified": false,
+        "evidence_status": "primary_source_verified",
+        "source_ids": [
+          "riksdag-prop-1994-95-125",
+          "riksdag-protocol-1994-95-31",
+          "riksdag-protocol-1995-96-104"
+        ],
+        "limitations": [
+          "Den ursprungliga ramen på 100 miljoner kronor avsåg hela Dalälvsdelegationens arbete, inte enbart Garpenberg.",
+          "Cirka 50 miljoner kronor användes enligt miljöministern för Falun; resterande cirka 50 miljoner drogs in 1995.",
+          "Förhandlingar utan avtal innebär inte att ett saneringsprojekt finansierades eller genomfördes.",
+          "Det behöver utredas om andra finansieringskällor senare användes för enskilda objekt i Garpenberg."
+        ]
+      },
+      {
+        "id": "garpenberg-herrgardsomradet-1995",
+        "name": "Planerad slaggsanering vid Herrgårdsområdet",
+        "period": "1995–1996",
+        "category": "planned_contaminated_land_remediation",
+        "status": "planned_cost_estimate_payment_unverified",
+        "estimated_or_reserved_amount_sek": 7000000,
+        "amount_scope": "Uppskattad kostnad för planerad sanering, enligt miljöministerns svar i riksdagen den 3 juni 1996.",
+        "confirmed_paid_sek": null,
+        "confirmed_paid_note": "Ingen slutredovisning, faktura eller verifierad utbetalning har hittats ännu.",
+        "findings": [
+          "Naturvårdsverket hade påbörjat planering av sanering av Herrgårdsområdet på Hedemora kommuns initiativ.",
+          "Den beräknade kostnaden angavs till 7 miljoner kronor.",
+          "Förhandlingarna beskrevs som i ett slutskede.",
+          "I riksdagsdebatten nämndes ett initiativ för viss slaggsanering, men också en konflikt mellan kulturmiljövård och miljöhänsyn."
+        ],
+        "physical_remediation_verified": false,
+        "environmental_outcome_verified": false,
+        "evidence_status": "primary_source_verified_for_planning_only",
+        "source_ids": [
+          "riksdag-protocol-1995-96-104"
+        ],
+        "limitations": [
+          "7 miljoner kronor är en kostnadsuppskattning, inte bevis på anslag, utbetalning eller slutkostnad.",
+          "Riksdagsprotokollet bekräftar planering och förhandlingar, men inte att arbetet slutfördes.",
+          "Begär ut slutrapport, entreprenadhandlingar, fakturor och efterkontroll från Länsstyrelsen och Hedemora kommun."
+        ]
+      },
+      {
+        "id": "garpenberg-financial-security-review-2018",
+        "name": "Ekonomisk säkerhet för efterbehandling av Garpenberg",
+        "period": "2018",
+        "category": "financial_security_not_expenditure",
+        "status": "risk_and_security_review",
+        "estimated_or_reserved_amount_sek": null,
+        "confirmed_paid_sek": null,
+        "findings": [
+          "SOU 2018:59 anger att rättsliga processer pågick om uppdatering av säkerheterna för Aitik och Garpenberg.",
+          "Utredningen uppgav att säkerheterna i dessa fall kunde behöva femdubblas jämfört med dåvarande nivå.",
+          "Detta gäller ekonomisk säkerhet för framtida efterbehandling, inte pengar som redan spenderats på sanering."
+        ],
+        "physical_remediation_verified": false,
+        "environmental_outcome_verified": false,
+        "evidence_status": "primary_source_verified",
+        "source_ids": [
+          "riksdag-sou-2018-59"
+        ],
+        "limitations": [
+          "SOU:n anger inte i sammanfattningen ett separat Garpenbergsbelopp.",
+          "Uppgiften får inte tolkas som en faktisk kostnad eller utbetalning.",
+          "Domar och beslut om säkerhetsbelopp måste hämtas in separat."
+        ]
+      }
+    ],
+    "open_questions": [
+      "Finns slutligt avtal eller senare uppgörelse mellan Boliden och Naturvårdsverket efter 1996?",
+      "Genomfördes den planerade slaggsaneringen vid Herrgårdsområdet och vad blev den faktiska kostnaden?",
+      "Vilka faktiska betalningar har Boliden gjort för sanering i Garpenberg, per projekt och år?",
+      "Vilka statliga, kommunala eller andra offentliga medel har betalats ut till specifika objekt i Garpenberg?",
+      "Vilka mängder förorenad jord, slagg, sediment eller anrikningsavfall har avlägsnats och vart transporterades materialet?",
+      "Vilka åtgärder var enbart täckning, inneslutning eller vattenkontroll och vilka avlägsnade eller behandlade själva föroreningsmassan?",
+      "Vilka oberoende provresultat före och efter åtgärd visar faktisk minskning av metallbelastningen?"
+    ],
+    "requested_records_status": "request_draft_prepared_not_sent"
   }
 }
