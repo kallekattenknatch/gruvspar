@@ -82,7 +82,7 @@ for rel in (
 # Parse every inline script with Node without executing browser code.
 for html in ROOT.rglob("*.html"):
     content = html.read_text(encoding="utf-8")
-    for index, match in enumerate(re.finditer(r"<script\\b[^>]*>([\\s\\S]*?)</script>", content, re.I), 1):
+    for index, match in enumerate(re.finditer(r"<script\b[^>]*>([\s\S]*?)</script>", content, re.I), 1):
         code = match.group(1).strip()
         if not code:
             continue
@@ -100,7 +100,7 @@ for html in ROOT.rglob("*.html"):
             )
 
 if errors:
-    print("\\n".join(f"ERROR: {item}" for item in errors))
+    print("\n".join(f"ERROR: {item}" for item in errors))
     sys.exit(1)
 
 print("Gruvspår smoke tests passed: JSON, local links, profile data and inline JavaScript.")
