@@ -26,6 +26,22 @@
       "source_ids": [
         "sgu-ores-concentrators-open-data"
       ]
+    },
+    {
+      "id": "kiruna-environmental-report-2024",
+      "record_type": "environmental_observation",
+      "title": "Kiruna: miljörapport 2024 och uppföljning av luftutsläpp",
+      "description": "Kiruna kommuns miljö- och byggnämnd tog den 10 juni 2025 del av LKAB:s miljörapport för verksamhetsåret 2024. Protokollet anger att LKAB producerade 22 miljoner ton under året och att villkoren i huvudsak innehölls, med undantag för svaveldioxid per ton prima pellets och energieffektivisering. LKAB:s årsredovisning anger att svaveldioxidvillkoret i Kiruna överskreds 2024 på grund av haverier och uppstarter i pelletsverken som påverkade rökgasreningen. Kommunens protokoll redovisar PM10-årsmedelvärde omkring 7 µg/m³ vid Luossaskolan 2024, under miljökvalitetsnormerna. Det anger även att en annan mätpunkt, NKC, låg över 20 µg/m³ 2023 men strax under 7 µg/m³ 2024.",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Svaveldioxidöverskridandet kopplas i LKAB:s redovisning till pelletsverkens driftstörningar, inte enbart till själva gruvbrytningen.",
+        "PM10-värdena avser angivna mätplatser och år; de beskriver inte alla luftföroreningar eller alla platser i Kiruna.",
+        "Kommunens protokoll är en sammanfattning av miljörapporten; fullständig miljörapport och mätbilagor bör granskas innan fler halter registreras."
+      ],
+      "source_ids": [
+        "kiruna-miljorapport-2024-kommun",
+        "lkab-arsredovisning-2024"
+      ]
     }
   ],
   "source_ids": [
