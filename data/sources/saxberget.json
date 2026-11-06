@@ -1,0 +1,21 @@
+{
+  "site_id": "saxberget",
+  "sources": [
+    {
+      "id": "saxberget-main",
+      "title": "Saxdalen - Miljöanalys av ett historiskt gruvområde samt konsekvenser av en efterbehandling",
+      "publisher": "Länsstyrelsen i Dalarnas län",
+      "document_type": "myndighetsinformation-eller-rapport",
+      "access_status": "public",
+      "url": "https://www.lansstyrelsen.se/download/18.8cd5a1b19362fb4fc22521/1732537299574/Rapport%202010%3A15%20Saxdalen%20-%20En%20milj%C3%B6analys%20av%20ett%20historiskt%20gruvomr%C3%A5de%20samt%20konsekvenser%20av%20en%20efterbehandling.pdf",
+      "source_perspective": "myndighet",
+      "verification_status": "source_identified_content_reviewed",
+      "relevance": "Historiskt gruv- och anrikningsområde. Länsstyrelsen har publicerat miljöanalys av gruvområdet och effekter av efterbehandling.",
+      "coordinate_note": "Boliden, offentlig redovisning av Saxbergets sandmagasin, koordinat 60°9'4.1 N 14°56'40.1 E",
+      "limitations": [
+        "Källan är identifierad men alla underliggande provresultat och bilagor har ännu inte registrerats separat.",
+        "Kartmarkören är en orienterande platsposition, inte en risk- eller föroreningsavgränsning."
+      ]
+    }
+  ]
+}
