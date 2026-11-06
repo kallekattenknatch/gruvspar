@@ -32,6 +32,22 @@
         "Värden gäller endast angivet provmaterial, provpunkt och tidsperiod.",
         "Historiska mätvärden ska inte beskrivas som aktuella halter."
       ]
+    },
+    {
+      "id": "stollberg-sgu-projects-2026",
+      "title": "Pågående projekt inom förorenade områden 2026",
+      "publisher": "Sveriges geologiska undersökning (SGU)",
+      "publication_year": 2026,
+      "document_type": "myndighetsprojektlista",
+      "access_status": "public",
+      "url": "https://www.sgu.se/samhallsplanering/fororenade-omraden/pagaende-projekt-inom-fororenade-omraden/",
+      "source_perspective": "myndighet",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "SGU listar Stollbergs gruvområde i Dalarna under sanering med statliga bidragsmedel. Primär förorening anges som tungmetaller och aktuell insats som åtgärdsförberedelse.",
+      "limitations": [
+        "Projektlistan anger status på övergripande nivå, inte beslutade mängder, kostnader eller genomförd miljöeffekt.",
+        "Åtgärdsförberedelse ska inte tolkas som påbörjad eller avslutad sanering."
+      ]
     }
   ]
 }
