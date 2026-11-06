@@ -233,5 +233,17 @@
       "zinkgruvan-sec-technical-report-2005",
       "sgu-bergverksstatistik-2025"
     ]
-  }
+  },
+  "data_gaps": [
+    {
+      "title": "Två SGU-poster med samma gruvnamn",
+      "description": "SGU redovisar två separata poster med skilda koder och produktionsvärden. De visas separat och har inte summerats eftersom överlappning och objektavgränsning måste kontrolleras.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Granska SGU-referenserna för koderna 18820505 och 18820507.",
+        "Fastställ om posterna avser skilda delobjekt eller överlappande produktionsserier."
+      ]
+    }
+  ]
 }
