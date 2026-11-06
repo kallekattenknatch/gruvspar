@@ -126,6 +126,28 @@
       "source_ids": [
         "sgu-bergverksstatistik-2025"
       ]
+    },
+    {
+      "id": "garpenberg-concentrate-production-2025",
+      "record_type": "production_statistic",
+      "title": "Producerade metallkoncentrat 2025",
+      "description": "SGU:s tabell 12 redovisar cirka 188 294 ton zinkkoncentrat, 48 242 ton blykoncentrat och 6 740 ton kopparkoncentrat från Garpenbergs anrikningsverk under 2025. Koncentratens metallhalter redovisas separat i SGU-tabellen. Mängderna är produktionsdata, inte försäljningsintäkter eller livstidssumma.",
+      "sample": {
+        "material": "other",
+        "sampling_location": "Garpenbergs anrikningsverk, Hedemora kommun"
+      },
+      "analyte": "Zink-, bly- och kopparkoncentrat",
+      "result": 188294,
+      "unit": "ton zinkkoncentrat/år; övriga koncentratmängder anges i beskrivningen",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser endast 2025.",
+        "Koncentratmängder får inte summeras med malmtonnage.",
+        "Koncentratproduktion är inte i sig försäljningsvärde."
+      ],
+      "source_ids": [
+        "sgu-bergverksstatistik-2025"
+      ]
     }
   ],
   "source_ids": [
