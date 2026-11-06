@@ -231,6 +231,23 @@
         "Sammanfattningen anger inte separat belopp för Garpenberg.",
         "Ekonomiska säkerheter och avsättningar är inte samma sak som faktiskt utbetalda saneringskostnader."
       ]
+    },
+    {
+      "id": "garpenberg-boliden-site-2025",
+      "title": "Boliden Garpenberg – verksamhetsfakta och rörelseresultat 2025",
+      "publisher": "Boliden AB",
+      "publication_year": 2026,
+      "document_type": "företagets gruvfaktasida",
+      "access_status": "public",
+      "url": "https://www.boliden.com/operations/mines/boliden-garpenberg/",
+      "source_perspective": "verksamhetsutövare",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Bolidens aktuella gruvfaktasida anger rörelseresultat 4 411 MSEK för 2025 och cirka 3,6 miljoner ton anrikad malm under året. Detta är ett årsresultat för gruvan, inte livstidsvinst eller malmvärde.",
+      "limitations": [
+        "Rörelseresultat är inte nettovinst eller försäljningsintäkt.",
+        "Företagets egen uppgift; redovisas som sådan.",
+        "Årsresultatet får inte summeras med malmvärde eller saneringskostnader."
+      ]
     }
   ]
 }
