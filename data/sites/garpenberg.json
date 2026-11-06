@@ -5,7 +5,12 @@
   "scope": "Dokumenterade miljöundersökningar, biologiska prover, myndighetsbeslut, planerade och genomförda åtgärder samt uppföljning.",
   "public_safety_rule": "Innehåll om mineralresurser, prospekteringsmål eller information som kan underlätta att lokalisera nya fyndigheter ingår inte.",
   "records": [],
-  "source_ids": [],
+  "source_ids": [
+    "lst-dalarna-2010-08-metallpaverkade-sjoar",
+    "boliden-historiska-gruvomraden-garpenberg",
+    "smp-sok-miljorapport",
+    "mod-2006-54"
+  ],
   "editorial_notes": [
     "Äldre gruvverksamhet och nuvarande verksamhet ska hållas isär när källorna gör den skillnaden.",
     "Varje provmaterial redovisas separat. Svampresultat får inte beskrivas som halter i mark eller anrikningssand.",
