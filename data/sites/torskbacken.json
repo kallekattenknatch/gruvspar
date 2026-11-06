@@ -1,9 +1,57 @@
 {
   "site_id": "torskbacken",
   "display_name": "Torskbäckens före detta anrikningsverk",
-  "case_study_status": "source_registered",
+  "case_study_status": "environmental-risk-and-remediation-data-added",
   "scope": "Dokumenterade miljöundersökningar, påverkan, beslut, åtgärder och uppföljning.",
-  "records": [],
+  "records": [
+    {
+      "id": "torskbacken-metals-arsenic-land-and-sediment",
+      "record_type": "environmental_observation",
+      "title": "Mycket höga metall- och arsenikhalter i anrikningssand och sediment",
+      "description": "SGU beskriver mycket höga halter av tungmetaller och arsenik i anrikningssand på land. Även sediment i Torskbäcksviken innehåller höga metallhalter och består delvis av anrikningssand som spolats ut från land. Några numeriska analysvärden har inte lagts in i denna post eftersom de behöver hämtas från underliggande rapporter och bilagor.",
+      "sample": {
+        "material": "tailings_and_sediment",
+        "sampling_location": "Tidigare anrikningsverk vid Torskbäcksviken, Filipstads kommun"
+      },
+      "evidence_status": "source_identified_content_reviewed",
+      "limitations": [
+        "Detta är SGU:s sammanfattning, inte en redovisning av enskilda laboratorieresultat.",
+        "Numeriska halter, provdatum, provpunkter och analysmetoder behöver registreras från originalrapporter.",
+        "Sediment och anrikningssand på land är olika provmatriser och ska inte blandas."
+      ],
+      "source_ids": [
+        "torskbacken-main"
+      ]
+    },
+    {
+      "id": "torskbacken-human-animal-risk",
+      "record_type": "risk_assessment",
+      "title": "SGU:s bedömning av vistelserisk på land",
+      "description": "SGU anger att utredningar konstaterat metallhalter på land vid anrikningsverket som innebär att människor och djur inte kan vistas på området utan risk. Den styrande hälsorisken för människor anges vara akuta effekter vid oavsiktligt oralt intag av fritt liggande arsenikhaltig sand.",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Detta återger SGU:s riskbedömning för det angivna området, inte en individuell medicinsk bedömning.",
+        "Riskbedömningen gäller oavsiktligt intag av arsenikhaltig sand; exponering via andra vägar måste bedömas separat."
+      ],
+      "source_ids": [
+        "torskbacken-main"
+      ]
+    },
+    {
+      "id": "torskbacken-planned-remediation",
+      "record_type": "remediation_plan",
+      "title": "Planerad efterbehandling av mark och sediment",
+      "description": "SGU beskriver en planerad åtgärd med urgrävning och borttransport av förorenade massor på land, viss återfyllnad, erosionsskydd längs stranden och täckning av sediment i ett avgränsat område i Torskbäcksviken. Åtgärden syftar till att minska exponering och spridning till viken och Yngen, som är vattenskyddsområde. SGU uppger att tillstånd enligt miljöbalken krävs och att en ansökan lämnats till mark- och miljödomstolen.",
+      "evidence_status": "primary_source_verified_for_planning_only",
+      "limitations": [
+        "Planerad åtgärd är inte samma sak som genomförd eller verifierad efterbehandling.",
+        "Kostnad, entreprenadstart, slutdatum och faktisk mängd borttransporterade massor är inte redovisade i denna post."
+      ],
+      "source_ids": [
+        "torskbacken-main"
+      ]
+    }
+  ],
   "source_ids": [
     "torskbacken-main"
   ],
