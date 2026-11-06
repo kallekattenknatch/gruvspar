@@ -3,7 +3,7 @@
 Oberoende kunskapsbank om gruvdriftens miljöspår, historiska och aktuella mätdata, föroreningar och dokumenterade miljö- och hälsofrågor.
 
 ## Status
-Pilotversion 1.8. Webbplatsen utvecklas och uppgifterna kompletteras löpande. Kontrollera alltid källhänvisningar och datastatus innan informationen används som beslutsunderlag.
+Pilotversion 1.9. Webbplatsen utvecklas och uppgifterna kompletteras löpande. Kontrollera alltid källhänvisningar och datastatus innan informationen används som beslutsunderlag.
 
 ## Publiceringsprinciper
 - Publicera dokumenterade miljöspår, inte prospekteringsmål eller mineralresursinformation.
@@ -25,6 +25,15 @@ Aktivera Pages i repository-inställningarna när webbplatsens innehåll och lä
 
 ## Swish
 Föreslaget nummer: 073-631 51 81. Mottagaridentitet och kontoinnehav ska verifieras innan betalningslänk eller QR-kod aktiveras. Visa alltid mottagarnamnet tydligt och låt givaren kontrollera det i Swish-appen.
+
+
+## Ekonomisk redovisning och datatäckning
+- Platsprofilerna skiljer mellan faktisk producerad malm, gråberg, metallkoncentrat, ackumulerat malmvärde och gruvspecifikt rörelseresultat.
+- Malmvärde publiceras inte som totalsumma förrän metallmängder, halter/utbyte och historiska priser kan kopplas till rätt gruva och år.
+- Rörelseresultat summeras endast för verifierade år och gruvspecifika redovisningsenheter. Resultat för flera gruvor tillsammans fördelas inte.
+- Saneringsredovisningen skiljer mellan budget, beviljade bidrag, utbetalda medel, entreprenörsersättning och slutlig projektkostnad.
+- Varje profil ska visa kunskapsluckor. Ett tomt register är inte bevis för att påverkan, undersökningar eller åtgärder saknas.
+- SGU:s Bergverksstatistik 2025 används för gruvspecifika produktionsuppgifter där sådana redovisas. Nationella eller gemensamma anläggningsflöden fördelas inte mellan gruvor utan underlag.
 
 ## Integritet och redaktionellt ansvar
 Utkast till stadgar, integritetspolicy och redaktionell policy måste granskas och antas av ansvarig organisation innan de presenteras som gällande dokument.
