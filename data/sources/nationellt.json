@@ -143,6 +143,23 @@
         "SGU anger att metallinnehåll rapporteras systematiskt från 1909, avfallsberg från 1892 och anrikningsverk från 1906; äldre uppgifter är mer ofullständiga.",
         "Databasen innehåller även resurs- och reservuppgifter. Gruvspår använder endast historisk faktisk produktion och publicerar inte prospekteringsmål, fyndighetsdetaljer eller resurs-/reservuppgifter."
       ]
+    },
+    {
+      "id": "sgu-rr-2023-01",
+      "title": "Hållbar utvinning och återvinning av metaller och mineral från sekundära resurser, SGU RR 2023:01",
+      "publisher": "Sveriges geologiska undersökning och Naturvårdsverket",
+      "publication_year": 2023,
+      "document_type": "myndighetsrapport",
+      "access_status": "public",
+      "url": "https://resource.sgu.se/dokument/publikation/rr/rr202301rapport/RR2301.pdf",
+      "source_perspective": "myndighet",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Rapportens bilaga 1A–1C redovisar provtagning och kemiska analyser av varp, anrikningssand och slagg från flera historiska gruvområden. Gruvspår använder endast provhalter och provmaterial, inte uppskattningar av sekundära metallresurser eller prospekteringsuppgifter.",
+      "limitations": [
+        "Rapportens provhalter är kemisk karakterisering, inte i sig en hälsoriskbedömning.",
+        "Halter i avfall får inte jämföras direkt med vattenhalter eller jordriktvärden utan rätt provmatris och jämförelsegrund.",
+        "Resultat gäller de provtagna delobjekten och provurvalen, inte automatiskt hela gruvområdet."
+      ]
     }
   ]
 }
