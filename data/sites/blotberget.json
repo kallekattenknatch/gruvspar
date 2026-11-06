@@ -3,9 +3,83 @@
   "display_name": "Blötberget",
   "case_study_status": "research_pending",
   "scope": "Dokumenterade gruvrelaterade miljöuppgifter. Inga mineralresurser, reserver eller prospekteringsuppgifter publiceras.",
-  "records": [],
+  "records": [
+    {
+      "id": "blotberget-varp-metals-2023",
+      "record_type": "sample_result",
+      "title": "Metallhalter i varp vid Blötberget, SGU 2023",
+      "description": "Av 15 prov från varphögar vid Blötberget redovisade SGU förhöjda medelhalter av järn 15,7 viktprocent, fosfor 0,27 viktprocent, sällsynta jordartsmetaller (REE) 592 ppm, vanadin 261 ppm och titan 0,14 viktprocent.",
+      "sample": {
+        "material": "waste_rock",
+        "sampling_location": "Blötbergets varphögar",
+        "sampling_method": "SGU:s provtagning och sammanvägda kemiska analyser, SGU RR 2023:01"
+      },
+      "sample_count": 15,
+      "analyte": "Metaller och grundämnen enligt SGU RR 2023:01",
+      "unit": "ppm och viktprocent",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser endast angivna prov och provpunkter, inte hela gruvområdet.",
+        "Kemisk karakterisering av gruvavfall är inte i sig en hälsoriskbedömning.",
+        "Halter i varp, anrikningssand, sedimenterat avfall och slagg är olika provmatriser och får inte blandas eller jämföras direkt med vatten- eller jordriktvärden.",
+        "Inga uppskattningar av kvarvarande metallmängder eller resurs-/reservuppgifter publiceras här."
+      ],
+      "source_ids": [
+        "sgu-rr-2023-01"
+      ]
+    },
+    {
+      "id": "blotberget-norberget-tailings-metals-2023",
+      "record_type": "sample_result",
+      "title": "Metallhalter i anrikningssand vid Norberget, Blötberget, SGU 2023",
+      "description": "SGU:s medelvärde från 40 prov i Norbergets sandmagasin: järn 10,6 viktprocent, fosfor 0,61 viktprocent, REE 0,12 viktprocent, vanadin 215 ppm och titan 693 ppm.",
+      "sample": {
+        "material": "tailings",
+        "sampling_location": "Norbergets sandmagasin",
+        "sampling_method": "SGU:s provtagning och sammanvägda kemiska analyser, SGU RR 2023:01"
+      },
+      "sample_count": 40,
+      "analyte": "Metaller och grundämnen enligt SGU RR 2023:01",
+      "unit": "ppm och viktprocent",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser endast angivna prov och provpunkter, inte hela gruvområdet.",
+        "Kemisk karakterisering av gruvavfall är inte i sig en hälsoriskbedömning.",
+        "Halter i varp, anrikningssand, sedimenterat avfall och slagg är olika provmatriser och får inte blandas eller jämföras direkt med vatten- eller jordriktvärden.",
+        "Inga uppskattningar av kvarvarande metallmängder eller resurs-/reservuppgifter publiceras här."
+      ],
+      "source_ids": [
+        "sgu-rr-2023-01"
+      ]
+    },
+    {
+      "id": "blotberget-glaningen-tailings-metals-2023",
+      "record_type": "sample_result",
+      "title": "Metallhalter i anrikningssand vid Glaningen, Blötberget, SGU 2023",
+      "description": "SGU:s medelvärde från 10 prov i Glaningens sandmagasin: järn 13,3 viktprocent, fosfor 0,99 viktprocent, REE 0,12 viktprocent, vanadin 294 ppm och titan 0,11 viktprocent.",
+      "sample": {
+        "material": "tailings",
+        "sampling_location": "Glaningens sandmagasin",
+        "sampling_method": "SGU:s provtagning och sammanvägda kemiska analyser, SGU RR 2023:01"
+      },
+      "sample_count": 10,
+      "analyte": "Metaller och grundämnen enligt SGU RR 2023:01",
+      "unit": "ppm och viktprocent",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser endast angivna prov och provpunkter, inte hela gruvområdet.",
+        "Kemisk karakterisering av gruvavfall är inte i sig en hälsoriskbedömning.",
+        "Halter i varp, anrikningssand, sedimenterat avfall och slagg är olika provmatriser och får inte blandas eller jämföras direkt med vatten- eller jordriktvärden.",
+        "Inga uppskattningar av kvarvarande metallmängder eller resurs-/reservuppgifter publiceras här."
+      ],
+      "source_ids": [
+        "sgu-rr-2023-01"
+      ]
+    }
+  ],
   "source_ids": [
-    "sgu-ores-concentrators-open-data"
+    "sgu-ores-concentrators-open-data",
+    "sgu-rr-2023-01"
   ],
   "data_gaps": [
     {
