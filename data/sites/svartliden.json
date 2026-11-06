@@ -1,0 +1,37 @@
+{
+  "site_id": "svartliden",
+  "display_name": "Svartliden",
+  "case_study_status": "sgu_production_record_added",
+  "scope": "Historisk faktisk malmproduktion och dokumenterade miljöuppgifter. Inga mineralresurser, reserver eller prospekteringsuppgifter publiceras.",
+  "records": [
+    {
+      "id": "sgu-production-24810105",
+      "record_type": "production_statistic",
+      "title": "SGU: registrerad producerad malm för Svartliden",
+      "description": "SGU:s databas Malmer och anrikningsverk redovisar 2,836 miljoner ton producerad malm för posten Svartliden, SGU-kod 24810105. Registrerad produktionsperiod: 2004–2013. Detta är producerad malm enligt SGU:s historiska register, inte malmvärde, försäljningsintäkt eller företagsvinst.",
+      "result": 2.8362,
+      "unit": "miljoner ton producerad malm",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Svartliden"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s produktionsregister bygger på historisk statistik och rapportering; det är inte automatiskt en fullständig livstidssumma för all brytning.",
+        "SGU anger att nationella sammanställningar börjar 1833 och att uppgifter före 1833 är sparsamma och fragmentariska.",
+        "Poster med olika SGU-koder redovisas separat och har inte summerats eftersom de kan avse skilda delobjekt eller överlappande statistikperioder.",
+        "Produktionsmängd får inte tolkas som malmvärde, omsättning, rörelseresultat eller nettovinst.",
+        "Mineralresurser och reserver har inte hämtats in eller publicerats."
+      ],
+      "source_ids": [
+        "sgu-ores-concentrators-open-data"
+      ]
+    }
+  ],
+  "source_ids": [
+    "sgu-ores-concentrators-open-data"
+  ],
+  "editorial_notes": [
+    "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
+  ]
+}
