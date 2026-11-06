@@ -36,5 +36,21 @@ if(s.limitations && s.limitations.length){const ul=document.createElement('ul');
 target.appendChild(item);
 });
 }).catch(()=>{});
+fetch('data/sites/'+site[0]+'.json').then(r=>{if(!r.ok)throw new Error('Platsregistret kunde inte hämtas');return r.json();}).then(data=>{
+const target=document.getElementById('analyses');
+if(!data.records || !data.records.length)return;
+target.className='';
+target.innerHTML='';
+data.records.forEach(rec=>{
+const item=document.createElement('article');item.className='entry';
+const h=document.createElement('h3');h.textContent=rec.title;item.appendChild(h);
+const desc=document.createElement('p');desc.textContent=rec.description||'';item.appendChild(desc);
+const details=document.createElement('p');details.className='small';
+details.textContent=[rec.sample&&rec.sample.material?'Provmaterial: '+rec.sample.material:null,rec.analyte?'Ämne: '+rec.analyte:null,rec.unit?'Enhet: '+rec.unit:null,'Underlagsstatus: '+rec.evidence_status].filter(Boolean).join(' · ');
+item.appendChild(details);
+if(rec.limitations&&rec.limitations.length){const ul=document.createElement('ul');rec.limitations.forEach(t=>{const li=document.createElement('li');li.textContent=t;ul.appendChild(li)});item.appendChild(ul);}
+target.appendChild(item);
+});
+}).catch(()=>{});
 }
 </script></body></html>
