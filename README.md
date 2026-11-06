@@ -28,3 +28,11 @@ Föreslaget nummer: 073-631 51 81. Mottagaridentitet och kontoinnehav ska verifi
 
 ## Integritet och redaktionellt ansvar
 Utkast till stadgar, integritetspolicy och redaktionell policy måste granskas och antas av ansvarig organisation innan de presenteras som gällande dokument.
+
+## Nationellt källregister och karta
+- `data/sources/nationellt.json` samlar nationella myndighetskällor och vägvisare till miljörapporter.
+- `data/sites/` innehåller separata platsregister.
+- `data/sources/` innehåller källor per plats.
+- Den interaktiva kartan visar ett urval dokumenterade gruvor och gruvrelaterade miljöobjekt. Urvalet är inte en komplett nationell inventering.
+- Kartmarkörer är orienterande platspositioner och ska inte tolkas som gränser för förorenade områden.
+- Naturvårdsverkets nationella förteckning över utvinningsavfallsanläggningar är en startpunkt för fortsatt inventering, inte bevis för att varje objekt är förorenat.
