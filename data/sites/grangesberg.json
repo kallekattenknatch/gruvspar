@@ -26,10 +26,107 @@
       "source_ids": [
         "sgu-ores-concentrators-open-data"
       ]
+    },
+    {
+      "id": "grangesberg-exportfält-waste-metals-2023",
+      "record_type": "sample_result",
+      "title": "Metallhalter i varp vid Exportfältet, Grängesberg, SGU 2023",
+      "description": "SGU:s medelvärde från 17 prov av varp vid Grängesbergs Exportfält: järn 10,3 viktprocent, fosfor 0,40 viktprocent, REE 510 ppm, vanadin 242 ppm och titan 0,18 viktprocent.",
+      "sample": {
+        "material": "waste_rock",
+        "sampling_location": "Grängesbergs Exportfält",
+        "sampling_method": "SGU:s provtagning och sammanvägda kemiska analyser, SGU RR 2023:01"
+      },
+      "sample_count": 17,
+      "analyte": "Metaller och grundämnen enligt SGU RR 2023:01",
+      "unit": "ppm och viktprocent",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser endast angivna prov och provpunkter, inte hela gruvområdet.",
+        "Kemisk karakterisering av gruvavfall är inte i sig en hälsoriskbedömning.",
+        "Halter i varp, anrikningssand, sedimenterat avfall och slagg är olika provmatriser och får inte blandas eller jämföras direkt med vatten- eller jordriktvärden.",
+        "Inga uppskattningar av kvarvarande metallmängder eller resurs-/reservuppgifter publiceras här."
+      ],
+      "source_ids": [
+        "sgu-rr-2023-01"
+      ]
+    },
+    {
+      "id": "grangesberg-hotjarnen-tailings-metals-2023",
+      "record_type": "sample_result",
+      "title": "Metallhalter i anrikningssand vid Hötjärnen, Grängesberg, SGU 2023",
+      "description": "SGU:s medelvärde från 57 prov i Hötjärnens sandmagasin: järn 22,8 viktprocent, fosfor 0,97 viktprocent, REE 0,19 viktprocent och vanadin 551 ppm.",
+      "sample": {
+        "material": "tailings",
+        "sampling_location": "Hötjärnens sandmagasin",
+        "sampling_method": "SGU:s provtagning och sammanvägda kemiska analyser, SGU RR 2023:01"
+      },
+      "sample_count": 57,
+      "analyte": "Metaller och grundämnen enligt SGU RR 2023:01",
+      "unit": "ppm och viktprocent",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser endast angivna prov och provpunkter, inte hela gruvområdet.",
+        "Kemisk karakterisering av gruvavfall är inte i sig en hälsoriskbedömning.",
+        "Halter i varp, anrikningssand, sedimenterat avfall och slagg är olika provmatriser och får inte blandas eller jämföras direkt med vatten- eller jordriktvärden.",
+        "Inga uppskattningar av kvarvarande metallmängder eller resurs-/reservuppgifter publiceras här."
+      ],
+      "source_ids": [
+        "sgu-rr-2023-01"
+      ]
+    },
+    {
+      "id": "grangesberg-janmatsdammen-tailings-metals-2023",
+      "record_type": "sample_result",
+      "title": "Metallhalter i anrikningssand vid Jan-Matsdammen, Grängesberg, SGU 2023",
+      "description": "SGU:s medelvärde från 44 prov i Jan-Matsdammens sandmagasin: järn 15,0 viktprocent, fosfor 2,29 viktprocent, REE 0,18 viktprocent, titan 980 ppm och vanadin 368 ppm.",
+      "sample": {
+        "material": "tailings",
+        "sampling_location": "Jan-Matsdammens sandmagasin",
+        "sampling_method": "SGU:s provtagning och sammanvägda kemiska analyser, SGU RR 2023:01"
+      },
+      "sample_count": 44,
+      "analyte": "Metaller och grundämnen enligt SGU RR 2023:01",
+      "unit": "ppm och viktprocent",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser endast angivna prov och provpunkter, inte hela gruvområdet.",
+        "Kemisk karakterisering av gruvavfall är inte i sig en hälsoriskbedömning.",
+        "Halter i varp, anrikningssand, sedimenterat avfall och slagg är olika provmatriser och får inte blandas eller jämföras direkt med vatten- eller jordriktvärden.",
+        "Inga uppskattningar av kvarvarande metallmängder eller resurs-/reservuppgifter publiceras här."
+      ],
+      "source_ids": [
+        "sgu-rr-2023-01"
+      ]
+    },
+    {
+      "id": "grangesberg-svandammen-tailings-metals-2023",
+      "record_type": "sample_result",
+      "title": "Metallhalter i anrikningssand vid Svandammen, Grängesberg, SGU 2023",
+      "description": "SGU:s medelvärde från 27 prov i Svandammens sandmagasin: järn 7,37 viktprocent, fosfor 0,93 viktprocent, titan 0,13 viktprocent och REE 902 ppm.",
+      "sample": {
+        "material": "tailings",
+        "sampling_location": "Svandammens sandmagasin",
+        "sampling_method": "SGU:s provtagning och sammanvägda kemiska analyser, SGU RR 2023:01"
+      },
+      "sample_count": 27,
+      "analyte": "Metaller och grundämnen enligt SGU RR 2023:01",
+      "unit": "ppm och viktprocent",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser endast angivna prov och provpunkter, inte hela gruvområdet.",
+        "Kemisk karakterisering av gruvavfall är inte i sig en hälsoriskbedömning.",
+        "Halter i varp, anrikningssand, sedimenterat avfall och slagg är olika provmatriser och får inte blandas eller jämföras direkt med vatten- eller jordriktvärden.",
+        "Inga uppskattningar av kvarvarande metallmängder eller resurs-/reservuppgifter publiceras här."
+      ],
+      "source_ids": [
+        "sgu-rr-2023-01"
+      ]
     }
   ],
   "source_ids": [
-    "sgu-ores-concentrators-open-data"
+    "sgu-ores-concentrators-open-data",
+    "sgu-rr-2023-01"
   ],
   "editorial_notes": [
     "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
