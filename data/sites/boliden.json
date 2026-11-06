@@ -44,6 +44,56 @@
         "Kontrollera vad kartmarkören avser geografiskt.",
         "Håll historiska Boliden-gruvan skild från företaget Boliden AB och andra närliggande verksamheter."
       ]
+    },
+    {
+      "title": "Gruvspecifikt rörelseresultat ej komplett",
+      "description": "Årsvisa resultat och ägarperioder har inte sammanställts för hela drifttiden.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapporter och kontrollera objektavgränsning, år och metod."
+      ]
+    },
+    {
+      "title": "Miljöunderlaget behöver breddas",
+      "description": "Fullständiga serier för mark, vatten, sediment, luft och biota är inte samlade.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapporter och kontrollera objektavgränsning, år och metod."
+      ]
+    },
+    {
+      "title": "Saneringspengar och fysisk åtgärd behöver följas upp",
+      "description": "Budget, beviljade bidrag, utbetalda medel och slutlig projektkostnad måste hållas isär.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapporter och kontrollera objektavgränsning, år och metod."
+      ]
+    },
+    {
+      "title": "Käll- och tidsperiodskontroll pågår",
+      "description": "Historiska poster behöver kontrolleras mot originalrapporter och alternativa namn.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapporter och kontrollera objektavgränsning, år och metod."
+      ]
     }
-  ]
+  ],
+  "accumulated_ore_value": {
+    "status": "in_progress",
+    "amount": null,
+    "currency": "SEK",
+    "note": "Livstidsvärde är ännu inte verifierat. Producerade ton malm är inte ekonomiskt värde. Beräkning kräver gruvspecifik metallproduktion, halter/utbyte och historiska priser."
+  },
+  "reported_profit": {
+    "status": "in_progress",
+    "metric": "operating_profit",
+    "currency": "SEK",
+    "amount": null,
+    "total_amount": null,
+    "note": "Gruvspecifik historisk summering av rörelseresultat är ännu inte verifierad. Koncernresultat fördelas inte på enskilda gruvor. Saknade år är inte noll."
+  }
 }
