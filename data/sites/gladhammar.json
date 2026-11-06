@@ -11,8 +11,7 @@
       "description": "Huvudstudien anger blyhalter från cirka 60 mg/kg TS till som mest cirka 1 370 mg/kg TS i vaskmull. Moränprov i samma rapport anges till 7,5 mg/kg TS. Intervallet gäller olika avfallsmaterial och ska inte tolkas som ett enda representativt värde för hela området.",
       "sample": {
         "material": "other",
-        "sampling_method": "Sammanställda materialanalyser i huvudstudien",
-        "sample_date": "2004-01-01"
+        "sampling_method": "Sammanställda materialanalyser i huvudstudien"
       },
       "analyte": "Bly (Pb)",
       "unit": "mg/kg TS",
@@ -32,8 +31,7 @@
       "description": "Rapporten anger zinkhalter omkring 100 mg/kg TS i flera avfallsmaterial, medan slaggprover anges ligga omkring 1 000–2 000 mg/kg TS. Moränens zinkhalt anges till cirka 55 mg/kg TS.",
       "sample": {
         "material": "other",
-        "sampling_method": "Sammanställda materialanalyser i huvudstudien",
-        "sample_date": "2004-01-01"
+        "sampling_method": "Sammanställda materialanalyser i huvudstudien"
       },
       "analyte": "Zink (Zn)",
       "unit": "mg/kg TS",
@@ -53,8 +51,7 @@
       "description": "Screening redovisar antimon 1,3–5,4 mg/kg TS, tallium 0,5–1,5 mg/kg TS och silver 3,6–20 mg/kg TS. Vismut i varp anges till 2 400–3 100 mg/kg TS och i slagg till cirka 60 mg/kg TS. Uran uppges förekomma i mindre mängder utan angivet numeriskt värde i sammanfattningen.",
       "sample": {
         "material": "other",
-        "sampling_method": "Screeninganalyser av varp och slagg",
-        "sample_date": "2004-01-01"
+        "sampling_method": "Screeninganalyser av varp och slagg"
       },
       "analyte": "Antimon (Sb), tallium (Tl), silver (Ag), vismut (Bi)",
       "unit": "mg/kg TS",
@@ -75,8 +72,7 @@
       "sample": {
         "material": "groundwater",
         "sampling_location": "Svenskgruvan, provtagning ned till cirka 100 m nivå",
-        "sampling_method": "Vattenprov enligt huvudstudien",
-        "sample_date": "2004-01-01"
+        "sampling_method": "Vattenprov enligt huvudstudien"
       },
       "analyte": "Koppar (Cu), kobolt (Co), kadmium (Cd), bly (Pb), arsenik (As)",
       "unit": "µg/l",
