@@ -208,6 +208,28 @@
       "source_ids": [
         "zinkgruvan-prtr"
       ]
+    },
+    {
+      "id": "zinkgruvan-sgu-production-2025",
+      "record_type": "production_statistic",
+      "title": "Bruten malm och gråberg 2025 enligt SGU",
+      "description": "SGU Bergverksstatistik 2025, tabell 11, redovisar 1 875 282 ton anrikningsmalm och 368 692 ton gråberg från Zinkgruvan under 2025. Gruvkommun: Askersund. Brytningsmetod enligt tabellen: underjord.",
+      "sample": {
+        "material": "produced_ore_and_waste_rock",
+        "sampling_location": "Zinkgruvan"
+      },
+      "analyte": "Anrikningsmalm och gråberg",
+      "result": 1875282,
+      "unit": "ton anrikningsmalm/år; gråberg redovisas separat i beskrivningen",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser endast produktionsåret 2025, inte livstidssumma.",
+        "Malmtonnage är inte malmvärde, försäljningsintäkt eller vinst.",
+        "Gråberg och anrikningsmalm är separata materialflöden och ska inte blandas."
+      ],
+      "source_ids": [
+        "sgu-bergverksstatistik-2025"
+      ]
     }
   ],
   "source_ids": [
