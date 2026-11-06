@@ -56,5 +56,16 @@
   ],
   "editorial_notes": [
     "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
+  ],
+  "data_gaps": [
+    {
+      "title": "Två SGU-poster för Dannemorafältet",
+      "description": "SGU redovisar två separata koder med olika produktionsperioder. De visas separat tills det är klarlagt om den mindre posten ingår i den större.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Kontrollera referenser och eventuell dubbelräkning mellan SGU-koderna 3821401 och 3821402."
+      ]
+    }
   ]
 }
