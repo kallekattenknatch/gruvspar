@@ -62,3 +62,12 @@ Analyser som utförts inom SR:s journalistiska undersökning på reporterns beg�
 
 Detta undantag gäller endast dessa specifika analyser. Andra analyser från laboratorier, myndigheter, universitet, forskare, verksamhetsutövare eller andra identifierbara källor får ingå när källan, provmaterialet, metoden och eventuella begränsningar redovisas. En analys behöver inte vara publicerad på internet för att kunna registreras, men åtkomst- och granskningsstatus ska framgå.
 
+
+## Ackumulerat malmvärde
+Varje gruvprofil kan innehålla ett fält för ackumulerat malmvärde. Det ska avse det samlade värdet av den malm som faktiskt brutits och genererat värde under gruvans hela produktionshistoria. Kostnader, skatt och avgifter dras inte av. Det är alltså inte rörelseresultat, nettovinst, bokfört värde eller värdet av kvarvarande resurser och reserver.
+
+Beräkningen ska i första hand bygga på dokumenterade historiska försäljningsintäkter för malm eller koncentrat, när de kan hänföras till en enskild gruva. Om en sådan redovisning saknas kan ett uppskattat brutto-malmvärde beräknas från producerad mängd och faktiskt metallinnehåll med historiska metallpriser för respektive period. Då ska resultatet märkas som uppskattning och redovisa metod, prisserie, metallinnehåll, återvinningsgrad där den är känd, valutaomräkning och osäkerhet.
+
+Årsvisa rörelseresultat för en affärsenhet får inte summeras och presenteras som malmvärde. Koncernintäkter, smältverksintäkter och gemensamma anrikningsverk får inte fördelas på enskilda gruvor utan underlag. Malm från andra gruvor som behandlats i ett anrikningsverk ska särredovisas eller dras bort när det går. Malmtonnage får inte ensamt användas som kronor.
+
+SGU:s öppna databas Malmer och anrikningsverk är en central källa till historisk gruvproduktion och metallhalter. SGU beskriver samtidigt luckor i äldre material: systematisk rapportering av metallinnehåll börjar 1909, avfallsberg 1892 och anrikningsverk 1906. Därför ska äldre perioder märkas med rätt osäkerhet. Resurs- och reservuppgifter i samma databas ingår inte i Gruvspårs publicering.
