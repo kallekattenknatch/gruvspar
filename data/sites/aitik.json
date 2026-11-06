@@ -232,5 +232,57 @@
         "operating_profit_msek": 948
       }
     ]
-  }
+  },
+  "data_gaps": [
+    {
+      "title": "Livstidsvärde av producerad malm ej beräknat",
+      "description": "Det finns registrerade produktionsmängder men inte en komplett serie av producerade/sålda metaller och historiska priser som kan ge ett verifierbart livstidsvärde.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapport eller årsredovisning från ansvarig myndighet eller verksamhetsutövare.",
+        "Registrera år, objektavgränsning, mätmetod och källhänvisning innan totalsummor publiceras."
+      ]
+    },
+    {
+      "title": "Gruvspecifikt rörelseresultat ej komplett",
+      "description": "Årsvisa rörelseresultat och ägarperioder har inte sammanställts för hela drifttiden. Saknade år och tidigare ägare behöver utredas; resultat från större affärsområden får inte fördelas på enskilda gruvor.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapport eller årsredovisning från ansvarig myndighet eller verksamhetsutövare.",
+        "Registrera år, objektavgränsning, mätmetod och källhänvisning innan totalsummor publiceras."
+      ]
+    },
+    {
+      "title": "Miljöunderlaget behöver breddas",
+      "description": "Platsens register innehåller inte nödvändigtvis fullständiga serier för mark, ytvatten, grundvatten, sediment, luft och levande organismer. Avsaknad av data i Gruvspår betyder inte att undersökningar saknas hos myndigheter eller företag.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapport eller årsredovisning från ansvarig myndighet eller verksamhetsutövare.",
+        "Registrera år, objektavgränsning, mätmetod och källhänvisning innan totalsummor publiceras."
+      ]
+    },
+    {
+      "title": "Saneringspengar och faktisk åtgärd behöver följas upp",
+      "description": "Budget, beviljade bidrag, utbetalda medel, entreprenörsersättning och slutlig projektkostnad måste särskiljas. Fysiska åtgärder behöver verifieras mot slutrapporter och kontrollprogram.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapport eller årsredovisning från ansvarig myndighet eller verksamhetsutövare.",
+        "Registrera år, objektavgränsning, mätmetod och källhänvisning innan totalsummor publiceras."
+      ]
+    },
+    {
+      "title": "Käll- och tidsperiodskontroll pågår",
+      "description": "Historiska registerposter behöver kontrolleras mot originalrapporter, alternativa gruvnamn, delområden och eventuellt överlappande produktionsserier.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapport eller årsredovisning från ansvarig myndighet eller verksamhetsutövare.",
+        "Registrera år, objektavgränsning, mätmetod och källhänvisning innan totalsummor publiceras."
+      ]
+    }
+  ]
 }
