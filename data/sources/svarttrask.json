@@ -1,0 +1,36 @@
+{
+  "site_id": "svarttrask",
+  "sources": [
+    {
+      "id": "svarttrask-sweco-2016",
+      "title": "Effektstudie Svärtträsk: Vattenkvalitet och biologi 2016",
+      "publisher": "Sweco Environment AB på uppdrag av SGU",
+      "publication_year": 2017,
+      "document_type": "vattenkemisk-och-biologisk-uppfoljning",
+      "access_status": "public",
+      "url": "https://www.sgu.se/globalassets/samhallsplanering/fororenade-omraden/svarttrask/vatten-och-biologi-2016.pdf",
+      "source_perspective": "myndighetsbestalld-undersokning",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Tabell 2–4 redovisar metallhalter i ytvatten, grundvatten och brunnsvatten från provtagningar 2016. Rapporten beskriver höga till mycket höga halter av bland annat kadmium, kobolt, nickel, bly och zink i flera punkter nära gruvområdet.",
+      "limitations": [
+        "Resultaten gäller provtagning 2016 och ska inte presenteras som dagens halter.",
+        "Provpunkter och provmatriser måste hållas isär.",
+        "Rapporten anger att halterna varierade kraftigt mellan provpunkter och provtagningstillfällen."
+      ]
+    },
+    {
+      "id": "svarttrask-sgu-page",
+      "title": "Svärtträskgruvan",
+      "publisher": "SGU",
+      "document_type": "myndighetsinformation",
+      "access_status": "public",
+      "url": "https://www.sgu.se/samhallsplanering/fororenade-omraden/gruvor/svarttraskgruvan/",
+      "source_perspective": "myndighet",
+      "verification_status": "source_identified_content_reviewed",
+      "relevance": "SGU beskriver genomförda efterbehandlingsåtgärder, fortsatt vattenrening och uppföljning av metallhalter i diken och bäckar. Halterna har minskat kraftigt men är fortfarande förhöjda vid vissa provpunkter.",
+      "limitations": [
+        "Översiktssida; för aktuell status behövs de senaste kontrollrapporterna."
+      ]
+    }
+  ]
+}
