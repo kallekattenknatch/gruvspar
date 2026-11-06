@@ -141,6 +141,21 @@
       "source_ids": [
         "sgu-ores-concentrators-open-data"
       ]
+    },
+    {
+      "id": "aitik-permit-decision-2026",
+      "record_type": "authority_decision",
+      "title": "Tillstånd till fortsatt och utökad gruvverksamhet i Aitik, juni 2026",
+      "description": "Mark- och miljödomstolen gav Boliden Mineral AB tillstånd till fortsatt och utökad verksamhet vid Aitikgruvan och Liikavaaradagbrottet. Tillståndet omfattar brytning och anrikning upp till 45 miljoner ton malm per år och omfattar bland annat höjda dammar, utökat sandmagasin, utökade upplag för gråberg och morän samt en ny utsläppspunkt till Lina älv. Domstolen bedömde att den ändrade utsläppspunkten var positiv och att bolagets redovisade vattenhantering kunde godtas inom gällande miljökvalitetsnormer.",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Ett tillstånd och domstolens framåtblickande bedömning är inte bevis för att alla utsläpp är ofarliga eller att miljöpåverkan saknas.",
+        "Villkor och kontrollprogram måste granskas i domen och efterföljande tillsyn.",
+        "Beslutet gäller Aitik och Liikavaaradagbrottet; redovisa inte villkoren som generella för andra gruvor."
+      ],
+      "source_ids": [
+        "aitik-domstol-2026-06"
+      ]
     }
   ],
   "source_ids": [
