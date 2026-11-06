@@ -116,6 +116,21 @@
         "Bolagets egen redovisning.",
         "Rörelseresultatet är ett årsresultat för Aitik, inte nettovinst eller malmvärde."
       ]
+    },
+    {
+      "id": "aitik-domstol-2026-06",
+      "title": "Mark- och miljödomstolen lämnar tillstånd till fortsatt och utökad gruvverksamhet i Aitik",
+      "publisher": "Sveriges Domstolar",
+      "publication_year": 2026,
+      "document_type": "domstolsbeslut",
+      "access_status": "public",
+      "url": "https://www.domstol.se/nyheter/2026/06/mark--och-miljodomstolen-lamnar-tillstand-till-fortsatt-och-utokad-gruvverksamhet-i-aitik/",
+      "source_perspective": "domstol",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Domstolens sammanfattning av tillstånd till fortsatt och utökad verksamhet vid Aitik och Liikavaaradagbrottet, inklusive kapacitet, dammar, avfallsupplag och ny utsläppspunkt till Lina älv.",
+      "limitations": [
+        "Nyhetssammanfattningen är inte hela domen. Villkor och bilagor måste granskas innan enskilda villkor återges."
+      ]
     }
   ]
 }
