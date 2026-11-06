@@ -41,14 +41,62 @@
         "stollberg-main",
         "stollberg-sgu-rr-2023-01"
       ]
+    },
+    {
+      "id": "sgu-production-20610109",
+      "record_type": "production_statistic",
+      "title": "SGU: registrerad producerad malm för Stollbergsfältet",
+      "description": "SGU:s databas Malmer och anrikningsverk redovisar 0,299 miljoner ton producerad malm för posten Stollbergsfältet, SGU-kod 20610109. Registrerad produktionsperiod: 1874–1958. Detta är producerad malm enligt SGU:s historiska register, inte malmvärde, försäljningsintäkt eller företagsvinst.",
+      "result": 0.298626,
+      "unit": "miljoner ton producerad malm",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Stollbergsfältet"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s produktionsregister bygger på historisk statistik och är inte automatiskt en fullständig livstidssumma för all brytning.",
+        "SGU anger att nationella sammanställningar börjar 1833 och att uppgifter före 1833 är sparsamma och fragmentariska.",
+        "Poster med olika SGU-koder redovisas separat och har inte summerats eftersom de kan avse skilda delobjekt eller överlappande statistikperioder.",
+        "Produktionsmängd är inte malmvärde, omsättning, rörelseresultat eller nettovinst.",
+        "Mineralresurser och reserver har inte publicerats."
+      ],
+      "source_ids": [
+        "sgu-ores-concentrators-open-data"
+      ]
+    },
+    {
+      "id": "sgu-production-20610128",
+      "record_type": "production_statistic",
+      "title": "SGU: registrerad producerad malm för Stollbergsfältet",
+      "description": "SGU:s databas Malmer och anrikningsverk redovisar 3,371 miljoner ton producerad malm för posten Stollbergsfältet, SGU-kod 20610128. Registrerad produktionsperiod: 1874–1981. Detta är producerad malm enligt SGU:s historiska register, inte malmvärde, försäljningsintäkt eller företagsvinst.",
+      "result": 3.371416,
+      "unit": "miljoner ton producerad malm",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Stollbergsfältet"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s produktionsregister bygger på historisk statistik och är inte automatiskt en fullständig livstidssumma för all brytning.",
+        "SGU anger att nationella sammanställningar börjar 1833 och att uppgifter före 1833 är sparsamma och fragmentariska.",
+        "Poster med olika SGU-koder redovisas separat och har inte summerats eftersom de kan avse skilda delobjekt eller överlappande statistikperioder.",
+        "Produktionsmängd är inte malmvärde, omsättning, rörelseresultat eller nettovinst.",
+        "Mineralresurser och reserver har inte publicerats."
+      ],
+      "source_ids": [
+        "sgu-ores-concentrators-open-data"
+      ]
     }
   ],
   "source_ids": [
     "stollberg-main",
-    "stollberg-sgu-rr-2023-01"
+    "stollberg-sgu-rr-2023-01",
+    "sgu-ores-concentrators-open-data"
   ],
   "editorial_notes": [
     "Platsmarkören är orienterande och anger inte gränsen för förorenat område.",
-    "Gruvdriftens historik och aktuell miljöåtgärdsstatus ska hållas isär."
+    "Gruvdriftens historik och aktuell miljöåtgärdsstatus ska hållas isär.",
+    "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
   ]
 }
