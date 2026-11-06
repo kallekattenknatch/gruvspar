@@ -34,7 +34,12 @@ function layoutMarkers(){
   markerNodes.forEach(m=>{
     m.c.setAttribute('cx',m.pos.x);
     m.c.setAttribute('cy',m.pos.y);
-    m.c.setAttribute('r',5.2/Math.pow(factor,0.8));
+    // Keep a clear, nearly constant screen size at every zoom level.
+    m.c.setAttribute('r',7/factor);
+    m.c.setAttribute('fill',color(m.p[3]));
+    m.c.setAttribute('stroke','#172b20');
+    m.c.setAttribute('stroke-width','1.5');
+    m.c.style.fill=color(m.p[3]);
   });
 }
 function setView(v){const w=Math.max(500/30,Math.min(500,v.w));const h=w*1.8;const x=Math.max(0,Math.min(500-w,v.x));const y=Math.max(0,Math.min(900-h,v.y));view={x,y,w,h};svg.setAttribute('viewBox',x+' '+y+' '+w+' '+h);layoutMarkers()}
