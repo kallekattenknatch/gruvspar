@@ -111,6 +111,20 @@
       "limitations": [
         "SGU:s sammanfattning; underliggande utredningar och provresultat behöver granskas separat."
       ]
+    },
+    {
+      "id": "sgu-bergverksstatistik-2025",
+      "title": "Bergverksstatistik 2025, Periodiska publikationer 2026:1",
+      "publisher": "SGU",
+      "year": 2026,
+      "url": "https://resource.sgu.se/dokument/publikation/pp/pp202601rapport/pp2026-1-rapport.pdf",
+      "type": "nationell statistik",
+      "relevance": "Tabell 5 och 11 redovisar faktisk brytning av malm och gråberg per gruva under 2025. Tabell 15–17 redovisar nationella gruvavfallsmängder och metallutsläpp till vatten. Gruvspår använder produktions- och miljöuppgifter, inte prospekterings- eller resursdata.",
+      "limitations": [
+        "Produktionsvolym är inte ekonomisk vinst eller omsättning.",
+        "Nationella utsläppssummor får inte fördelas på enskilda gruvor utan gruvspecifika data.",
+        "Järnmalms- och ickejärnmalmsgruvor redovisas med olika mått."
+      ]
     }
   ]
 }
