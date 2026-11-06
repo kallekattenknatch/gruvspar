@@ -174,25 +174,41 @@
     "note": "Gruvspår sammanställer historisk malmproduktion, metallinnehåll och relevanta metallpriser för gruvans hela drifttid. Något säkert livstidstotal kan ännu inte anges. Årsomsättning eller rörelseresultat får inte användas som ersättning för ackumulerat malmvärde."
   },
   "reported_profit": {
-    "status": "partial_verified",
+    "status": "partial_period",
     "metric": "operating_profit",
     "currency": "SEK",
-    "amount": 26121000000,
-    "display_amount": "26,1 miljarder kronor",
-    "period_start": 2010,
+    "amount": 3121000000,
+    "total_amount": 3121000000,
+    "display_amount": "cirka 3,12 miljarder kronor",
+    "period_start": 2023,
     "period_end": 2025,
     "companies": [
       {
         "name": "Boliden AB / Boliden Mineral AB",
-        "amount": 26121000000,
-        "period": "2010–2025",
-        "coverage": "Delperiod; verifierad årsredovisningsserie"
+        "amount": 3121000000,
+        "period": "2023–2025",
+        "coverage": "Delperiod, endast de tre senaste verifierade årsresultaten"
       }
     ],
-    "total_amount": 26121000000,
-    "note": "Preliminär summering av gruvspecifikt redovisat rörelseresultat för 2010–2025. Detta är inte Aitiks hela livstid eftersom gruvan startade 1968. Äldre år saknas i den verifierade summeringen. Måttet är rörelseresultat, inte nettovinst eller kassaflöde. Beloppet ska uppdateras om äldre eller korrigerade årsdata hittas.",
+    "note": "Summering av gruvspecifikt rörelseresultat för Aitik 2023–2025: 1 419 MSEK (2023), 754 MSEK (2024) och 948 MSEK (2025). Detta är en verifierad delperiod, inte gruvans livstidssumma. Tidigare år behöver hämtas från originalårsredovisningar innan en full historisk totalsumma kan anges.",
+    "coverage": "2023–2025 endast; inte livstidssumma",
     "source_ids": [
-      "aitik-boliden-annual-reports-2010-2025"
+      "boliden-annual-report-2025",
+      "boliden-annual-reports-2004-2025"
+    ],
+    "annual_results": [
+      {
+        "year": 2023,
+        "operating_profit_msek": 1419
+      },
+      {
+        "year": 2024,
+        "operating_profit_msek": 754
+      },
+      {
+        "year": 2025,
+        "operating_profit_msek": 948
+      }
     ]
   }
 }
