@@ -368,5 +368,43 @@
       "Vilka oberoende provresultat före och efter åtgärd visar faktisk minskning av metallbelastningen?"
     ],
     "requested_records_status": "request_draft_prepared_not_sent"
-  }
+  },
+  "data_gaps": [
+    {
+      "title": "Ackumulerat malmvärde saknas ännu",
+      "description": "SGU:s registrerade producerade malm är 70,87 miljoner ton, men detta är inte ett ekonomiskt värde. Ett livstidsvärde kräver faktisk metallproduktion, metallhalter och historiska metallpriser per period samt avgränsning av malm från andra gruvor som behandlats i anrikningsverket.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta historiska produktionsserier och metallinnehåll från SGU.",
+        "Kontrollera Bolidenrapportens historiska produktionsserie mot originaltabeller.",
+        "Beräkna endast brutto-malmvärde när mängd, halt, återvinning och prisserie kan beläggas."
+      ],
+      "source_ids": [
+        "sgu-ores-concentrators-open-data",
+        "garpenberg-boliden-summary-report-2023"
+      ]
+    },
+    {
+      "title": "Historiskt rörelseresultat före Boliden behöver utredas",
+      "description": "Nuvarande preliminära summa omfattar Boliden 2004–2025. Äldre ägare och driftperioden före Bolidens övertagande 1957 är inte täckta med gruvspecifika resultat.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Identifiera tidigare ägare och driftbolag.",
+        "Sök historiska årsredovisningar och gruvspecifika resultaträkningar.",
+        "Redovisa ej särredovisade år som okända, inte noll."
+      ]
+    },
+    {
+      "title": "Separat statistik för Garpenberg nya saknas",
+      "description": "Garpenberg nya använder tills vidare den bredare Garpenbergspostens data. SGU:s registerpost avser Garpenbergsfältet som helhet och får inte beskrivas som en separat livstidssumma för den nya gruvan.",
+      "priority": "Medel",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta gruvspecifik årsproduktion från Bolidens årsredovisningar och miljörapporter.",
+        "Håll den nya gruvans startår och redovisningsperiod skild från den historiska gruvan."
+      ]
+    }
+  ]
 }
