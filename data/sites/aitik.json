@@ -51,6 +51,31 @@
       "source_ids": [
         "aitik-prtr"
       ]
+    },
+    {
+      "id": "aitik-production-2025",
+      "record_type": "production_statistic",
+      "title": "Bruten malm och gråberg 2025",
+      "description": "SGU:s enkät anger 39 180 975 ton anrikningsmalm och 63 515 080 ton gråberg från Aitik under 2025. Totalt redovisas 102 696 055 ton gråberg och malm. Uppgifterna avser faktisk brytning under året, inte mineralreserver eller fyndighetsuppgifter.",
+      "sample": {
+        "material": "other",
+        "sampling_location": "Aitikgruvan, Gällivare kommun"
+      },
+      "analyte": "Anrikningsmalm och gråberg",
+      "result": 102696055,
+      "unit": "ton/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Produktionsvolym, inte ekonomiskt värde eller vinst.",
+        "Volymerna beskriver 2025 och kan variera mellan år.",
+        "Ingen information om malmresurser eller reserver ingår."
+      ],
+      "source_ids": [
+        "sgu-bergverksstatistik-2025"
+      ]
     }
+  ],
+  "source_ids": [
+    "sgu-bergverksstatistik-2025"
   ]
 }
