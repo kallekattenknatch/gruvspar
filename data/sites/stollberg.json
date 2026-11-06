@@ -26,6 +26,21 @@
       "source_ids": [
         "stollberg-sgu-rr-2023-01"
       ]
+    },
+    {
+      "id": "stollberg-current-remediation-planning-2026",
+      "record_type": "remediation_plan",
+      "title": "Förberedelser för åtgärd av äldre strandnära sandmagasin",
+      "description": "SGU anger att myndigheten förbereder efterbehandling av äldre strandnära sandmagasin vid Stollbergs gruvområde i Smedjebackens kommun. SGU:s pågående projektlista för 2026 anger Stollbergs gruvområde under sanering med statliga bidragsmedel, med tungmetaller som primär förorening och status åtgärdsförberedelse.",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Åtgärdsförberedelse är inte detsamma som att sanering har startat eller slutförts.",
+        "Projektlistan anger inte i sig kostnad, mängd massor eller verifierad miljöeffekt."
+      ],
+      "source_ids": [
+        "stollberg-main",
+        "stollberg-sgu-rr-2023-01"
+      ]
     }
   ],
   "source_ids": [
