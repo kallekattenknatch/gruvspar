@@ -88,7 +88,10 @@ target.appendChild(item);
   ]);
   const records=d.records||[],sources=s.sources||[],allSources=[...sources,...(national.sources||[]).filter(n=>!sources.some(x=>x.id===n.id))];
   const isWater=r=>/surface_water|groundwater|sediment|water|recipient/i.test([r.sample?.material,r.title,r.record_type].join(' '));
-  const isBio=r=>/biology|biolog|svamp|fung|fauna|flora|fish|fisk|plant|växt/i.test([r.record_type,r.sample?.material,r.title].join(' '));
+  const isBio=r=>/biology|biolog|svamp|fung|fauna|flora|fish|fisk|plant|växt|animal_tissue|biota/i.test([r.record_type,r.sample?.material,r.title].join(' '));
+  const isRemediation=r=>/remediation_plan|remediation_result/i.test(r.record_type||'');
+  const isFinance=r=>/financial_result|financial_record/i.test(r.record_type||'');
+  const isRisk=r=>/risk_assessment|authority_decision|inspection/i.test(r.record_type||'');
   const isProd=r=>/production|produktion/i.test(r.record_type||'');
   const card=r=>make(r.title,r.description,[
    r.sample?.material?'Provmaterial: '+r.sample.material:'',
@@ -98,7 +101,7 @@ target.appendChild(item);
    r.unit?'Enhet: '+r.unit:'',
    r.evidence_status?'Evidensstatus: '+r.evidence_status:''
   ].filter(Boolean).join(' · '),r.limitations,r.source_ids);
-  render('analyses',records.filter(r=>!isWater(r)&&!isBio(r)&&!isProd(r)),
+  render('analyses',records.filter(r=>!isWater(r)&&!isBio(r)&&!isProd(r)&&!isRemediation(r)&&!isFinance(r)&&!isRisk(r)),
    'Inga övriga mark-, luft- eller materialanalyser är registrerade.',card);
   render('water',records.filter(r=>isWater(r)&&!isBio(r)),
    'Inga vatten- eller sedimentresultat är registrerade. Det betyder inte att undersökningar saknas utanför registret.',card);
@@ -108,12 +111,16 @@ target.appendChild(item);
   if(!prod){const sec=document.createElement('section');sec.innerHTML='<h2 class="section">Produktion och historik</h2><div id="production-records" class="empty"></div>';get('analyses').closest('section').after(sec);}
   render('production-records',records.filter(isProd),'Ingen produktionsstatistik är registrerad.',card);
   const projects=d.remediation_finance?.projects||[];
+  const financialRecords=records.filter(isFinance);
+  const remediationRecords=records.filter(isRemediation);
+  const riskRecords=records.filter(isRisk);
   const finance=get('remediation-finance');
   if(finance&&d.remediation_finance){
    finance.className='';finance.replaceChildren();
    finance.appendChild(make('Verifierad totalsumma faktiskt utbetalt',
     d.remediation_finance.confirmed_total_spent_note||'Ingen verifierad totalsumma finns.',
     'Status: '+(d.remediation_finance.status||'okänd')));
+   financialRecords.forEach(r=>finance.appendChild(card(r)));
    projects.forEach(p=>finance.appendChild(make(p.name,p.findings?.join(' '),
     [p.period,p.status,p.estimated_or_reserved_amount_sek!=null?'Kostnadsuppskattning: '+p.estimated_or_reserved_amount_sek.toLocaleString('sv-SE')+' kr':'',
      p.confirmed_paid_sek!=null?'Bekräftat utbetalt: '+p.confirmed_paid_sek.toLocaleString('sv-SE')+' kr':'',
@@ -121,15 +128,15 @@ target.appendChild(item);
    if(d.remediation_finance.open_questions?.length)finance.appendChild(make('Öppna frågor att utreda',d.remediation_finance.open_questions.join(' ')));
   }else blank('remediation-finance','Ingen särskild saneringsekonomi är registrerad.');
   const planSources=allSources.filter(x=>/plan|huvudstud|åtgärd|saner|efterbehand|program/i.test([x.title,x.relevance,x.document_type].join(' ')));
-  render('plans',planSources.concat(projects.map(p=>({title:p.name,description:p.findings?.join(' '),meta:p.period+' · '+p.status,limitations:p.limitations,source_ids:p.source_ids}))),
+  render('plans',planSources.concat(remediationRecords.filter(r=>r.record_type==='remediation_plan').map(r=>({title:r.title,description:r.description,meta:r.evidence_status,limitations:r.limitations,source_ids:r.source_ids})),projects.map(p=>({title:p.name,description:p.findings?.join(' '),meta:p.period+' · '+p.status,limitations:p.limitations,source_ids:p.source_ids}))),
    'Inga planer eller åtaganden är registrerade. Det betyder inte att sådana saknas i myndigheternas eller företagets arkiv.',
    x=>make(x.title||x.name,x.description||x.relevance,x.meta||[x.publisher,x.publication_year,x.verification_status].filter(Boolean).join(' · '),x.limitations,x.source_ids));
-  const done=projects.filter(p=>p.physical_remediation_verified===true||/completed|finished|slutförd|genomförd/i.test(p.status||''));
+  const done=remediationRecords.filter(r=>r.record_type==='remediation_result').map(r=>({name:r.title,description:r.description,period:'',status:r.evidence_status,limitations:r.limitations,source_ids:r.source_ids})).concat(projects.filter(p=>p.physical_remediation_verified===true||/completed|finished|slutförd|genomförd/i.test(p.status||'')));
   render('done',done,'Inga genomförda och verifierade fysiska åtgärder är registrerade. Planer och kostnadsuppskattningar räknas inte som utfört arbete.',
    p=>make(p.name,p.findings?.join(' '),p.period+' · '+p.status,p.limitations,p.source_ids));
   render('sources',allSources,'Inga källor är registrerade.',
    x=>{const e=make(x.title,x.relevance,[x.publisher,x.publication_year||x.year,x.document_type||x.type,x.verification_status].filter(Boolean).join(' · '),x.limitations,[x.id]);if(x.url){const a=document.createElement('a');a.href=x.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Öppna källa';e.appendChild(a);}return e;});
-  const authorities=allSources.filter(x=>/myndighet|domstol|riksdag|länsstyrelse|kommun|tillsyn|beslut|föreläggande/i.test([x.publisher,x.title,x.document_type].join(' ')));
+  const authorities=allSources.filter(x=>/myndighet|domstol|riksdag|länsstyrelse|kommun|tillsyn|beslut|föreläggande/i.test([x.publisher,x.title,x.document_type].join(' '))).concat(riskRecords.map(r=>({title:r.title,relevance:r.description,publisher:'Riskbedömning',verification_status:r.evidence_status,limitations:r.limitations,id:r.id,source_ids:r.source_ids})));
   render('authority',authorities,'Inga särskilda tillsynsbeslut eller uppföljningar är registrerade. Identifierade myndighetskällor finns i källförteckningen.',
    x=>{const e=make(x.title,x.relevance,[x.publisher,x.publication_year,x.verification_status].filter(Boolean).join(' · '),x.limitations,[x.id]);if(x.url){const a=document.createElement('a');a.href=x.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Öppna källan';e.appendChild(a);}return e;});
  }catch(e){
