@@ -26,10 +26,59 @@
       "source_ids": [
         "sgu-ores-concentrators-open-data"
       ]
+    },
+    {
+      "id": "falu-slag-central-metals-2023",
+      "record_type": "sample_result",
+      "title": "Metallhalter i slagg vid Falu gruva, centrala Falun, SGU 2023",
+      "description": "SGU:s medelvärde från 13 slaggprov kring Falu gruva: kobolt 88 ppm, wolfram 155 ppm, järn 36,6 viktprocent, koppar 0,89 viktprocent, zink 1,87 viktprocent, REE 145 ppm, silver 13 ppm och guld 0,6 ppm.",
+      "sample": {
+        "material": "slag",
+        "sampling_location": "Slaggområden kring Falu gruva, centrala Falun",
+        "sampling_method": "SGU:s provtagning och sammanvägda kemiska analyser, SGU RR 2023:01"
+      },
+      "sample_count": 13,
+      "analyte": "Metaller och grundämnen enligt SGU RR 2023:01",
+      "unit": "ppm och viktprocent",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser endast angivna prov och provpunkter, inte hela gruvområdet.",
+        "Kemisk karakterisering av gruvavfall är inte i sig en hälsoriskbedömning.",
+        "Halter i varp, anrikningssand, sedimenterat avfall och slagg är olika provmatriser och får inte blandas eller jämföras direkt med vatten- eller jordriktvärden.",
+        "Inga uppskattningar av kvarvarande metallmängder eller resurs-/reservuppgifter publiceras här."
+      ],
+      "source_ids": [
+        "sgu-rr-2023-01"
+      ]
+    },
+    {
+      "id": "falu-slag-korsgarden-metals-2023",
+      "record_type": "sample_result",
+      "title": "Metallhalter i slagg vid Korsgården, Falun, SGU 2023",
+      "description": "SGU:s medelvärde från fem slaggprov i Korsgårdenområdet: kobolt 112 ppm, vismut 4,9 ppm, wolfram 137 ppm, järn 38,9 viktprocent, koppar 1,37 viktprocent, zink 1,67 viktprocent, silver 25 ppm och guld 0,7 ppm.",
+      "sample": {
+        "material": "slag",
+        "sampling_location": "Korsgårdenområdet, cirka 3 km sydväst om Faluns centrum",
+        "sampling_method": "SGU:s provtagning och sammanvägda kemiska analyser, SGU RR 2023:01"
+      },
+      "sample_count": 5,
+      "analyte": "Metaller och grundämnen enligt SGU RR 2023:01",
+      "unit": "ppm och viktprocent",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser endast angivna prov och provpunkter, inte hela gruvområdet.",
+        "Kemisk karakterisering av gruvavfall är inte i sig en hälsoriskbedömning.",
+        "Halter i varp, anrikningssand, sedimenterat avfall och slagg är olika provmatriser och får inte blandas eller jämföras direkt med vatten- eller jordriktvärden.",
+        "Inga uppskattningar av kvarvarande metallmängder eller resurs-/reservuppgifter publiceras här."
+      ],
+      "source_ids": [
+        "sgu-rr-2023-01"
+      ]
     }
   ],
   "source_ids": [
-    "sgu-ores-concentrators-open-data"
+    "sgu-ores-concentrators-open-data",
+    "sgu-rr-2023-01"
   ],
   "editorial_notes": [
     "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
