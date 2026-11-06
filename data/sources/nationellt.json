@@ -62,6 +62,55 @@
       "limitations": [
         "Antalet är en övergripande uppskattning, inte ett komplett register över miljöobjekt."
       ]
+    },
+    {
+      "id": "sgu-adakfältet",
+      "title": "Gruvor i Adakfältet",
+      "publisher": "SGU",
+      "year": 2025,
+      "url": "https://www.sgu.se/samhallsplanering/fororenade-omraden/gruvor/gruvor-i-adakfaltet/",
+      "type": "objektsida",
+      "relevance": "Beskriver efterbehandling, vattenrening, uppföljning och kvarstående metallpåverkan vid Adak, Lindsköldsgruvan och Brännmyran.",
+      "limitations": [
+        "SGU:s sammanfattning; fullständiga rapporter och provserier behöver granskas separat."
+      ]
+    },
+    {
+      "id": "sgu-stollberg-2024-02",
+      "title": "Characterisation of mining waste in central and western Bergslagen, Sweden (SGU-rapport 2024:02)",
+      "publisher": "SGU",
+      "year": 2024,
+      "url": "https://www.sgu.se/globalassets/produkter/publikationer/2024/secondary-resource-directive---characterisation-of-mining-waste-in-central-and-western-bergslagen-sgu-rapport-2024-02.pdf",
+      "type": "undersökningsrapport",
+      "relevance": "Innehåller undersökningar av gruvavfall i Bergslagen, bland annat Stollberg, och redovisar provtagning och miljörelaterade observationer.",
+      "limitations": [
+        "Rapporten har även andra syften än miljöriskbedömning; uppgifter om möjliga mineralresurser ska inte föras över till Gruvspår.",
+        "Enskilda resultat ska registreras med provmatris, provpunkt, metod och sammanhang."
+      ]
+    },
+    {
+      "id": "sgu-svarttrask",
+      "title": "Svärtträskgruvan",
+      "publisher": "SGU",
+      "year": 2023,
+      "url": "https://www.sgu.se/samhallsplanering/fororenade-omraden/gruvor/svarttraskgruvan/",
+      "type": "objektsida",
+      "relevance": "Beskriver efterbehandling, vattenrening och uppföljande kontroll av flöden och metallhalter.",
+      "limitations": [
+        "SGU:s sammanfattning; underliggande kontrollrapporter behöver hämtas och granskas separat."
+      ]
+    },
+    {
+      "id": "sgu-torskbacken",
+      "title": "Torskbäckens före detta anrikningsverk",
+      "publisher": "SGU",
+      "year": 2024,
+      "url": "https://www.sgu.se/samhallsplanering/fororenade-omraden/gruvor/torskbackens-fore-detta-anrikningsverk/",
+      "type": "objektsida",
+      "relevance": "Beskriver metall- och arsenikförorenad anrikningssand, sediment, riskbedömning och planerade efterbehandlingsåtgärder.",
+      "limitations": [
+        "SGU:s sammanfattning; underliggande utredningar och provresultat behöver granskas separat."
+      ]
     }
   ]
 }
