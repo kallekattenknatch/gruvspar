@@ -248,6 +248,22 @@
         "Företagets egen uppgift; redovisas som sådan.",
         "Årsresultatet får inte summeras med malmvärde eller saneringskostnader."
       ]
+    },
+    {
+      "id": "garpenberg-boliden-annual-reports-2024",
+      "title": "Boliden års- och hållbarhetsredovisning 2024",
+      "publisher": "Boliden AB",
+      "publication_year": 2025,
+      "document_type": "årsredovisning",
+      "access_status": "public",
+      "url": "https://investors.boliden.com/sites/boliden-ir/files/pr/Boliden_Ars-och_hallbarhetsredovisning_2024_utskriftsversion.pdf",
+      "source_perspective": "verksamhetsutövare",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Tabellen över rörelseresultat per gruva redovisar Garpenberg 3 740 MSEK för 2024 och 2 473 MSEK för 2023.",
+      "limitations": [
+        "Avser rörelseresultat per gruva, inte nettovinst.",
+        "Uppgifterna gäller endast respektive räkenskapsår."
+      ]
     }
   ]
 }
