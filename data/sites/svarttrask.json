@@ -97,17 +97,38 @@
       "source_ids": [
         "svarttrask-sgu-page"
       ]
+    },
+    {
+      "id": "svarttrask-production-sgu-rr2023",
+      "record_type": "production_statistic",
+      "title": "Malmproduktion vid Svärtträsk 2006–2007 enligt SGU",
+      "description": "SGU RR 2023:01 anger att 170 000 ton malm producerades från Svärtträskgruvan under 2006–2007. Malmen anrikades vid Blaikens anrikningsverk. Rapporten anger också att det gemensamma avfallet från Blaiken och Svärtträsk omfattade 3,2 miljoner ton varp och 813 000 ton anrikningssand.",
+      "result": 170000,
+      "unit": "ton malm 2006–2007",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Svärtträskgruvan"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s öppna Malmer-databas saknar redovisad produktionsmängd i den identifierade Svärtträskposten; RR 2023:01 är den publicerade produktionskällan här.",
+        "Gemensamma avfallsmängder från Blaiken och Svärtträsk får inte fördelas mellan gruvorna utan underlag.",
+        "Produktionsmängd är inte malmvärde eller vinst."
+      ],
+      "source_ids": [
+        "sgu-rr-2023-01"
+      ]
     }
   ],
   "data_gaps": [
     {
-      "title": "SGU:s post saknar redovisad produktion",
-      "description": "SGU:s tabell har en post med namnet Svärtträsk men saknar produktionsmängd och driftperiod. Detta får inte tolkas som att ingen malm bröts; gruvans cirka nio månaders drift 2006–2007 behöver beläggas från andra primärkällor.",
+      "title": "Produktionsmängd finns i SGU-rapport men saknas i öppna tabellposten",
+      "description": "SGU:s öppna Malmer-register saknar produktionsmängd för Svärtträsk, men SGU RR 2023:01 anger 170 000 ton producerad malm 2006–2007. Skillnaden i källornas täckning ska bevaras och inte fyllas med noll.",
       "priority": "Hög",
       "status": "Öppen",
       "next_steps": [
-        "Hämta produktionsuppgifter från tillstånds- och miljörapporter samt konkursboets handlingar.",
-        "Kontrollera om SGU har en separat produktionspost under annat namn."
+        "Kontrollera underliggande SGU-källreferenser för Svärtträsk.",
+        "Kontrollera hur gemensamma produktions- och avfallsflöden vid Blaikens anrikningsverk redovisats."
       ]
     }
   ]
