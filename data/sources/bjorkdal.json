@@ -1,0 +1,21 @@
+{
+  "site_id": "bjorkdal",
+  "sources": [
+    {
+      "id": "sgu-bergverksstatistik-2025",
+      "title": "Bergverksstatistik 2025, Periodiska publikationer 2026:1",
+      "publisher": "SGU",
+      "publication_year": 2026,
+      "document_type": "nationell-produktionsstatistik",
+      "access_status": "public",
+      "url": "https://resource.sgu.se/dokument/publikation/pp/pp202601rapport/pp2026-1-rapport.pdf",
+      "source_perspective": "myndighetsstatistik",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Tabell 11 redovisar 2025 års faktiska mängder anrikningsmalm och gråberg per gruva.",
+      "limitations": [
+        "Produktionsmängder är inte ekonomisk vinst eller omsättning.",
+        "Uppgifterna gäller 2025 och säger inget om mineralreserver eller fyndigheter."
+      ]
+    }
+  ]
+}
