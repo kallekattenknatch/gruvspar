@@ -98,5 +98,17 @@
     "Platsmarkören är orienterande och anger inte gränsen för förorenat område.",
     "Gruvdriftens historik och aktuell miljöåtgärdsstatus ska hållas isär.",
     "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
+  ],
+  "data_gaps": [
+    {
+      "title": "Två SGU-poster för Stollbergsfältet",
+      "description": "Två SGU-koder redovisar separata produktionsmängder och olika slutår. De har inte summerats till en totalsumma.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Kontrollera källreferenser och historiska delgruvor för koderna 20610109 och 20610128.",
+        "Fastställ om perioderna överlappar eller avser separata delobjekt."
+      ]
+    }
   ]
 }
