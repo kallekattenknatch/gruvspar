@@ -91,6 +91,111 @@
       "source_ids": [
         "sgu-ores-concentrators-open-data"
       ]
+    },
+    {
+      "id": "kankberg-prtr-2025",
+      "record_type": "emission_statistic",
+      "title": "Rapporterade utsläpp till vatten, 2025",
+      "description": "Naturvårdsverkets PRTR-register redovisar för rapporteringsåret 2025: Zn 28,5 kg till vatten. Uppgifterna avser rapporterade massutsläpp från anläggningen.",
+      "sample": {
+        "material": "reported_emission_to_water",
+        "sampling_location": "Anläggningens rapporterade utsläppspunkt(er)"
+      },
+      "analyte": "Flera ämnen",
+      "unit": "kg/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Massutsläpp i kg/år är inte samma sak som uppmätt koncentration i vatten.",
+        "Utsläppsmängder kan inte jämföras direkt med gränsvärden i µg/l eller mg/l.",
+        "PRTR-redovisning ska läsas tillsammans med verksamhetens kontrollprogram och recipientmätningar."
+      ],
+      "source_ids": [
+        "kankberg-prtr"
+      ]
+    },
+    {
+      "id": "kankberg-prtr-2024",
+      "record_type": "emission_statistic",
+      "title": "Rapporterade utsläpp till vatten, 2024",
+      "description": "Naturvårdsverkets PRTR-register redovisar för rapporteringsåret 2024: As 0,61 kg, totalfosfor 26 kg och Zn 28,82 kg till vatten. Uppgifterna avser rapporterade massutsläpp från anläggningen.",
+      "sample": {
+        "material": "reported_emission_to_water",
+        "sampling_location": "Anläggningens rapporterade utsläppspunkt(er)"
+      },
+      "analyte": "Flera ämnen",
+      "unit": "kg/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Massutsläpp i kg/år är inte samma sak som uppmätt koncentration i vatten.",
+        "Utsläppsmängder kan inte jämföras direkt med gränsvärden i µg/l eller mg/l.",
+        "PRTR-redovisning ska läsas tillsammans med verksamhetens kontrollprogram och recipientmätningar."
+      ],
+      "source_ids": [
+        "kankberg-prtr"
+      ]
+    },
+    {
+      "id": "kankberg-prtr-2023",
+      "record_type": "emission_statistic",
+      "title": "Rapporterade utsläpp till vatten, 2023",
+      "description": "Naturvårdsverkets PRTR-register redovisar för rapporteringsåret 2023: As 0,69 kg, totalfosfor 26 kg och Zn 25 kg till vatten. Uppgifterna avser rapporterade massutsläpp från anläggningen.",
+      "sample": {
+        "material": "reported_emission_to_water",
+        "sampling_location": "Anläggningens rapporterade utsläppspunkt(er)"
+      },
+      "analyte": "Flera ämnen",
+      "unit": "kg/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Massutsläpp i kg/år är inte samma sak som uppmätt koncentration i vatten.",
+        "Utsläppsmängder kan inte jämföras direkt med gränsvärden i µg/l eller mg/l.",
+        "PRTR-redovisning ska läsas tillsammans med verksamhetens kontrollprogram och recipientmätningar."
+      ],
+      "source_ids": [
+        "kankberg-prtr"
+      ]
+    },
+    {
+      "id": "kankberg-prtr-2022",
+      "record_type": "emission_statistic",
+      "title": "Rapporterade utsläpp till vatten, 2022",
+      "description": "Naturvårdsverkets PRTR-register redovisar för rapporteringsåret 2022: As 0,73 kg, totalfosfor 70 kg och Zn 24 kg till vatten. Uppgifterna avser rapporterade massutsläpp från anläggningen.",
+      "sample": {
+        "material": "reported_emission_to_water",
+        "sampling_location": "Anläggningens rapporterade utsläppspunkt(er)"
+      },
+      "analyte": "Flera ämnen",
+      "unit": "kg/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Massutsläpp i kg/år är inte samma sak som uppmätt koncentration i vatten.",
+        "Utsläppsmängder kan inte jämföras direkt med gränsvärden i µg/l eller mg/l.",
+        "PRTR-redovisning ska läsas tillsammans med verksamhetens kontrollprogram och recipientmätningar."
+      ],
+      "source_ids": [
+        "kankberg-prtr"
+      ]
+    },
+    {
+      "id": "kankberg-prtr-2021",
+      "record_type": "emission_statistic",
+      "title": "Rapporterade utsläpp till vatten, 2021",
+      "description": "Naturvårdsverkets PRTR-register redovisar för rapporteringsåret 2021: As 1,09 kg, totalfosfor 101,64 kg och Zn 44,16 kg till vatten. Uppgifterna avser rapporterade massutsläpp från anläggningen.",
+      "sample": {
+        "material": "reported_emission_to_water",
+        "sampling_location": "Anläggningens rapporterade utsläppspunkt(er)"
+      },
+      "analyte": "Flera ämnen",
+      "unit": "kg/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Massutsläpp i kg/år är inte samma sak som uppmätt koncentration i vatten.",
+        "Utsläppsmängder kan inte jämföras direkt med gränsvärden i µg/l eller mg/l.",
+        "PRTR-redovisning ska läsas tillsammans med verksamhetens kontrollprogram och recipientmätningar."
+      ],
+      "source_ids": [
+        "kankberg-prtr"
+      ]
     }
   ],
   "source_ids": [
