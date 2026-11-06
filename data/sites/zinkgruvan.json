@@ -73,6 +73,31 @@
       "source_ids": [
         "zinkgruvan-prtr"
       ]
+    },
+    {
+      "id": "zinkgruvan-production-2025",
+      "record_type": "production_statistic",
+      "title": "Bruten malm och gråberg 2025",
+      "description": "SGU:s enkät anger 1 506 590 ton anrikningsmalm och 368 692 ton gråberg från Zinkgruvan under 2025. Totalt redovisas 1 875 282 ton gråberg och malm. Gruvan övergick till Boliden i april 2025.",
+      "sample": {
+        "material": "other",
+        "sampling_location": "Zinkgruvan, Askersunds kommun"
+      },
+      "analyte": "Anrikningsmalm och gråberg",
+      "result": 1875282,
+      "unit": "ton/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Produktionsvolym, inte ekonomiskt värde eller vinst.",
+        "Ägarbytet skedde under året; helårsvolym ska inte tolkas som helårsresultat för en enda ägare.",
+        "Ingen information om mineralresurser eller reserver ingår."
+      ],
+      "source_ids": [
+        "sgu-bergverksstatistik-2025"
+      ]
     }
+  ],
+  "source_ids": [
+    "sgu-bergverksstatistik-2025"
   ]
 }
