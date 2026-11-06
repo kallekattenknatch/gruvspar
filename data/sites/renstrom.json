@@ -1,0 +1,35 @@
+{
+  "site_id": "renstrom",
+  "display_name": "Renströmsgruvan",
+  "scope": "Offentligt redovisad gruvproduktion och miljöuppgifter.",
+  "records": [
+    {
+      "id": "renstrom-production-2025",
+      "record_type": "production_statistic",
+      "title": "Bruten malm och gråberg 2025",
+      "description": "SGU:s enkät redovisar 502 137 ton anrikningsmalm och 307 621 ton gråberg från Renströmsgruvan under 2025. Totalt 809 758 ton.",
+      "sample": {
+        "material": "other",
+        "sampling_location": "Renströmsgruvan, Skellefteå kommun"
+      },
+      "analyte": "Anrikningsmalm och gråberg",
+      "result": 809758,
+      "unit": "ton/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Produktionsvolym, inte ekonomiskt värde eller vinst.",
+        "Volymerna beskriver 2025 och kan variera mellan år.",
+        "Inga uppgifter om mineralresurser eller reserver ingår."
+      ],
+      "source_ids": [
+        "sgu-bergverksstatistik-2025"
+      ]
+    }
+  ],
+  "source_ids": [
+    "sgu-bergverksstatistik-2025"
+  ],
+  "editorial_notes": [
+    "Produktionsstatistik beskriver faktisk brytning, inte mineralresurser eller reserver."
+  ]
+}
