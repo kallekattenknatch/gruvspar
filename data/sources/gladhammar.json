@@ -1,0 +1,21 @@
+{
+  "site_id": "gladhammar",
+  "sources": [
+    {
+      "id": "gladhammar-main",
+      "title": "Projekt Gladhammars gruvor",
+      "publisher": "Västerviks kommun",
+      "document_type": "myndighetsinformation-eller-rapport",
+      "access_status": "public",
+      "url": "https://www.vastervik.se/Kommun-och-politik/Hallbarhetsarbete-i-kommunen/miljoprojekt/Projekt-Gladhammars-gruvor/",
+      "source_perspective": "myndighet",
+      "verification_status": "source_identified_content_reviewed",
+      "relevance": "Historiskt gruvområde. Västerviks kommun redovisar metallutsläpp till Tjursbosjön, genomförd efterbehandling 2011 och efterkontroll från 2013.",
+      "coordinate_note": "OpenStreetMap via Mapcarta, platsposition för Gladhammars gruvor",
+      "limitations": [
+        "Källan är identifierad men alla underliggande provresultat och bilagor har ännu inte registrerats separat.",
+        "Kartmarkören är en orienterande platsposition, inte en risk- eller föroreningsavgränsning."
+      ]
+    }
+  ]
+}
