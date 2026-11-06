@@ -66,6 +66,22 @@
         "Gemensamt resultat för flera gruvor, får inte tillskrivas en enskild gruva.",
         "Rörelseresultat är inte nettovinst eller malmvärde."
       ]
+    },
+    {
+      "id": "renstrom-prtr",
+      "title": "Utsläpp i siffror: Renströmsgruvan",
+      "publisher": "Naturvårdsverket",
+      "publication_year": 2026,
+      "document_type": "PRTR-anläggningsregister",
+      "access_status": "public",
+      "url": "https://utslappisiffror.naturvardsverket.se/sv/Sok/Anlaggningssida/?pid=4502",
+      "source_perspective": "myndighet",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Naturvårdsverkets anläggningssida med årliga rapporterade utsläpp från Renströmsgruvan till vatten.",
+      "limitations": [
+        "Utsläppsmängder i kg/år är inte koncentrationer i recipienten.",
+        "Mängderna visar rapporterat massutsläpp, inte ensamma ekologisk eller hälsomässig risk."
+      ]
     }
   ]
 }
