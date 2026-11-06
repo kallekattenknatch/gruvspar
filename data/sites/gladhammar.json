@@ -1,11 +1,98 @@
 {
   "site_id": "gladhammar",
   "display_name": "Gladhammars gruvor",
-  "case_study_status": "source_registered",
+  "case_study_status": "published_measurements_added",
   "scope": "Dokumenterade miljöundersökningar, påverkan, beslut, åtgärder och uppföljning.",
-  "records": [],
+  "records": [
+    {
+      "id": "gh-waste-lead-2004",
+      "record_type": "sample_result",
+      "title": "Bly i gruvavfall och restmaterial",
+      "description": "Huvudstudien anger blyhalter från cirka 60 mg/kg TS till som mest cirka 1 370 mg/kg TS i vaskmull. Moränprov i samma rapport anges till 7,5 mg/kg TS. Intervallet gäller olika avfallsmaterial och ska inte tolkas som ett enda representativt värde för hela området.",
+      "sample": {
+        "material": "other",
+        "sampling_method": "Sammanställda materialanalyser i huvudstudien",
+        "sample_date": "2004-01-01"
+      },
+      "analyte": "Bly (Pb)",
+      "unit": "mg/kg TS",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Olika avfallsmaterial har olika halter.",
+        "Rapportens moränprov är jämförelsematerial, inte automatiskt ett lokalt bakgrundsvärde för alla delområden."
+      ],
+      "source_ids": [
+        "gladhammar-report-2004-01"
+      ]
+    },
+    {
+      "id": "gh-waste-zinc-2004",
+      "record_type": "sample_result",
+      "title": "Zink i avfall och slagg",
+      "description": "Rapporten anger zinkhalter omkring 100 mg/kg TS i flera avfallsmaterial, medan slaggprover anges ligga omkring 1 000–2 000 mg/kg TS. Moränens zinkhalt anges till cirka 55 mg/kg TS.",
+      "sample": {
+        "material": "other",
+        "sampling_method": "Sammanställda materialanalyser i huvudstudien",
+        "sample_date": "2004-01-01"
+      },
+      "analyte": "Zink (Zn)",
+      "unit": "mg/kg TS",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Intervall och ungefärliga värden återges som i rapportens sammanfattning.",
+        "Slagg och övriga avfallsmaterial ska inte slås ihop till ett gemensamt prov."
+      ],
+      "source_ids": [
+        "gladhammar-report-2004-01"
+      ]
+    },
+    {
+      "id": "gh-waste-trace-metals-2004",
+      "record_type": "sample_result",
+      "title": "Screening av övriga grundämnen i varp och slagg",
+      "description": "Screening redovisar antimon 1,3–5,4 mg/kg TS, tallium 0,5–1,5 mg/kg TS och silver 3,6–20 mg/kg TS. Vismut i varp anges till 2 400–3 100 mg/kg TS och i slagg till cirka 60 mg/kg TS. Uran uppges förekomma i mindre mängder utan angivet numeriskt värde i sammanfattningen.",
+      "sample": {
+        "material": "other",
+        "sampling_method": "Screeninganalyser av varp och slagg",
+        "sample_date": "2004-01-01"
+      },
+      "analyte": "Antimon (Sb), tallium (Tl), silver (Ag), vismut (Bi)",
+      "unit": "mg/kg TS",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Vismutvärdena gäller olika material och ska inte blandas.",
+        "Uran saknar numeriskt värde i den citerade sammanfattningen."
+      ],
+      "source_ids": [
+        "gladhammar-report-2004-01"
+      ]
+    },
+    {
+      "id": "gh-minewater-metals-2004",
+      "record_type": "sample_result",
+      "title": "Metaller i gruvvatten från Svenskgruvan",
+      "description": "Huvudstudien redovisar koppar omkring 5 800–6 000 µg/l, kobolt 915–930 µg/l, kadmium omkring 1,3 µg/l och bly 518–580 µg/l. Arsenik låg generellt under detektionsgränsen 0,1 µg/l, med enstaka värden 0,3–0,6 µg/l.",
+      "sample": {
+        "material": "groundwater",
+        "sampling_location": "Svenskgruvan, provtagning ned till cirka 100 m nivå",
+        "sampling_method": "Vattenprov enligt huvudstudien",
+        "sample_date": "2004-01-01"
+      },
+      "analyte": "Koppar (Cu), kobolt (Co), kadmium (Cd), bly (Pb), arsenik (As)",
+      "unit": "µg/l",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Värdena avser gruvvatten i Svenskgruvan, inte ytvatten i sjö eller bäck.",
+        "Rapportens provtagningsdatum kan vara flera tillfällen; årtal anger rapport-/undersökningsperiod."
+      ],
+      "source_ids": [
+        "gladhammar-report-2004-01"
+      ]
+    }
+  ],
   "source_ids": [
-    "gladhammar-main"
+    "gladhammar-main",
+    "gladhammar-report-2004-01"
   ],
   "editorial_notes": [
     "Platsmarkören är en orienterande position och anger inte gränsen för förorenat område.",
