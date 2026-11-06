@@ -24,6 +24,27 @@
       "source_ids": [
         "sgu-bergverksstatistik-2025"
       ]
+    },
+    {
+      "id": "kankberg-tellurium-production-2025",
+      "record_type": "production_statistic",
+      "title": "Telluriumproduktion 2025",
+      "description": "SGU anger att telluriumproduktionen vid Kankbergsgruvan uppgick till 48,4 ton under 2025, en ökning med cirka 6 procent jämfört med 2024. Uppgiften är en årsproduktion och inte ett livstidsvärde.",
+      "sample": {
+        "material": "other",
+        "sampling_location": "Kankbergsgruvan, Skellefteå kommun"
+      },
+      "analyte": "Tellurium",
+      "result": 48.4,
+      "unit": "ton/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Avser endast 2025.",
+        "Mängden ska inte förväxlas med malmtonnage eller försäljningsintäkter."
+      ],
+      "source_ids": [
+        "sgu-bergverksstatistik-2025"
+      ]
     }
   ],
   "source_ids": [
