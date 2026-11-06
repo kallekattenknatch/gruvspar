@@ -48,7 +48,9 @@
     }
   ],
   "source_ids": [
-    "sgu-bergverksstatistik-2025"
+    "sgu-bergverksstatistik-2025",
+    "boliden-bolidenomradet-site-2025",
+    "boliden-annual-report-2025"
   ],
   "editorial_notes": [
     "Produktionsstatistik beskriver faktisk brytning, inte mineralresurser eller reserver."
@@ -61,5 +63,30 @@
     "method": "Historisk metallproduktion eller faktiskt sålda metallprodukter värderade med dokumenterade priser för respektive period; inga kostnader, skatter eller avgifter dras av.",
     "coverage": "Livstidsunderlaget är ännu inte komplett.",
     "note": "Gruvspår sammanställer historisk malmproduktion, metallinnehåll och relevanta metallpriser för gruvans hela drifttid. Något säkert livstidstotal kan ännu inte anges. Årsomsättning eller rörelseresultat får inte användas som ersättning för ackumulerat malmvärde."
+  },
+  "shared_financial_context": {
+    "scope": "Bolidenområdet, gemensam redovisning för Renström, Kristineberg och Kankberg",
+    "metric": "Rörelseresultat",
+    "currency": "MSEK",
+    "annual_values": [
+      {
+        "year": 2023,
+        "amount": 1054
+      },
+      {
+        "year": 2024,
+        "amount": 2376
+      },
+      {
+        "year": 2025,
+        "amount": 2473
+      }
+    ],
+    "attribution_status": "not_allocated_to_individual_mines",
+    "note": "Boliden redovisar rörelseresultatet samlat för Bolidenområdet, som omfattar Renström, Kristineberg och Kankberg. Beloppen får därför inte bokföras som resultat för denna enskilda gruva eller summeras tre gånger. Gruvspecifik totalsumma kan inte anges utan separat redovisning.",
+    "source_ids": [
+      "boliden-bolidenomradet-site-2025",
+      "boliden-annual-report-2025"
+    ]
   }
 }
