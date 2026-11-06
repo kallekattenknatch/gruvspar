@@ -75,6 +75,27 @@
       "source_ids": [
         "sgu-rr-2023-01"
       ]
+    },
+    {
+      "id": "blotberget-production-sgu-rr2023",
+      "record_type": "production_statistic",
+      "title": "Historisk malmproduktion enligt SGU RR 2023:01",
+      "description": "SGU:s rapport RR 2023:01 anger att Blötbergets gruvor bröts 1859–1863, 1896–1897 och 1900–1979. Den totala produktionen anges till 15,7 miljoner ton malm. Uppgiften i rapporten hänvisar till Svenskt Stål AB 1980.",
+      "result": 15.7,
+      "unit": "miljoner ton malm",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Blötbergets gruvor"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Uppgiften återges i SGU RR 2023:01 med hänvisning till Svenskt Stål AB 1980.",
+        "Den direkta SGU-databasposten Malmer och anrikningsverk har ännu inte korsidentifierats för Blötberget.",
+        "Produktionsmängd är inte malmvärde, försäljningsintäkt eller vinst."
+      ],
+      "source_ids": [
+        "sgu-rr-2023-01"
+      ]
     }
   ],
   "source_ids": [
@@ -83,13 +104,13 @@
   ],
   "data_gaps": [
     {
-      "title": "Ingen direkt SGU-matchning i produktionsregistret",
-      "description": "Någon direkt matchning med namnet Blötberget hittades inte i den granskade SGU-tabellen Malmer. Alternativa historiska namn eller separat gruvområdespost behöver kontrolleras innan produktionstal kan publiceras.",
+      "title": "Historisk produktionsuppgift behöver korsidentifieras",
+      "description": "SGU RR 2023:01 anger 15,7 miljoner ton producerad malm 1859–1979 med hänvisning till Svenskt Stål AB 1980. Någon direkt matchning i SGU:s öppna Malmer-register har ännu inte verifierats. Uppgiften visas därför med sin specifika källa och ska inte blandas ihop med andra delobjekt.",
       "priority": "Hög",
       "status": "Öppen",
       "next_steps": [
-        "Kontrollera historiska namn och delgruvor i SGU:s historiska gruvkartor.",
-        "Sök kommunala och länsstyrelsearkiv efter produktionsstatistik och miljöundersökningar."
+        "Hämta Svenskt Stål AB:s originalunderlag från 1980.",
+        "Kontrollera om Blötberget har annan SGU-kod eller historiskt objektnamn."
       ]
     }
   ]
