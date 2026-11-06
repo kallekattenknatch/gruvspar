@@ -1,0 +1,60 @@
+{
+  "site_id": "dannemora",
+  "display_name": "Dannemora",
+  "case_study_status": "sgu_production_record_added",
+  "scope": "Historisk faktisk malmproduktion och dokumenterade miljöuppgifter. Inga mineralresurser, reserver eller prospekteringsuppgifter publiceras.",
+  "records": [
+    {
+      "id": "sgu-production-3821401",
+      "record_type": "production_statistic",
+      "title": "SGU: registrerad producerad malm för Dannemorafältet",
+      "description": "SGU:s databas Malmer och anrikningsverk redovisar 34,261 miljoner ton producerad malm för posten Dannemorafältet, SGU-kod 3821401. Registrerad produktionsperiod: 1833–2014. Detta är producerad malm enligt SGU:s historiska register, inte malmvärde, försäljningsintäkt eller företagsvinst.",
+      "result": 34.260523,
+      "unit": "miljoner ton producerad malm",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Dannemorafältet"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s produktionsregister bygger på historisk statistik och rapportering; det är inte automatiskt en fullständig livstidssumma för all brytning.",
+        "SGU anger att nationella sammanställningar börjar 1833 och att uppgifter före 1833 är sparsamma och fragmentariska.",
+        "Poster med olika SGU-koder redovisas separat och har inte summerats eftersom de kan avse skilda delobjekt eller överlappande statistikperioder.",
+        "Produktionsmängd får inte tolkas som malmvärde, omsättning, rörelseresultat eller nettovinst.",
+        "Mineralresurser och reserver har inte hämtats in eller publicerats."
+      ],
+      "source_ids": [
+        "sgu-ores-concentrators-open-data"
+      ]
+    },
+    {
+      "id": "sgu-production-3821402",
+      "record_type": "production_statistic",
+      "title": "SGU: registrerad producerad malm för Dannemorafältet",
+      "description": "SGU:s databas Malmer och anrikningsverk redovisar 0,042 miljoner ton producerad malm för posten Dannemorafältet, SGU-kod 3821402. Registrerad produktionsperiod: 1880–1928. Detta är producerad malm enligt SGU:s historiska register, inte malmvärde, försäljningsintäkt eller företagsvinst.",
+      "result": 0.041615,
+      "unit": "miljoner ton producerad malm",
+      "sample": {
+        "material": "produced_ore",
+        "sampling_location": "Dannemorafältet"
+      },
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "SGU:s produktionsregister bygger på historisk statistik och rapportering; det är inte automatiskt en fullständig livstidssumma för all brytning.",
+        "SGU anger att nationella sammanställningar börjar 1833 och att uppgifter före 1833 är sparsamma och fragmentariska.",
+        "Poster med olika SGU-koder redovisas separat och har inte summerats eftersom de kan avse skilda delobjekt eller överlappande statistikperioder.",
+        "Produktionsmängd får inte tolkas som malmvärde, omsättning, rörelseresultat eller nettovinst.",
+        "Mineralresurser och reserver har inte hämtats in eller publicerats."
+      ],
+      "source_ids": [
+        "sgu-ores-concentrators-open-data"
+      ]
+    }
+  ],
+  "source_ids": [
+    "sgu-ores-concentrators-open-data"
+  ],
+  "editorial_notes": [
+    "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
+  ]
+}
