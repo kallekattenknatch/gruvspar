@@ -117,6 +117,29 @@
       "source_ids": [
         "sgu-bergverksstatistik-2025"
       ]
+    },
+    {
+      "id": "zinkgruvan-historic-production-1860-2003",
+      "record_type": "production_statistic",
+      "title": "Historisk malmproduktion 1860–2003",
+      "description": "Lundin Minings tekniska underlag anger att cirka 29,9 miljoner ton malm hade producerats i Zinkgruvan från 1860 till och med 2003. Den historiska genomsnittshalten anges till 11,3 procent zink och 2,4 procent bly. Uppgiften är en historisk sammanställning i ett bolagsinlämnat tekniskt dokument, inte en reviderad årsserie. Den ger ett betydligt bättre historiskt produktionsunderlag än en uppskattning från enbart dagens produktion.",
+      "sample": {
+        "material": "other",
+        "sampling_location": "Zinkgruvan, Askersunds kommun"
+      },
+      "analyte": "Bruten malm; historiska genomsnittshalter Zn och Pb",
+      "result": 29900000,
+      "unit": "ton kumulativt till och med 2003",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Dokumentet säger uttryckligen att detaljerade historiska produktionssiffror inte fanns lätt tillgängliga och att totalen är uppskattad (appears).",
+        "Genomsnittshalterna är historiska sammanfattningshalter, inte årliga metallutbyten eller mängd såld metall.",
+        "Detta är malmtonnage, inte ackumulerat malmvärde.",
+        "Åren efter 2003 måste läggas till från senare årsrapporter utan dubbelräkning."
+      ],
+      "source_ids": [
+        "zinkgruvan-sec-technical-report-2005"
+      ]
     }
   ],
   "source_ids": [
