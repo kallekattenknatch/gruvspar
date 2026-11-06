@@ -226,46 +226,37 @@
     }
   },
   "reported_profit": {
-    "status": "provisional",
+    "status": "partial_period",
     "metric": "operating_profit",
     "currency": "SEK",
-    "amount": 38100000000,
-    "display_amount": "cirka 38,1 miljarder kronor",
-    "period_start": 2004,
+    "amount": 8151000000,
+    "total_amount": 8151000000,
+    "display_amount": "8,151 miljarder kronor",
+    "period_start": 2024,
     "period_end": 2025,
     "companies": [
       {
         "name": "Boliden AB / Boliden Mineral AB",
-        "amount": 38100000000,
-        "period": "2004–2025",
-        "coverage": "Preliminär summering av publicerade gruvspecifika årsresultat"
+        "amount": 8151000000,
+        "period": "2024–2025",
+        "coverage": "Två verifierade år; inte livstidssumma"
       }
     ],
-    "total_amount": 38100000000,
-    "note": "Preliminär summering av gruvspecifikt redovisat rörelseresultat 2004–2025, cirka 38,1 miljarder kronor. Beloppet är inte nettovinst, inte malmvärde och inte hela gruvans historiska livstidsresultat. Summan ska betraktas som preliminär tills samtliga årsbelopp har stämts av mot respektive originalrapport. Boliden anger separat rörelseresultat för Garpenberg på 4 411 MSEK för 2025 och 3 740 MSEK för 2024. Boliden års- och hållbarhetsredovisning 2025 bekräftar 4 411 MSEK för 2025.",
+    "note": "Summerat gruvspecifikt rörelseresultat: 3 740 MSEK (2024) + 4 411 MSEK (2025) = 8 151 MSEK. Detta är endast två verksamhetsår, inte gruvans historiska livstidssumma och inte nettovinst. Äldre årsresultat behöver verifieras mot respektive originalårsredovisning.",
+    "coverage": "2024–2025 endast; inte livstidssumma",
     "source_ids": [
-      "garpenberg-boliden-annual-reports-2004-2025",
-      "garpenberg-boliden-summary-report-2019",
       "boliden-annual-report-2025"
     ],
     "annual_results": [
       {
-        "year": 2023,
-        "operating_profit_msek": 2473,
-        "source_id": "garpenberg-boliden-annual-reports-2024"
-      },
-      {
         "year": 2024,
-        "operating_profit_msek": 3740,
-        "source_id": "garpenberg-boliden-annual-reports-2024"
+        "operating_profit_msek": 3740
       },
       {
         "year": 2025,
-        "operating_profit_msek": 4411,
-        "source_id": "garpenberg-boliden-site-2025"
+        "operating_profit_msek": 4411
       }
-    ],
-    "coverage": "Preliminär summering 2004–2025; årsvisa verifierade exempel 2023–2025 redovisas separat."
+    ]
   },
   "remediation_finance": {
     "status": "partial_documentation",
