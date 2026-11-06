@@ -76,7 +76,7 @@ target.appendChild(item);
   if(desc){const p=document.createElement('p');p.textContent=desc;a.appendChild(p);}
   if(meta){const p=document.createElement('p');p.className='small';p.textContent=meta;a.appendChild(p);}
   (limitations||[]).forEach(t=>{const p=document.createElement('p');p.className='small';p.textContent='Begränsning: '+t;a.appendChild(p);});
-  if(sourceIds&&sourceIds.length){const p=document.createElement('p');p.className='small';p.appendChild(document.createTextNode('Källa: '));sourceIds.forEach((src,i)=>{if(i)p.appendChild(document.createTextNode(' · '));if(/^https?:\\/\\//i.test(src)){const link=document.createElement('a');link.href=src;link.target='_blank';link.rel='noopener noreferrer';link.textContent='Öppna dokument';p.appendChild(link);}else p.appendChild(document.createTextNode(src));});a.appendChild(p);}
+  if(sourceIds&&sourceIds.length){const p=document.createElement('p');p.className='small';p.appendChild(document.createTextNode('Källa: '));sourceIds.forEach((src,i)=>{if(i)p.appendChild(document.createTextNode(' · '));if(src.startsWith('http://')||src.startsWith('https://')){const link=document.createElement('a');link.href=src;link.target='_blank';link.rel='noopener noreferrer';link.textContent='Öppna dokument';p.appendChild(link);}else p.appendChild(document.createTextNode(src));});a.appendChild(p);}
   return a;
  };
  const render=(id,items,msg,fn)=>{const e=get(id);if(!e)return;if(!items.length){blank(id,msg);return;}e.className='';e.replaceChildren(...items.map(fn));};
