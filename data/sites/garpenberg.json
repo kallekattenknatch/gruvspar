@@ -104,6 +104,28 @@
       "source_ids": [
         "garpenberg-dalalven-2023"
       ]
+    },
+    {
+      "id": "garpenberg-production-2025",
+      "record_type": "production_statistic",
+      "title": "Bruten malm och gråberg 2025",
+      "description": "SGU:s enkät anger 3 650 725 ton anrikningsmalm och 1 241 773 ton gråberg från Garpenberg under 2025. Totalt redovisas 4 892 498 ton gråberg och malm.",
+      "sample": {
+        "material": "other",
+        "sampling_location": "Garpenberg, Hedemora kommun"
+      },
+      "analyte": "Anrikningsmalm och gråberg",
+      "result": 4892498,
+      "unit": "ton/år",
+      "evidence_status": "primary_source_verified",
+      "limitations": [
+        "Produktionsvolym, inte ekonomiskt värde eller vinst.",
+        "Volymerna beskriver 2025 och kan variera mellan år.",
+        "Ingen information om mineralresurser eller reserver ingår."
+      ],
+      "source_ids": [
+        "sgu-bergverksstatistik-2025"
+      ]
     }
   ],
   "source_ids": [
@@ -111,7 +133,8 @@
     "boliden-historiska-gruvomraden-garpenberg",
     "smp-sok-miljorapport",
     "mod-2006-54",
-    "garpenberg-dalalven-2023"
+    "garpenberg-dalalven-2023",
+    "sgu-bergverksstatistik-2025"
   ],
   "editorial_notes": [
     "Äldre gruvverksamhet och nuvarande verksamhet ska hållas isär när källorna gör den skillnaden.",
