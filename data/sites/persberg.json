@@ -33,5 +33,57 @@
   ],
   "editorial_notes": [
     "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
-  ]
+  ],
+  "data_gaps": [
+    {
+      "title": "Gruvspecifikt rörelseresultat ej komplett",
+      "description": "Årsvisa resultat och tidigare ägare behöver sammanställas.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapporter och kontrollera objektavgränsning, år och metod."
+      ]
+    },
+    {
+      "title": "Miljöunderlaget behöver breddas",
+      "description": "Fullständiga serier för mark, vatten, sediment, luft och biota är inte samlade.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapporter och kontrollera objektavgränsning, år och metod."
+      ]
+    },
+    {
+      "title": "Saneringspengar och fysisk åtgärd behöver följas upp",
+      "description": "Budget, bidrag, utbetalningar och slutkostnad måste skiljas åt.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapporter och kontrollera objektavgränsning, år och metod."
+      ]
+    },
+    {
+      "title": "Käll- och tidsperiodskontroll pågår",
+      "description": "Historiska poster behöver kontrolleras mot originalkällor och eventuella överlapp.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta originalrapporter och kontrollera objektavgränsning, år och metod."
+      ]
+    }
+  ],
+  "accumulated_ore_value": {
+    "status": "in_progress",
+    "amount": null,
+    "currency": "SEK",
+    "note": "Livstidsvärde ej beräknat: kräver årlig metallproduktion, halter/utbyte och historiska metallpriser."
+  },
+  "reported_profit": {
+    "status": "in_progress",
+    "metric": "operating_profit",
+    "currency": "SEK",
+    "amount": null,
+    "total_amount": null,
+    "note": "Komplett gruvspecifikt historiskt rörelseresultat är ännu inte verifierat. Saknade år är inte noll."
+  }
 }
