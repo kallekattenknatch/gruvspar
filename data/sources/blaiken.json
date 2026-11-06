@@ -1,0 +1,52 @@
+{
+  "site_id": "blaiken",
+  "sources": [
+    {
+      "id": "blaiken-sweco-fisk-kiselalger-2019",
+      "title": "Undersökningar av kiselalger 2018 och metaller i fisk 2019 vid Blaikengruvan",
+      "publisher": "Sweco Environment AB på uppdrag av SGU",
+      "publication_year": 2019,
+      "document_type": "biologisk-undersokning-och-fiskanalys",
+      "access_status": "public",
+      "url": "https://www.sgu.se/globalassets/samhallsplanering/fororenade-omraden/blaiken/undersokningar-av-kiselalger-2018-och-metaller-i-fisk-2019-vid-blaikengruvan.pdf",
+      "source_perspective": "myndighetsbestalld-undersokning",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Redovisar kiselalgsscreening från 2018 och metallanalyser av abborre från Storuman och Storjuktan 2019, inklusive arsenik, kadmium, kobolt, koppar, kvicksilver, mangan, nickel, bly och zink.",
+      "limitations": [
+        "Fiskproverna gäller 10 abborrar från Storuman och 5 från Storjuktan.",
+        "Biologiska screeningindikatorer är inte direkta vattenhalter.",
+        "Rapportens slutsatser om livsmedelsrisk bygger på angivna antaganden om vuxen kroppsvikt och daglig konsumtion."
+      ]
+    },
+    {
+      "id": "blaiken-sgu-fisk-undersokning",
+      "title": "Undersökning av metaller i fisk vid Blaikengruvan",
+      "publisher": "SGU",
+      "publication_year": 2025,
+      "document_type": "myndighetssammanfattning",
+      "access_status": "public",
+      "url": "https://www.sgu.se/samhallsplanering/fororenade-omraden/gruvor/blaikengruvan/undersokningar-av-kiselalger-och-metaller-i-fisk-vid-blaikengruvan/",
+      "source_perspective": "myndighet",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "SGU sammanfattar att fisk från Storjuktan och Storuman inte bedömdes hälsofarlig med avseende på zink, kadmium och koppar, samt att kiselalger visade förhöjda tungmetallhalter i framför allt Blaiksjöbäcken, Storjuktan och Smakarbäcken.",
+      "limitations": [
+        "SGU:s sammanfattning; detaljerade värden finns i Swecorapporten."
+      ]
+    },
+    {
+      "id": "blaiken-lansstyrelsen-2025",
+      "title": "Efterbehandlingsarbetet vid Blaikengruvan kan fortsätta",
+      "publisher": "Länsstyrelsen Västerbotten",
+      "publication_year": 2025,
+      "document_type": "myndighetsinformation-efterbehandling",
+      "access_status": "public",
+      "url": "https://www.lansstyrelsen.se/vasterbotten/om-oss/nyheter-och-press/nyheter---vasterbotten/2025-11-17-efterbehandlingsarbetet-vid-blaikengruvan-kan-fortsatta---tack-vare-lansstyrelsen-vasterbotten.html",
+      "source_perspective": "myndighet",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Redovisar efterbehandlingsläget, statligt bidrag om 212 miljoner kronor för perioden 2025–2035 och att vattenrening bedöms behövas under lång tid.",
+      "limitations": [
+        "Myndighetsinformation från november 2025; beskriver planerad och pågående åtgärd, inte slutligt verifierat resultat."
+      ]
+    }
+  ]
+}
