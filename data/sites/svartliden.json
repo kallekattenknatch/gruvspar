@@ -33,5 +33,16 @@
   ],
   "editorial_notes": [
     "SGU:s kumulativa produktionsuppgifter redovisas endast som faktisk producerad malm. Resurser, reserver och prospekteringsinformation publiceras inte."
+  ],
+  "data_gaps": [
+    {
+      "title": "Skillnad mellan SGU-status och pilotkartans driftstatus",
+      "description": "SGU:s registrerade produktionspost anger Svartliden som avslutad 2004–2013, medan pilotkartans metadata visar aktiv. Status behöver uppdateras efter kontroll av senare verksamhet och eventuell anrikning/återbehandling.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Kontrollera aktuell verksamhetsstatus mot länsstyrelsens tillsynsregister och verksamhetsutövarens senaste miljörapport."
+      ]
+    }
   ]
 }
