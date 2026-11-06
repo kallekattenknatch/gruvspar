@@ -153,5 +153,43 @@
     "method": "Historisk metallproduktion eller faktiskt sålda metallprodukter värderade med dokumenterade priser för respektive period; inga kostnader, skatter eller avgifter dras av.",
     "coverage": "Livstidsunderlaget är ännu inte komplett.",
     "note": "Gruvspår sammanställer historisk malmproduktion, metallinnehåll och relevanta metallpriser för gruvans hela drifttid. Något säkert livstidstotal kan ännu inte anges. Årsomsättning eller rörelseresultat får inte användas som ersättning för ackumulerat malmvärde."
+  },
+  "reported_profit": {
+    "status": "not_separately_reported",
+    "metric": "operating_profit",
+    "currency": "SEK",
+    "amount": null,
+    "companies": [
+      {
+        "name": "Rio Tinto",
+        "period": "före 2004",
+        "amount": null,
+        "coverage": "Gruvspecifikt livstidsresultat ej verifierat"
+      },
+      {
+        "name": "Lundin Mining",
+        "period": "2004–201 Lundin-ägarperiod",
+        "amount": null,
+        "coverage": "Gruvspecifikt resultatserie behöver samlas in"
+      },
+      {
+        "name": "Zinkgruvan Mining / Lundin Mining",
+        "period": "senare ägarperiod till april 2025",
+        "amount": null,
+        "coverage": "Separat gruvresultat behöver verifieras"
+      },
+      {
+        "name": "Boliden AB / Boliden Mineral AB",
+        "period": "från april 2025",
+        "amount": null,
+        "coverage": "2025 års resultat separat rapporterat; helårssumma kräver periodisering"
+      }
+    ],
+    "total_amount": null,
+    "note": "Ingen tillförlitlig total för hela gruvans ägarperioder har ännu kunnat räknas fram. Koncernresultat och verksamhetsområdesresultat används inte som ersättning. Enskilda företagsperioder ska fyllas i när gruvspecifika årsresultat har verifierats.",
+    "source_ids": [
+      "zinkgruvan-sec-technical-report-2005",
+      "sgu-bergverksstatistik-2025"
+    ]
   }
 }
