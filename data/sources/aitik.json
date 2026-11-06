@@ -49,6 +49,22 @@
         "Vissa anrikningsverk tar emot malm från flera gruvor. Gemensam produktion får inte fördelas på enskilda gruvor utan belägg.",
         "Rapportens resurs- och reservuppgifter publiceras inte i Gruvspår."
       ]
+    },
+    {
+      "id": "boliden-annual-report-2025",
+      "title": "Annual and Sustainability Report 2025",
+      "publisher": "Boliden AB",
+      "publication_year": 2026,
+      "document_type": "arsredovisning",
+      "access_status": "public",
+      "url": "https://investors.boliden.com/sites/boliden-ir/files/pr/Boliden_AR_2025_ENG_Print.pdf",
+      "source_perspective": "verksamhetsutovare",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "Sidan för gruvverksamheten redovisar Aitiks metallproduktion i koncentrat under 2025: koppar, guld och silver. Används som produktionsunderlag, inte som livstidsintäkt.",
+      "limitations": [
+        "Boliden är verksamhetsutövare; uppgifterna är bolagets årsredovisning.",
+        "Årsdata för 2025 kan inte användas som mått på ackumulerat malmvärde."
+      ]
     }
   ]
 }
