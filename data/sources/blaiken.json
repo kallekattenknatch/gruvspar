@@ -47,6 +47,22 @@
       "limitations": [
         "Myndighetsinformation från november 2025; beskriver planerad och pågående åtgärd, inte slutligt verifierat resultat."
       ]
+    },
+    {
+      "id": "blaiken-sgu-current",
+      "title": "Blaikengruvan – efterbehandling och vattenrening",
+      "publisher": "Sveriges geologiska undersökning (SGU)",
+      "publication_year": 2025,
+      "document_type": "myndighetsinformation-efterbehandling",
+      "access_status": "public",
+      "url": "https://www.sgu.se/samhallsplanering/fororenade-omraden/gruvor/blaikengruvan/",
+      "source_perspective": "myndighet",
+      "verification_status": "primary_source_reviewed",
+      "relevance": "SGU beskriver dagbrott som efterbehandlats, sluttäckning av gråbergstippen, vattenreningens långsiktiga behov och att SGU ansvarar för efterbehandling och vattenrening.",
+      "limitations": [
+        "Webbsidan är en sammanfattning av projektet; entreprenadrapporter och kontrollprogram behövs för detaljerade resultat.",
+        "Tidsplanen för sluttäckning ska inte tolkas som verifierad slutrapport."
+      ]
     }
   ]
 }
