@@ -58,5 +58,17 @@
   "editorial_notes": [
     "Platsmarkören är en orienterande position och anger inte gränsen för förorenat område.",
     "Status för miljöpåverkan och efterbehandling ska hållas isär från om gruvdrift har upphört."
+  ],
+  "data_gaps": [
+    {
+      "title": "Anrikningsverk, inte en separat gruvproduktionspost",
+      "description": "Torskbäcken är ett tidigare anrikningsverk som behandlade malm från närbelägna sulfidmalmsgruvor. Produktionsmängder för närliggande gruvor får inte tillskrivas anläggningen utan underlag.",
+      "priority": "Hög",
+      "status": "Öppen",
+      "next_steps": [
+        "Hämta SGU:s anrikningsverksrader för Torskbäcken och skilj ingående malm, koncentrat och anrikningssand.",
+        "Identifiera vilka gruvor som levererade malm och redovisa endast verifierade flöden."
+      ]
+    }
   ]
 }
